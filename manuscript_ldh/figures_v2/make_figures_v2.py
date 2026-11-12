@@ -549,7 +549,7 @@ def scatter_frontier(pane, data, death_years):
          ("Target-aware panel: ", data.label(aware, "usd", usd), ", C ", data.label(aware, "C", c3))),
         (Line2D([], [], marker="o", markersize=6, color=ROUTINE, linestyle="none"),
          ("Routine bundle: ", data.label(routine, "usd", usd), ", C ", data.label(routine, "C", c3))),
-        (Line2D([], [], color=tint(INK2, 0.45), linewidth=1.6), "Best C reached at each fee"),
+        (Line2D([], [], color=tint(INK2, 0.45), linewidth=1.6), "Panels not beaten by a cheaper panel"),
     ]
     ax.legend([h for h, _ in entries], [pane.note(t, "legend") for _, t in entries], loc="lower right",
               frameon=False, fontsize=6.8, handlelength=1.8, handletextpad=0.6, labelspacing=0.7,
@@ -858,7 +858,7 @@ def recalibration(pane):
     pane.axis_title(ax, "x", "Local participants with known outcomes", labelpad=1.2)
     pane.axis_title(ax, "y", "Repetitions with better calibration")
     ax.yaxis.set_label_coords(-0.086, 0.44)
-    for level, text in [(0.5, "50%: unnecessary below"), (0.7, "70%: helpful above (if no net-benefit loss)")]:
+    for level, text in [(0.5, "50%: unnecessary below"), (0.7, "70%: threshold for helpful")]:
         ax.axhline(level, color=INK2, linewidth=0.6, linestyle=DASH, zorder=1)
         pane.text(-0.615, level + 0.022, text, ax=ax, size=6, color=INK2, va="bottom")
     endpoints = []

@@ -53,7 +53,7 @@ out += [f'| Complete blood count with differential | {L.CBC_PRICE:.2f} |', '| Hb
 out += [f'| {NAME.get(a, a)} | {v:.1f} |' for a, v in T.CN_PRICE.items() if a in NAME]
 out += [f'| Blood count (five-part differential) | {T.CN_CBC:.1f} |',
         '\nRoutine reference in China: the routine check-up items measured in each cohort (CHNS CN¥74.8; CLHLS CN¥62.3).\n',
-        'Understanding Society (UK) was analysed with US prices, as prespecified, because no public UK laboratory fee schedule was available; its routine '
+        'Understanding Society (UK) was evaluated under the US fee schedule, as prespecified; its routine '
         'reference is the routine bundle restricted to the 11 analytes measured (US$50.77: the CMP, lipid panel, CBC and HbA1c billed as such).\n',
         '## A2. Harmonisation across survey eras and countries\n',
         '- **Granulocyte percentage** = neutrophil + eosinophil + basophil percentage, because NHANES III reports granulocytes only.',

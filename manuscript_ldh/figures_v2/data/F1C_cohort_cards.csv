@@ -4,5 +4,5 @@ order,role,cohort,country,years,n,deaths,menu_analytes,prices,death_ascertainmen
 2,primary,NHANES 2011–14,USA,2011–14,5917,300,33,US Medicare 2026,National Death Index linkage,5 years,"preliminary validation, then final plan"
 3,primary,CHNS,China,2009,4542,227,15,Shandong public prices 2026,Death year or survey wave of first report,about 6 years,"preliminary validation, then final plan"
 4,primary,CLHLS (65–79 y),China,"2012, 2014",740,92,14,Shandong public prices 2026,Verified death dates,5 years,"new cohort, final plan"
-5,primary,Understanding Society,UK,2010–13,6044,479,13,US Medicare 2026 (scenario),Survey wave in which death was reported,about 9 years,"new cohort, final plan"
+5,primary,Understanding Society,UK,2010–12,6044,479,13,US Medicare 2026 (scenario),Survey wave in which death was reported,about 9 years,"new cohort, final plan"
 6,supplementary,NHANES 2015–16,USA,2015–16,3017,100,34,US Medicare 2026,National Death Index linkage,3 years,"final plan (supplementary, not pooled)"

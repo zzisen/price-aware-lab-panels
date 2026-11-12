@@ -39,7 +39,7 @@ cards = [
          death_ascertainment='Death year or survey wave of first report', follow_up='about 6 years', analysed='preliminary validation, then final plan'),
     dict(order=4, role='primary', cohort='CLHLS (65–79 y)', country='China', years='2012, 2014', n=E['CLHLS']['n'], deaths=E['CLHLS']['deaths'], menu_analytes=14,
          prices='Shandong public prices 2026', death_ascertainment='Verified death dates', follow_up='5 years', analysed='new cohort, final plan'),
-    dict(order=5, role='primary', cohort='Understanding Society', country='UK', years='2010–13', n=E['UKHLS']['n'], deaths=E['UKHLS']['deaths'], menu_analytes=13,
+    dict(order=5, role='primary', cohort='Understanding Society', country='UK', years='2010–12', n=E['UKHLS']['n'], deaths=E['UKHLS']['deaths'], menu_analytes=13,
          prices='US Medicare 2026 (scenario)', death_ascertainment='Survey wave in which death was reported', follow_up='about 9 years', analysed='new cohort, final plan'),
     dict(order=6, role='supplementary', cohort='NHANES 2015–16', country='USA', years='2015–16', n=3017, deaths=100, menu_analytes=34, prices='US Medicare 2026',
          death_ascertainment='National Death Index linkage', follow_up='3 years', analysed='final plan (supplementary, not pooled)')]
@@ -190,7 +190,7 @@ flow = [('NHANES 1999–2010 (training)', [('In survey files', sum(c['in_file'] 
         ('CLHLS 2012/2014', [('With blood sample, linked to survey (2012, 2014)', cl['linked_2012'] + cl['linked_2014']), ('Distinct people (earliest draw)', cl['persons']),
                              ('Aged 65 and over', cl['age_65plus']), ('With follow-up after baseline', cl['dated_follow_up']), ('All 14 shared analytes measured', cl['complete']),
                              ('Aged 65–79 (primary)', E['CLHLS']['n']), ('Aged 80 and over (reported separately)', cl['complete'] - E['CLHLS']['n'])]),
-        ('Understanding Society 2010–13', [('With nurse blood sample', uk['blood_records']), ('Aged 40–79', uk['age_40_79']),
+        ('Understanding Society 2010–12', [('With nurse blood sample', uk['blood_records']), ('Aged 40–79', uk['age_40_79']),
                                            ('9-year status known', uk['known_9y_status']), ('All 13 shared analytes measured', uk['complete'])])]
 w(pd.DataFrame([dict(cohort=c, step_order=i, step=s_, n=int(v)) for c, steps in flow for i, (s_, v) in enumerate(steps)]), 'S2_flow.csv')
 

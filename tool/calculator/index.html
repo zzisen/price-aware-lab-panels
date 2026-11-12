@@ -156,7 +156,9 @@ function updateSeq() {
     if (k === 3) { const u = p.missing.length && (p.lo < M.tau) !== (p.hi < M.tau);
       out.innerHTML = riskText(p) + ', ' + verdict(p.r) + '.' + (u ? ' <b class="go">The missing values could change this result: measure ' + names(p.missing) + '.</b>' : '') + ' All tests done (US $' + M.step_costs_US[3].toFixed(2) + ').' + notes; open = false; continue; }
     const band = iv[STATE[k]], inside = x => band.some(([a, b]) => x >= a && x <= b), rng = band.map(([a, b]) => pct(a) + '–' + pct(b)).join(', ');
-    const unsure = p.missing.length && (inside(p.lo) !== inside(p.r) || inside(p.hi) !== inside(p.r));
+    // the recommendation is unaffected only if the whole 80% range lies inside one ordering band or outside every band
+    const allInside = band.some(([a, b]) => p.lo >= a && p.hi <= b), allOutside = band.every(([a, b]) => p.hi < a || p.lo > b);
+    const unsure = p.missing.length && !(allInside || allOutside);
     const warn = unsure ? ' <b class="go">The missing values could change this recommendation: measure ' + names(p.missing) + '.</b>' : '';
     if (inside(p.r)) out.innerHTML = riskText(p) + ', inside ' + rng + ': <b class="go">order ' + NEXT[k] + '.</b>' + warn + notes;
     else { out.innerHTML = riskText(p) + ', outside ' + rng + ': <b class="stop">stop here</b>; ' + verdict(p.r) + '. Laboratory cost so far US $' + M.step_costs_US[k].toFixed(2) + '.' + warn + notes; open = false; }

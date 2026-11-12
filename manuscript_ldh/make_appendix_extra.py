@@ -55,8 +55,8 @@ flow.append(('CLHLS 2012/2014', [('With blood sample, linked to survey†', cl['
                                  ('All 14 shared analytes measured', cl['complete']),
                                  ('Aged 65–79 (primary) / 80 and over', f"{E['CLHLS']['n']} / {cl['complete'] - E['CLHLS']['n']}")]))
 uk = json.load(open(R / 't21_UKHLS_endpoints.json'))['test']
-flow.append(('Understanding Society 2010–13', [('With nurse blood sample', uk['blood_records']), ('Aged 40–79', uk['age_40_79']),
-                                               ('9-year status known§', uk['known_9y_status']), ('All 13 shared analytes measured', uk['complete'])]))
+flow.append(('Understanding Society 2010–12', [('With nurse blood sample', uk['blood_records']), ('Aged 40–79', uk['age_40_79']),
+                                               ('9-year status known (§)', uk['known_9y_status']), ('All 13 shared analytes measured', uk['complete'])]))
 md_ = ['# Participant flow (TRIPOD+AI item 20a)\n']
 for name, steps in flow:
     sp = lambda v: f'{v:,}'.replace(',', ' ') if v >= 10000 else str(v)
@@ -69,7 +69,7 @@ md_.append('\n*C-reactive protein was not measured in NHANES 2011–14, and pane
 fig, axs = plt.subplots(1, len(flow), figsize=(17, 3.6))
 for ax, (name, steps) in zip(axs, flow):
     ax.axis('off'); ax.set_xlim(0, 1); ax.set_ylim(0, 1)
-    ax.set_title(name.replace(' 2010–13', '\n2010–13').replace(' (training)', '\n(training)'), fontsize=7.2, loc='center', color=INK)
+    ax.set_title(name.replace(' 2010–12', '\n2010–12').replace(' (training)', '\n(training)'), fontsize=7.2, loc='center', color=INK)
     ys = np.linspace(0.88, 0.1, len(steps))
     for k, (y, (s, v)) in enumerate(zip(ys, steps)):
         ax.text(0.5, y, f'{s}\n{v:,}' if isinstance(v, int) else f'{s}\n{v}', ha='center', va='center', fontsize=6.2, color=INK,

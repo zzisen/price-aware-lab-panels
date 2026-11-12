@@ -1,6 +1,6 @@
 # Price-aware laboratory panels for mortality risk: code and models
 
-Code, fitted models, the ordering chart and the offline calculator for the article "Price-aware selection of laboratory panels for mortality risk: development and external validation in five cohorts from three countries" (Zhou Z, Zhang Y, Pang H; submitted). Please cite this repository with the DOI shown on its Zenodo record (see `CITATION.cff`).
+Code, fitted models, the ordering chart and the offline calculator for the article "Price-aware selection of laboratory panels for mortality risk: development and external validation in five cohorts from three countries" (Zhou Z, Zhang Y, Pang H; submitted). Please cite this repository as https://doi.org/10.5281/zenodo.24149614 (all versions; see `CITATION.cff`).
 Research software; not a medical device.
 
 ## Contents
@@ -32,6 +32,15 @@ No survey data are included. Place the original files under `external_data/` nex
 - CLHLS: Peking University Open Research Data Platform (application required)
 - Understanding Society: UK Data Service, SN 6614 and SN 7251 (End User Licence)
 - US Medicare Clinical Laboratory Fee Schedule 2026 Q4: https://www.cms.gov/medicare/payment/fee-schedules/clinical-laboratory-fee-schedule-clfs
+
+## Reproducing the figures and appendix
+
+Figures 1–5 and appendix figures S1–S4 can be redrawn from the CSV files in `manuscript_ldh/figures_v2/data/` with `make_figures_v2.py`. Regenerating those CSV files with `export_figure_data.py` needs the outputs of each task folder, which are produced from the survey data; appendix figure S4 (cross-domain benchmark) needs benchmark summaries that are not part of this release, so its plotted values are provided as `S4_benchmark.csv`. The literature-search strings are listed in appendix A5 of the article.
+
+## Versions
+
+- 1.0.1: the stepwise calculator now flags missing values whenever the 80% risk range is not entirely inside or entirely outside an ordering band; citation metadata include the DOI.
+- 1.0.0: first release.
 
 ## Requirements
 

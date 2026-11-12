@@ -207,7 +207,9 @@ for c in ['NH3', 'GH', 'I']:
 L.append('## Table S14. Sequential ordering by subgroup (deaths not flagged per 1000: value-of-information rule − routine bundle)\n')
 for c in ['NH3', 'GH', 'I']:
     L.append(f'### {NAME[c]}\n'); L.append(md(pd.read_csv(T22 / f't22_{c}_subgroups.csv')))
-L.append('## Table S15. Local recalibration (200 repetitions per local sample size; the rest of each cohort is the test set)\n\n'
+L.append('## Table S15. Local recalibration (up to 200 attempts per local sample size; the rest of each cohort is the test set)\n\n'
+         'Repetitions: usable attempts; attempts were skipped when the local sample or the test set had too few deaths. CLHLS was not analysed, because too '
+         'few deaths would have remained for testing. Imported O/E uses the participants with the follow-up needed for the cohort horizon.\n\n'
          'Imported O/E: observed-to-expected ratio of the imported model in the whole cohort (95% CI). Mean absolute log O/E: mean absolute log '
          'observed-to-expected ratio in the test set. Share of repetitions improved: recalibration improved calibration on the same test set. ΔNB: net '
          'benefit, recalibrated − imported (mean, and 2.5th–97.5th percentiles across repetitions, the range a site might see). Share recalibrated after '
@@ -326,7 +328,7 @@ for b in blocks:
 
 # ---------------- S19 Understanding Society ----------------
 e27 = json.load(open(R / 't21_UKHLS_endpoints.json')); c27 = e27['test']
-L.append('## Table S19. Understanding Society (UK Household Longitudinal Study; nurse blood 2010–13; US prices; menu of 13 analytes)\n\n'
+L.append('## Table S19. Understanding Society (UK Household Longitudinal Study; nurse blood 2010–12; US prices; menu of 13 analytes)\n\n'
          'The End User Licence gives only the survey wave in which a death was reported, so the outcome is binary: death reported by the wave fielded nine '
          'waves after the nurse visit (waves 11–12, 2019–22), against being enumerated alive at that wave; people with neither were not analysed (as in CHNS). '
          'Discrimination: AUC. Decision threshold: 10% 9-year risk. Weighted columns use the nurse-blood cross-sectional weight.\n')
