@@ -1,0 +1,5 @@
+output,items,usd,share_of_routine
+Matched panel (USA),CMP + CBC + phosphorus,32.41,0.64
+Target-aware panel (USA),CMP + CBC + urine ACR + GGT + phosphorus,50.57,0.996
+Routine bundle (reference),CMP + CBC + lipids + HbA1c,50.77,1.0
+Ordering chart,clinical information -> CMP -> CBC -> urine ACR,,

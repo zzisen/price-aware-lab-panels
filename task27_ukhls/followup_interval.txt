@@ -1,0 +1,2 @@
+nurse wave 2: alive 4058, with valid months 4056, median interval 103.0 months (IQR 102.0-104.0)
+nurse wave 3: alive 1507, with valid months 1507, median interval 102.0 months (IQR 102.0-103.0)

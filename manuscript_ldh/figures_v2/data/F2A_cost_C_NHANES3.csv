@@ -1,0 +1,13 @@
+panel,category,usd,C
+Age and sex only,reference line,0.0,0.7442902606377434
+BMP,standard bundle,17.8,0.754096589430939
+CBC,standard bundle,17.11,0.7735325621341839
+CMP,standard bundle,19.9,0.7793118950025719
+Lipids,standard bundle,22.73,0.7458148562751098
+CMP+CBC,standard bundle,27.67,0.7918857573341175
+Routine bundle,routine,50.77,0.7917893645021851
+CBC+BMP (Intermountain-type),established score,25.57,0.7779397271510855
+PhenoAge analytes (refitted),established score,40.62,0.7882431675489612
+Matched panel,matched,32.41,0.7924596654257767
+Target-aware panel,target-aware,50.57,0.8075272420972708
+All 34 analytes,standard bundle,103.65,0.8086398907858622

@@ -1,0 +1,81 @@
+kind,lam,n_active,features,US,cv
+price-weighted,0.3620775200679827,0,,0.0,-15859.659042709001
+price-weighted,0.31608274838487765,0,,0.0,-15859.659042709001
+price-weighted,0.2759307007178446,1,rdw,17.11,-15679.867056535793
+price-weighted,0.240879174797391,1,rdw,17.11,-15679.867056535793
+price-weighted,0.21028025044014131,1,rdw,17.11,-15679.867056535793
+price-weighted,0.18356831287869177,1,rdw,17.11,-15679.867056535793
+price-weighted,0.1602495974900011,2,lymph_pct rdw,17.11,-15623.943855972357
+price-weighted,0.13989306265879098,2,lymph_pct rdw,17.11,-15623.943855972357
+price-weighted,0.12212242206272939,2,lymph_pct rdw,17.11,-15623.943855972357
+price-weighted,0.10660918909784275,4,lymph_pct mcv rdw wbc,17.11,-15561.913276863464
+price-weighted,0.09306660487180304,4,lymph_pct mcv rdw wbc,17.11,-15561.913276863464
+price-weighted,0.081244337525306,4,lymph_pct mcv rdw wbc,17.11,-15561.913276863464
+price-weighted,0.07092385489959657,5,hgb lymph_pct mcv rdw wbc,17.11,-15547.004330380723
+price-weighted,0.06191438501485994,5,hgb lymph_pct mcv rdw wbc,17.11,-15547.004330380723
+price-weighted,0.05404938968976033,6,hgb lymph_pct mcv plt rdw wbc,17.11,-15534.244747658751
+price-weighted,0.04718348611771607,6,hgb lymph_pct mcv plt rdw wbc,17.11,-15534.244747658751
+price-weighted,0.041189759495887004,6,hgb lymph_pct mcv plt rdw wbc,17.11,-15534.244747658751
+price-weighted,0.03595741703137936,6,hgb lymph_pct mcv plt rdw wbc,17.11,-15534.244747658751
+price-weighted,0.03138973995945849,8,albumin glucose hgb lymph_pct mcv plt rdw wbc,25.99,-15452.048971608972
+price-weighted,0.02740229571725243,8,albumin glucose hgb lymph_pct mcv plt rdw wbc,25.99,-15452.048971608972
+price-weighted,0.023921377225346842,11,albumin alp chloride glucose hgb lymph_pct mcv mpv plt rdw wbc,27.67,-15406.577852286759
+price-weighted,0.02088264042771668,13,acr albumin alp chloride glucose hgb lymph_pct mcv mpv plt protein rdw wbc,38.63,-15296.876232842294
+price-weighted,0.018229914905201875,13,acr albumin alp chloride glucose hgb lymph_pct mcv mpv plt protein rdw wbc,38.63,-15296.876232842294
+price-weighted,0.015914165576964744,16,acr albumin alp chloride ggt glucose gran_pct hgb lymph_pct mcv mpv plt potassium protein rdw wbc,45.83,-15259.512851434518
+price-weighted,0.013892586297195626,16,acr albumin alp chloride ggt glucose gran_pct hgb lymph_pct mcv mpv plt potassium protein rdw wbc,45.83,-15259.512851434518
+price-weighted,0.01212780859238983,16,acr albumin alp chloride ggt glucose gran_pct hgb lymph_pct mcv mpv plt potassium protein rdw wbc,45.83,-15259.512851434518
+price-weighted,0.010587210912869065,18,acr albumin alp chloride ggt glucose gran_pct hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw wbc,56.61,-15250.813689111817
+price-weighted,0.00924231563020456,18,acr albumin alp chloride ggt glucose gran_pct hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw wbc,56.61,-15250.813689111817
+price-weighted,0.00806826263416483,21,acr albumin alp alt chloride ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw uric_acid wbc,61.13,-15229.170821557553
+price-weighted,0.007043349798736489,22,acr albumin alp alt chloride co2 ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw uric_acid wbc,61.13,-15228.814599976766
+price-weighted,0.006148631822828169,23,acr albumin alp alt bun chloride co2 ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw uric_acid wbc,61.13,-15216.619245870339
+price-weighted,0.005367570030311041,25,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw uric_acid wbc,61.13,-15203.185781244532
+price-weighted,0.0046857266560223505,25,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw uric_acid wbc,61.13,-15203.185781244532
+price-weighted,0.004090497966672288,26,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw uric_acid wbc,69.32,-15195.457534417605
+price-weighted,0.003570881283449388,26,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw uric_acid wbc,69.32,-15195.457534417605
+price-weighted,0.003117271599785819,26,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw uric_acid wbc,69.32,-15195.457534417605
+price-weighted,0.0027212840348039983,27,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,69.32,-15190.495590477929
+price-weighted,0.0023755988405334792,27,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,69.32,-15190.495590477929
+price-weighted,0.0020738260978885575,27,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,69.32,-15190.495590477929
+price-weighted,0.0018103876003399135,28,acr albumin alp alt ast bilirubin bun chloride co2 ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,79.03,-15190.866178136257
+unweighted,0.08632055142128907,0,,0.0,-15859.659042709001
+unweighted,0.07535523644278264,0,,0.0,-15859.659042709001
+unweighted,0.06578284737355396,1,acr,10.96,-15630.02386592551
+unweighted,0.05742644058794885,2,acr rdw,28.07,-15499.972223431581
+unweighted,0.05013154964050705,2,acr rdw,28.07,-15499.972223431581
+unweighted,0.04376332998577004,2,acr rdw,28.07,-15499.972223431581
+unweighted,0.038204066404838685,3,acr albumin rdw,33.02,-15451.127776234549
+unweighted,0.033350997063978156,4,acr albumin crp rdw,45.97,-15436.259792956658
+unweighted,0.02911441398344455,6,acr albumin crp ggt lymph_pct rdw,53.17,-15365.103828445397
+unweighted,0.025416004804093936,6,acr albumin crp ggt lymph_pct rdw,53.17,-15365.103828445397
+unweighted,0.022187405199673556,9,acr albumin alp chloride crp ggt lymph_pct mcv rdw,58.78,-15305.144950571621
+unweighted,0.019368935176436775,10,acr albumin alp chloride crp ggt lymph_pct mcv potassium rdw,58.78,-15288.412030499112
+unweighted,0.016908495900842417,10,acr albumin alp chloride crp ggt lymph_pct mcv potassium rdw,58.78,-15288.412030499112
+unweighted,0.014760606663427326,11,acr albumin alp chloride crp ggt ldh lymph_pct mcv potassium rdw,64.82,-15286.043525689916
+unweighted,0.01288556417732936,12,acr albumin alp chloride crp ggt ldh lymph_pct mcv potassium rdw wbc,64.82,-15284.112402951507
+unweighted,0.011248708671268162,14,acr albumin alp alt chloride crp ggt ldh lymph_pct mcv phosphorus potassium rdw wbc,69.56,-15252.179952404565
+unweighted,0.009819783210865095,17,acr albumin alp alt chloride crp ggt glucose ldh lymph_pct mcv phosphorus plt potassium protein rdw wbc,69.56,-15244.337113754413
+unweighted,0.008572374405489584,18,acr albumin alp alt chloride crp ggt glucose hgb ldh lymph_pct mcv phosphorus plt potassium protein rdw wbc,69.56,-15241.457487493584
+unweighted,0.007483424162214178,19,acr albumin alp alt chloride co2 crp ggt glucose hgb ldh lymph_pct mcv phosphorus plt potassium protein rdw wbc,69.56,-15241.444847287616
+unweighted,0.006532803461751343,22,acr albumin alp alt ast chloride co2 crp ggt glucose hdl hgb ldh lymph_pct mcv phosphorus plt potassium protein rdw uric_acid wbc,82.27,-15218.558096773399
+unweighted,0.005702940277708777,23,acr albumin alp alt ast bilirubin chloride co2 crp ggt glucose hdl hgb ldh lymph_pct mcv phosphorus plt potassium protein rdw uric_acid wbc,82.27,-15216.898000680481
+unweighted,0.004978494761327786,25,acr albumin alp alt ast bilirubin bun chloride co2 crp ggt glucose hdl hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw uric_acid wbc,82.27,-15204.794807846272
+unweighted,0.0043460756875620035,26,acr albumin alp alt ast bilirubin bun chloride co2 crp ggt glucose hba1c hdl hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw uric_acid wbc,91.98,-15205.454985346521
+unweighted,0.003793992921061126,26,acr albumin alp alt ast bilirubin bun chloride co2 crp ggt glucose hba1c hdl hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw uric_acid wbc,91.98,-15205.454985346521
+unweighted,0.0033120413264447037,26,acr albumin alp alt ast bilirubin bun chloride co2 crp ggt glucose hba1c hdl hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw uric_acid wbc,91.98,-15205.454985346521
+unweighted,0.002891312128492205,26,acr albumin alp alt ast bilirubin bun chloride co2 crp ggt glucose hba1c hdl hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw uric_acid wbc,91.98,-15205.454985346521
+unweighted,0.002524028235281652,28,acr albumin alp alt ast bilirubin bun chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,91.98,-15195.929158446424
+unweighted,0.0022034004802592095,28,acr albumin alp alt ast bilirubin bun chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,91.98,-15195.929158446424
+unweighted,0.0019235021259042147,30,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,91.98,-15199.051492504834
+unweighted,0.0016791593092158985,30,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,91.98,-15199.051492504834
+unweighted,0.0014658554039294147,30,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,91.98,-15199.051492504834
+unweighted,0.0012796475316165451,30,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,91.98,-15199.051492504834
+unweighted,0.0011170936783961051,30,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,91.98,-15199.051492504834
+unweighted,0.0009751890700215737,31,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,97.18,-15201.04710242794
+unweighted,0.0008513106292526455,31,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,97.18,-15201.04710242794
+unweighted,0.0007431684888167411,31,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,97.18,-15201.04710242794
+unweighted,0.0006487636636876183,31,acr albumin alp alt ast bilirubin bun calcium chloride co2 crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,97.18,-15201.04710242794
+unweighted,0.0005663511002619629,32,acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,97.18,-15206.51661389074
+unweighted,0.0004944074194056273,32,acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,97.18,-15206.51661389074
+unweighted,0.00043160275710644536,32,acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,97.18,-15206.51661389074

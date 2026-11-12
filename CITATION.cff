@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Price-aware laboratory panels for mortality risk: code, models and calculator"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: "Zhou"
+    given-names: "Zisen"
+    affiliation: "Auckland Bioengineering Institute, University of Auckland, Auckland, New Zealand"
+  - family-names: "Zhang"
+    given-names: "Yaopu"
+    affiliation: "Harbin Institute of Technology (Shenzhen), Shenzhen, China"
+  - family-names: "Pang"
+    given-names: "Haoran"
+    affiliation: "Harbin Institute of Technology, Harbin, China"
+keywords:
+  - laboratory testing
+  - prediction model
+  - mortality
+  - cost-aware machine learning
+  - external validation

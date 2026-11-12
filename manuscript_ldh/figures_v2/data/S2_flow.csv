@@ -1,0 +1,32 @@
+cohort,step_order,step,n
+NHANES 1999–2010 (training),0,In survey files,62160
+NHANES 1999–2010 (training),1,Aged 40–79,18447
+NHANES 1999–2010 (training),2,Eligible for mortality linkage,18422
+NHANES 1999–2010 (training),3,All 34 analytes measured,16153
+NHANES III,0,In survey files,29314
+NHANES III,1,Aged 40–79,8689
+NHANES III,2,Eligible for mortality linkage,8491
+NHANES III,3,All analytes measured,5792
+NHANES 2011–14,0,In survey files,19931
+NHANES 2011–14,1,Aged 40–79,6703
+NHANES 2011–14,2,Eligible for mortality linkage,6477
+NHANES 2011–14,3,All analytes measured (no CRP in these cycles),5917
+NHANES 2015–16 (supplementary),0,In survey files,9971
+NHANES 2015–16 (supplementary),1,Aged 40–79,3390
+NHANES 2015–16 (supplementary),2,Eligible for mortality linkage,3256
+NHANES 2015–16 (supplementary),3,All analytes measured,3017
+CHNS 2009,0,With 2009 blood sample,9549
+CHNS 2009,1,Aged 40–79,6312
+CHNS 2009,2,Death or 2015 survey status known,4604
+CHNS 2009,3,All 15 shared analytes measured,4542
+CLHLS 2012/2014,0,"With blood sample, linked to survey (2012, 2014)",4985
+CLHLS 2012/2014,1,Distinct people (earliest draw),3525
+CLHLS 2012/2014,2,Aged 65 and over,3385
+CLHLS 2012/2014,3,With follow-up after baseline,2818
+CLHLS 2012/2014,4,All 14 shared analytes measured,2636
+CLHLS 2012/2014,5,Aged 65–79 (primary),740
+CLHLS 2012/2014,6,Aged 80 and over (reported separately),1896
+Understanding Society 2010–13,0,With nurse blood sample,13286
+Understanding Society 2010–13,1,Aged 40–79,9307
+Understanding Society 2010–13,2,9-year status known,6891
+Understanding Society 2010–13,3,All 13 shared analytes measured,6044

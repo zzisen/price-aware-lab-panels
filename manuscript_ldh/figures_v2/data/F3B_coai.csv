@@ -1,0 +1,9 @@
+budget,cohort,metric,est,lo,hi,ours_price,coai_price_as_panels,coai_tests,I2
+matched-panel budget,NHANES III,C,0.008145512076856654,0.002317064114258649,0.014414258881209223,32.41,27.67,chloride albumin alt wbc lymph_pct mono_pct gran_pct hgb mcv rdw plt mpv,
+routine budget,NHANES III,C,0.02257181160052779,0.017341576851937705,0.027800664234026072,50.57,27.67,bun potassium chloride co2 albumin alt ast wbc lymph_pct mono_pct gran_pct hgb mcv rdw plt mpv,
+matched-panel budget,NHANES 2011–14,C,0.012219148346300668,0.00262587180618849,0.021555574561648787,32.41,27.67,chloride albumin alt wbc lymph_pct mono_pct gran_pct hgb mcv rdw plt mpv,
+routine budget,NHANES 2011–14,C,0.01953589061458516,0.011626234986686468,0.02819369170062565,50.57,27.67,bun potassium chloride co2 albumin alt ast wbc lymph_pct mono_pct gran_pct hgb mcv rdw plt mpv,
+matched-panel budget,Understanding Society,AUC,0.008047800993009169,0.0013953458743115987,0.01491884881372226,27.1,27.02,alt ast ggt,
+routine budget,Understanding Society,AUC,0.006713597322964393,0.0034067185021860596,0.010200900934241234,49.76,34.87,albumin alp alt ast creatinine ggt hgb,
+matched-panel budget,Pooled (random effects),,0.008863380190677886,0.00479334759002112,0.01293341279133465,,,,0.0
+routine budget,Pooled (random effects),,0.016030841316743757,0.0045240453121951525,0.02753763732129236,,,,0.9289285584629914

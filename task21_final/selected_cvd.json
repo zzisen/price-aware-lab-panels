@@ -1,0 +1,282 @@
+{
+ "counts": [
+  {
+   "cycle": "A",
+   "in_file": 9965,
+   "age_40_79": 2763,
+   "mortality_eligible": 2760,
+   "complete": 2304
+  },
+  {
+   "cycle": "B",
+   "in_file": 11039,
+   "age_40_79": 2944,
+   "mortality_eligible": 2941,
+   "complete": 2558
+  },
+  {
+   "cycle": "C",
+   "in_file": 10122,
+   "age_40_79": 2782,
+   "mortality_eligible": 2775,
+   "complete": 2433
+  },
+  {
+   "cycle": "D",
+   "in_file": 10348,
+   "age_40_79": 2662,
+   "mortality_eligible": 2662,
+   "complete": 2351
+  },
+  {
+   "cycle": "E",
+   "in_file": 10149,
+   "age_40_79": 3586,
+   "mortality_eligible": 3583,
+   "complete": 3168
+  },
+  {
+   "cycle": "F",
+   "in_file": 10537,
+   "age_40_79": 3710,
+   "mortality_eligible": 3701,
+   "complete": 3339
+  }
+ ],
+ "n": 15371,
+ "events": 545,
+ "base": [
+  "age",
+  "female",
+  "bmi",
+  "sbp",
+  "smoker",
+  "diabetes"
+ ],
+ "guideline": {
+  "none": {
+   "features": [],
+   "cost": 0.0,
+   "cv": -3983.7462241831386
+  },
+  "PCE/SCORE2 lipids": {
+   "features": [
+    "tc",
+    "hdl"
+   ],
+   "cost": 21.88,
+   "cv": -3986.2327580658657
+  },
+  "PREVENT base": {
+   "features": [
+    "tc",
+    "hdl",
+    "creatinine"
+   ],
+   "cost": 27.0,
+   "cv": -3964.560530872397
+  },
+  "PREVENT full": {
+   "features": [
+    "tc",
+    "hdl",
+    "creatinine",
+    "acr",
+    "hba1c"
+   ],
+   "cost": 47.67,
+   "cv": -3915.9160961219973
+  },
+  "routine": {
+   "features": [
+    "glucose",
+    "bun",
+    "creatinine",
+    "sodium",
+    "potassium",
+    "chloride",
+    "co2",
+    "calcium",
+    "albumin",
+    "protein",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "wbc",
+    "lymph_pct",
+    "mono_pct",
+    "gran_pct",
+    "hgb",
+    "mcv",
+    "rdw",
+    "plt",
+    "mpv",
+    "tc",
+    "hdl",
+    "tg",
+    "hba1c"
+   ],
+   "cost": 50.77,
+   "cv": -3895.0713072079798
+  },
+  "CMP+CBC": {
+   "features": [
+    "glucose",
+    "bun",
+    "creatinine",
+    "sodium",
+    "potassium",
+    "chloride",
+    "co2",
+    "calcium",
+    "albumin",
+    "protein",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "wbc",
+    "lymph_pct",
+    "mono_pct",
+    "gran_pct",
+    "hgb",
+    "mcv",
+    "rdw",
+    "plt",
+    "mpv"
+   ],
+   "cost": 27.67,
+   "cv": -3890.614260901364
+  }
+ },
+ "matched_routine": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bilirubin",
+   "bun",
+   "calcium",
+   "chloride",
+   "co2",
+   "creatinine",
+   "glucose",
+   "gran_pct",
+   "hgb",
+   "lymph_pct",
+   "mcv",
+   "mono_pct",
+   "mpv",
+   "plt",
+   "potassium",
+   "protein",
+   "rdw",
+   "sodium",
+   "wbc"
+  ],
+  "items": [
+   "CBC",
+   "CMP"
+  ],
+  "cost": 27.67,
+  "cv": -3890.614260901364
+ },
+ "matched_prevent_full": {
+  "features": [
+   "gran_pct",
+   "hgb",
+   "lymph_pct",
+   "mcv",
+   "mono_pct",
+   "mpv",
+   "plt",
+   "rdw",
+   "uric_acid",
+   "wbc"
+  ],
+  "items": [
+   "CBC",
+   "uric_acid"
+  ],
+  "cost": 21.63,
+  "cv": -3915.7684368916016
+ },
+ "aware_at_routine": {
+  "features": [
+   "acr",
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bilirubin",
+   "bun",
+   "calcium",
+   "chloride",
+   "co2",
+   "creatinine",
+   "ggt",
+   "glucose",
+   "gran_pct",
+   "hgb",
+   "lymph_pct",
+   "mcv",
+   "mono_pct",
+   "mpv",
+   "plt",
+   "potassium",
+   "protein",
+   "rdw",
+   "sodium",
+   "uric_acid",
+   "wbc"
+  ],
+  "items": [
+   "CBC",
+   "CMP",
+   "acr",
+   "ggt",
+   "uric_acid"
+  ],
+  "cost": 50.35,
+  "cv": -3854.8641541062625
+ },
+ "aware_at_prevent_full": {
+  "features": [
+   "acr",
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bilirubin",
+   "bun",
+   "calcium",
+   "chloride",
+   "co2",
+   "creatinine",
+   "ggt",
+   "glucose",
+   "gran_pct",
+   "hgb",
+   "lymph_pct",
+   "mcv",
+   "mono_pct",
+   "mpv",
+   "plt",
+   "potassium",
+   "protein",
+   "rdw",
+   "sodium",
+   "wbc"
+  ],
+  "items": [
+   "CBC",
+   "CMP",
+   "acr",
+   "ggt"
+  ],
+  "cost": 45.83,
+  "cv": -3856.6806265078685
+ }
+}

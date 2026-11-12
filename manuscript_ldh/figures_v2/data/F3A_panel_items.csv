@@ -1,0 +1,29 @@
+column,price_schedule,item,how,panel_price,reference_price
+USA,US Medicare,CMP,full panel,US$32.41,US$50.77
+USA,US Medicare,CBC,full count,US$32.41,US$50.77
+USA,US Medicare,phosphorus,single test,US$32.41,US$50.77
+Australia,Australian MBS,CMP,full panel,A$41.45,A$69.30
+Australia,Australian MBS,CBC,full count,A$41.45,A$69.30
+Australia,Australian MBS,ggt,single test,A$41.45,A$69.30
+Australia,Australian MBS,ldh,single test,A$41.45,A$69.30
+Australia,Australian MBS,phosphorus,single test,A$41.45,A$69.30
+Japan,Japanese fee schedule,CMP,full panel,¥4960,¥5450
+Japan,Japanese fee schedule,CBC,full count,¥4960,¥5450
+Japan,Japanese fee schedule,ggt,single test,¥4960,¥5450
+Japan,Japanese fee schedule,hdl,single test,¥4960,¥5450
+Japan,Japanese fee schedule,ldh,single test,¥4960,¥5450
+Japan,Japanese fee schedule,phosphorus,single test,¥4960,¥5450
+"China, CHNS menu",Shandong prices,CBC,blood count indices measured,CN¥43.8,CN¥74.8
+"China, CHNS menu",Shandong prices,albumin,single test,CN¥43.8,CN¥74.8
+"China, CHNS menu",Shandong prices,creatinine,single test,CN¥43.8,CN¥74.8
+"China, CHNS menu",Shandong prices,glucose,single test,CN¥43.8,CN¥74.8
+"China, CHNS menu",Shandong prices,protein,single test,CN¥43.8,CN¥74.8
+"China, CLHLS menu",Shandong prices,CBC,blood count indices measured,CN¥44.8,CN¥62.3
+"China, CLHLS menu",Shandong prices,bun,single test,CN¥44.8,CN¥62.3
+"China, CLHLS menu",Shandong prices,creatinine,single test,CN¥44.8,CN¥62.3
+"China, CLHLS menu",Shandong prices,glucose,single test,CN¥44.8,CN¥62.3
+"China, CLHLS menu",Shandong prices,uric_acid,single test,CN¥44.8,CN¥62.3
+UK menu,US Medicare (scenario),CMP,6 measured CMP analytes,US$27.10,US$50.77
+UK menu,US Medicare (scenario),ggt,single test,US$27.10,US$50.77
+Cardiovascular death (USA),US Medicare,CBC,full count,US$21.63,US$47.67 (PREVENT full set)
+Cardiovascular death (USA),US Medicare,uric_acid,single test,US$21.63,US$47.67 (PREVENT full set)

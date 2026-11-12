@@ -1,0 +1,164 @@
+{
+ "menu": [
+  "glucose",
+  "bun",
+  "creatinine",
+  "uric_acid",
+  "tc",
+  "tg",
+  "hdl",
+  "crp",
+  "wbc",
+  "lymph_pct",
+  "hgb",
+  "mcv",
+  "plt",
+  "mpv"
+ ],
+ "routine": {
+  "features": [
+   "bun",
+   "creatinine",
+   "uric_acid",
+   "tc",
+   "tg",
+   "hdl",
+   "glucose",
+   "wbc",
+   "lymph_pct",
+   "hgb",
+   "mcv",
+   "plt",
+   "mpv"
+  ],
+  "price": 62.3,
+  "cv": -15586.205736414742
+ },
+ "matched": {
+  "features": [
+   "bun",
+   "creatinine",
+   "glucose",
+   "hgb",
+   "lymph_pct",
+   "mcv",
+   "mpv",
+   "plt",
+   "uric_acid",
+   "wbc"
+  ],
+  "price": 44.8,
+  "cv": -15584.15612957694
+ },
+ "aware_at_routine": {
+  "features": [
+   "creatinine",
+   "crp",
+   "glucose",
+   "hgb",
+   "lymph_pct",
+   "mcv",
+   "mpv",
+   "plt",
+   "wbc"
+  ],
+  "price": 60.8,
+  "cv": -15558.719065734484
+ },
+ "none_cv": -15859.659042709001,
+ "all_menu_cv": -15546.244352233003,
+ "coai": {
+  "hyper": {
+   "val_auc": 0.7926911446788716,
+   "penalty": "l2",
+   "C": 10000.0
+  },
+  "importance": {
+   "age": 12522.149210091271,
+   "female": 3520.9304169469224,
+   "glucose": 2276.914509968601,
+   "bun": 2245.9366679937134,
+   "creatinine": 2898.913622451909,
+   "uric_acid": 877.171415866843,
+   "tc": 117.10040936105841,
+   "tg": 152.42022294371048,
+   "hdl": 302.792915286524,
+   "crp": 2916.9837704513543,
+   "wbc": 2390.237963701691,
+   "lymph_pct": 2307.8375186841613,
+   "hgb": 3666.239899907263,
+   "mcv": 2589.1825698625776,
+   "plt": 1931.087124818383,
+   "mpv": 782.2310363317982
+  },
+  "group_importance": {
+   "glucose": 2276.914509968601,
+   "bun": 2245.9366679937134,
+   "creatinine": 2898.913622451909,
+   "uric_acid": 877.171415866843,
+   "tc": 117.10040936105841,
+   "tg": 152.42022294371048,
+   "hdl": 302.792915286524,
+   "crp": 2916.9837704513543,
+   "CBC_CL": 13666.816113305875
+  },
+  "panels": [
+   {
+    "budget": 44.8,
+    "items": [
+     "glucose",
+     "bun",
+     "creatinine",
+     "uric_acid",
+     "CBC_CL"
+    ],
+    "features": [
+     "glucose",
+     "bun",
+     "creatinine",
+     "uric_acid",
+     "wbc",
+     "lymph_pct",
+     "hgb",
+     "mcv",
+     "plt",
+     "mpv"
+    ],
+    "additive_cost": 44.8,
+    "billed_cost": 44.8,
+    "importance": 21965.75232958694
+   },
+   {
+    "budget": 62.3,
+    "items": [
+     "glucose",
+     "bun",
+     "creatinine",
+     "uric_acid",
+     "tc",
+     "tg",
+     "hdl",
+     "CBC_CL"
+    ],
+    "features": [
+     "glucose",
+     "bun",
+     "creatinine",
+     "uric_acid",
+     "tc",
+     "tg",
+     "hdl",
+     "wbc",
+     "lymph_pct",
+     "hgb",
+     "mcv",
+     "plt",
+     "mpv"
+    ],
+    "additive_cost": 62.3,
+    "billed_cost": 62.3,
+    "importance": 22538.065877178233
+   }
+  ]
+ }
+}

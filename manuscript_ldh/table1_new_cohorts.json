@@ -1,0 +1,25 @@
+{
+ "Understanding Society": {
+  "n": 6044,
+  "deaths": 479,
+  "age_mean": 57.480311052283255,
+  "age_sd": 10.550389378482711,
+  "age60_79_pct": 44.04367968232958,
+  "female_pct": 54.913964262078096,
+  "counts": {
+   "blood_records": 13286,
+   "blood_people": 13286,
+   "age_40_79": 9307,
+   "not_in_xwaveid": 5,
+   "known_9y_status": 6891,
+   "complete": 6044
+  }
+ },
+ "CLHLS 65-79": {
+  "n": 740,
+  "deaths": 92,
+  "age_mean": 72.30405405405405,
+  "age_sd": 4.265953554182021,
+  "female_pct": 35.13513513513514
+ }
+}

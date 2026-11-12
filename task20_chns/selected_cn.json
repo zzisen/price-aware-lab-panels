@@ -1,0 +1,114 @@
+{
+ "counts": [
+  {
+   "cycle": "A",
+   "in_file": 9965,
+   "age_40_79": 2763,
+   "mortality_eligible": 2760,
+   "complete": 2304
+  },
+  {
+   "cycle": "B",
+   "in_file": 11039,
+   "age_40_79": 2944,
+   "mortality_eligible": 2941,
+   "complete": 2558
+  },
+  {
+   "cycle": "C",
+   "in_file": 10122,
+   "age_40_79": 2782,
+   "mortality_eligible": 2775,
+   "complete": 2433
+  },
+  {
+   "cycle": "D",
+   "in_file": 10348,
+   "age_40_79": 2662,
+   "mortality_eligible": 2662,
+   "complete": 2351
+  },
+  {
+   "cycle": "E",
+   "in_file": 10149,
+   "age_40_79": 3586,
+   "mortality_eligible": 3583,
+   "complete": 3168
+  },
+  {
+   "cycle": "F",
+   "in_file": 10537,
+   "age_40_79": 3710,
+   "mortality_eligible": 3701,
+   "complete": 3339
+  }
+ ],
+ "n": 16153,
+ "events": 2081,
+ "routine_shared": {
+  "features": [
+   "alt",
+   "protein",
+   "albumin",
+   "bun",
+   "creatinine",
+   "uric_acid",
+   "tc",
+   "tg",
+   "hdl",
+   "glucose",
+   "wbc",
+   "hgb",
+   "plt"
+  ],
+  "price": 74.8,
+  "cv": -15549.43749811638
+ },
+ "routine_full_price": 101.8,
+ "matched": {
+  "features": [
+   "albumin",
+   "creatinine",
+   "glucose",
+   "hgb",
+   "plt",
+   "protein",
+   "wbc"
+  ],
+  "items": [
+   "CBC",
+   "albumin",
+   "creatinine",
+   "glucose",
+   "protein"
+  ],
+  "price": 43.8,
+  "cv": -15548.733180296926
+ },
+ "aware_at_routine": {
+  "features": [
+   "albumin",
+   "bun",
+   "creatinine",
+   "crp",
+   "glucose",
+   "hgb",
+   "plt",
+   "protein",
+   "wbc"
+  ],
+  "items": [
+   "CBC",
+   "albumin",
+   "bun",
+   "creatinine",
+   "crp",
+   "glucose",
+   "protein"
+  ],
+  "price": 74.8,
+  "cv": -15535.730713168237
+ },
+ "none_cv": -15859.659042709001,
+ "all_shared_cv": -15540.099940130509
+}

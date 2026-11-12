@@ -1,0 +1,221 @@
+{
+ "menu": [
+  "albumin",
+  "alp",
+  "alt",
+  "ast",
+  "bun",
+  "creatinine",
+  "ggt",
+  "tc",
+  "hdl",
+  "tg",
+  "hba1c",
+  "crp",
+  "hgb"
+ ],
+ "routine": {
+  "features": [
+   "bun",
+   "creatinine",
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "hgb",
+   "tc",
+   "hdl",
+   "tg",
+   "hba1c"
+  ],
+  "price": 50.77,
+  "cv": -15547.612385316837
+ },
+ "matched": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bun",
+   "creatinine",
+   "ggt"
+  ],
+  "price": 27.1,
+  "cv": -15528.379005867031
+ },
+ "aware_at_routine": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bun",
+   "creatinine",
+   "crp",
+   "ggt",
+   "hba1c"
+  ],
+  "price": 49.76,
+  "cv": -15484.85595599706
+ },
+ "none_cv": -15859.659042709001,
+ "all_menu_cv": -15484.25823679658,
+ "coai_published": {
+  "hyper": {
+   "val_auc": 0.7978178105245873,
+   "penalty": "l1",
+   "C": 1.0
+  },
+  "importance": {
+   "age": 12508.722138613553,
+   "female": 4640.218504056962,
+   "albumin": 2739.699537938105,
+   "alp": 1399.7063384320852,
+   "alt": 6589.222190552186,
+   "ast": 4290.532405517188,
+   "bun": 237.9317402861748,
+   "creatinine": 2367.7231648464294,
+   "ggt": 3525.944385485777,
+   "tc": 406.4250064845327,
+   "hdl": 530.2642397319044,
+   "tg": 67.08681509153777,
+   "hgb": 699.8075319793917,
+   "hba1c": 1698.6663527061266,
+   "crp": 1928.4479380003359
+  },
+  "group_importance": {
+   "albumin": 2739.699537938105,
+   "alp": 1399.7063384320852,
+   "alt": 6589.222190552186,
+   "ast": 4290.532405517188,
+   "bun": 237.9317402861748,
+   "creatinine": 2367.7231648464294,
+   "ggt": 3525.944385485777,
+   "tc": 406.4250064845327,
+   "hdl": 530.2642397319044,
+   "tg": 67.08681509153777,
+   "CBC_UK": 699.8075319793917,
+   "hba1c": 1698.6663527061266,
+   "crp": 1928.4479380003359
+  },
+  "panels": [
+   {
+    "budget": 27.1,
+    "items": [
+     "alt",
+     "ast",
+     "ggt"
+    ],
+    "features": [
+     "alt",
+     "ast",
+     "ggt"
+    ],
+    "additive_cost": 27.02,
+    "billed_cost": 27.02,
+    "importance": 14405.69898155515
+   },
+   {
+    "budget": 50.77,
+    "items": [
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "creatinine",
+     "ggt",
+     "CBC_UK"
+    ],
+    "features": [
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "creatinine",
+     "ggt",
+     "hgb"
+    ],
+    "additive_cost": 50.04,
+    "billed_cost": 34.87,
+    "importance": 21612.635554751167
+   }
+  ]
+ },
+ "coai_bundled": {
+  "hyper": {
+   "val_auc": 0.7978178105245873,
+   "penalty": "l1",
+   "C": 1.0
+  },
+  "importance": {
+   "age": 12508.728267346105,
+   "female": 4640.219552224041,
+   "albumin": 2739.705282259006,
+   "alp": 1399.7051386607259,
+   "alt": 6589.2194764577835,
+   "ast": 4290.5292675951405,
+   "bun": 237.93462464617113,
+   "creatinine": 2367.7209438472146,
+   "tc": 406.42227013130054,
+   "hdl": 530.2729607576154,
+   "tg": 67.08204830895568,
+   "ggt": 3525.9477370622353,
+   "hgb": 699.8070465060557,
+   "hba1c": 1698.6650146491788,
+   "crp": 1928.449487818084
+  },
+  "group_importance": {
+   "CMP_UK": 17624.814733466043,
+   "LIPID": 1003.7772791978716,
+   "ggt": 3525.9477370622353,
+   "CBC_UK": 699.8070465060557,
+   "hba1c": 1698.6650146491788,
+   "crp": 1928.449487818084
+  },
+  "panels": [
+   {
+    "budget": 27.1,
+    "items": [
+     "CMP_UK",
+     "ggt"
+    ],
+    "features": [
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "bun",
+     "creatinine",
+     "ggt"
+    ],
+    "additive_cost": 27.1,
+    "billed_cost": 27.1,
+    "importance": 21150.76247052828
+   },
+   {
+    "budget": 50.77,
+    "items": [
+     "CMP_UK",
+     "ggt",
+     "hba1c",
+     "crp"
+    ],
+    "features": [
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "bun",
+     "creatinine",
+     "ggt",
+     "hba1c",
+     "crp"
+    ],
+    "additive_cost": 49.76,
+    "billed_cost": 49.76,
+    "importance": 24777.876972995542
+   }
+  ]
+ }
+}
