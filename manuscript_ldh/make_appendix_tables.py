@@ -248,12 +248,18 @@ L.append('## Table S17. CLHLS (5-year death; Chinese prices; menu of 14 analytes
          'documented unit (median about 14 times the 2012 and 2014 values), so the 2008 blood wave could not be used. Three coding errors were then found and '
          'corrected before the final analysis: (c) valid days 29–31 had been set to 28; (d) people without any follow-up after baseline had been kept as '
          '0.5-month observations instead of being excluded as planned; (e) the unusable 2008 records still occupied each person\'s earliest draw, blocking '
-         'their 2012 or 2014 samples. Estimates before these corrections are listed at the end of this table. O/E in the panel tables uses people with known '
-         '5-year status; because many CLHLS participants had less than 5 years of follow-up, Kaplan–Meier ratios are given below and in the main text.\n')
+         'their 2012 or 2014 samples. Estimates before these corrections are listed at the end of this table. O/E, calibration slope and net benefit in the panel tables use '
+         'people with known 5-year status; because 30% of the 65–79 group were censored alive before 5 years, the censoring-aware estimates (Kaplan–Meier '
+         'O/E below; inverse-probability-of-censoring-weighted net benefit and slope in table S23) are the ones reported in the main text.\n')
 for tag, name in [('CLHLS', 'Ages 65–79 (primary)'), ('CLHLS80', 'Ages 80 and over')]:
     e25 = json.load(open(R / f't21_{tag}_endpoints.json'))
     L.append(f"### {name}: n {e25['n']}, deaths {e25['deaths']}\n"); L.append(md(pd.read_csv(R / f't21_{tag}_panels.csv').drop(columns=['features'])))
     L.append(md(pd.DataFrame([dict(contrast=k, estimate=v, lo=e25['boot'][k][0], hi=e25['boot'][k][1]) for k, v in e25['point'].items()])))
+    sp = e25['spline']
+    L.append(f"Restricted cubic spline Cox models (3 knots per analyte; {e25['n']} people, {e25['deaths']} deaths; 200 bootstrap resamples): C routine "
+             f"{sp['C routine']:.4f}, matched {sp['C matched']:.4f}, target-aware {sp['C aware@routine']:.4f}; matched − routine "
+             f"{sp['dC matched - routine']:.4f} ({sp['dC matched CI'][0]:.4f} to {sp['dC matched CI'][1]:.4f}); target-aware − routine "
+             f"{sp['dC aware - routine']:.4f} ({sp['dC aware CI'][0]:.4f} to {sp['dC aware CI'][1]:.4f}).\n")
 L.append('### Calibration accounting for censoring (post hoc)\n\nKnown-status O/E: people with known 5-year status only. Kaplan–Meier O/E: '
          'Kaplan–Meier 5-year risk divided by the mean predicted risk. Poisson O/E: observed deaths divided by the sum of predicted hazards over each '
          "person's follow-up.\n")
@@ -303,8 +309,8 @@ L.append(table(rows, ['Analysis', 'n', 'Deaths', 'Metric', 'Matched panel − ro
 L.append('## Table S18. Re-centring the laboratory terms on local laboratory values (exploratory; no outcome data used for the shift)\n\n'
          'Simple: laboratory terms re-centred on the local means. Age- and sex-adjusted: re-centred on local means adjusted for age and sex (declared the '
          'primary variant before results). A shift is one constant per cohort, so discrimination is unchanged. O/E by Kaplan–Meier (CHNS: binary, known '
-         'status) and by Poisson ratio. The CLHLS rows use the CLHLS sample before the coding corrections (c)–(e); the final CLHLS calibration is in table S17.\n')
-blocks = re.split(r'\n\s*\n', (T26 / 'dev_recenter.txt').read_text(encoding='utf-8').strip())
+         'status) and by Poisson ratio. CLHLS rows use the final CLHLS sample (rerun after the corrections listed in table S17).\n')
+blocks = re.split(r'\n\s*\n', (W / 'task29_revision' / 'dev_recenter.txt').read_text(encoding='utf-8').strip())
 for b in blocks:
     lines = b.splitlines(); title = lines[0].strip()
     if title.startswith('O/E'):
@@ -360,7 +366,8 @@ L2 = ['## Table S20. Missing inputs in use (post hoc)\n\n'
       'Decisions use 10% predicted 9-year risk. Same decision: share of people with the same decision as with complete inputs. Flagged: share whose 80% '
       'range crosses 10%. Same if not flagged: same decision among people not flagged. Changes flagged: share of changed decisions that were flagged. '
       f"One analyte missing: each analyte of each model removed in turn ({len(g28)} cases); median change in C {g28.dC.median():.4f}, "
-      f"{(g28.dC > -0.005).mean():.0%} of cases within 0.005, largest {g28.dC.min():.4f}.\n"]
+      f"{(g28.dC > -0.005).mean():.0%} of cases within 0.005, largest {g28.dC.min():.4f}. In the rows of column-wise extremes each column is the "
+      "extreme over the analytes removed one at a time, so different columns may come from different analytes.\n"]
 rows = []
 for _, r in s28.iterrows():
     rows.append([NM28[r.cohort], MD28[r.model], r.scenario.replace('one analyte missing: worst of each', 'one analyte missing: column-wise extremes over analytes'),
@@ -368,3 +375,198 @@ for _, r in s28.iterrows():
                  '' if pd.isna(r.changed_and_flagged) else f'{r.changed_and_flagged:.1%}'])
 L2.append(table(rows, ['Cohort', 'Model', 'Scenario', 'C, complete', 'C, imputed', 'ΔC', 'Same decision', 'Flagged', 'Same if not flagged', 'Changes flagged']))
 OUT.write_text(OUT.read_text(encoding='utf-8') + '\n' + '\n'.join(L2), encoding='utf-8'); print('S20 added')
+
+# ---------------- S21-S24: revision analyses (post hoc; task29_revision/PLAN.md) ----------------
+T29 = W / 'task29_revision'
+NM29 = {'NH3': 'NHANES III', 'GH': 'NHANES 2011–14', 'CHNS': 'CHNS', 'UKHLS': 'Understanding Society', 'CLHLS': 'CLHLS'}
+J = lambda n: json.load(open(T29 / n))  # noqa: E731
+f4 = lambda v: f'{v:.4f}'  # noqa: E731
+ci4 = lambda d: f"{d['point']:.4f} ({d['ci'][0]:.4f} to {d['ci'][1]:.4f})"  # noqa: E731
+ORD = {'CBC without differential': 'CBC without differential', 'Hb': 'haemoglobin', 'HEPATIC': 'hepatic function panel', 'RENAL': 'renal function panel',
+       'ELEC': 'electrolyte panel', 'LIPID': 'lipid panel', 'hba1c': 'HbA1c', 'acr': 'urine ACR', 'crp': 'CRP', 'CBC': 'CBC', 'CMP': 'CMP', 'BMP': 'BMP'}
+od = lambda o: ' + '.join(ORD.get(x, AN.get(x, x)) for x in o) if o else 'none'  # noqa: E731
+PN = {'age+sex only': 'Age and sex only', 'routine': 'Routine items', 'old matched': 'Matched panel (original menu)', 'old aware': 'Target-aware panel (original menu)',
+      'new matched': 'Matched panel (expanded menu)', 'new aware': 'Target-aware panel (expanded menu)', 'CMP+CBC': 'CMP+CBC',
+      'new aware (as-ordered budget)': 'Target-aware panel, as-ordered budget', 'CoAI full @matched': 'CoAI at the matched-panel price',
+      'CoAI full @routine': 'CoAI at the routine price', 'CoAI full @measured routine': 'CoAI at the as-measured routine price',
+      'CoAI full @ordered routine': 'CoAI at the as-ordered routine price', 'lasso-pw within routine (full)': 'Price-weighted lasso within the routine price',
+      'lasso-pw matched (full)': 'Price-weighted lasso, matched', 'NHS Health Check': 'NHS Health Check laboratory tests', 'matched to Health Check': 'Matched to the Health Check',
+      'Health Check budget': 'Best panel within the Health Check price', 'NBPHS check': 'NBPHS check laboratory tests', 'matched to NBPHS': 'Matched to the NBPHS check',
+      'NBPHS budget': 'Best panel within the NBPHS price', 'matched': 'Matched panel (main analysis)', 'aware@routine': 'Target-aware panel (main analysis)'}
+
+
+def pn(k):
+    return ' − '.join(PN.get(x, x) for x in k.split(' - '))
+
+
+AN = {'acr': 'urine ACR', 'alp': 'ALP', 'alt': 'ALT', 'ast': 'AST', 'ggt': 'GGT', 'hgb': 'haemoglobin', 'lymph_pct': 'lymphocyte %', 'gran_pct': 'granulocyte %',
+      'mcv': 'MCV', 'mpv': 'MPV', 'plt': 'platelets', 'rdw': 'RDW', 'wbc': 'white cells', 'protein': 'total protein', 'tc': 'total cholesterol',
+      'hdl': 'HDL cholesterol', 'tg': 'triglycerides', 'bun': 'urea', 'crp': 'CRP', 'hba1c': 'HbA1c'}
+an = lambda a: AN.get(a, a)  # noqa: E731
+
+
+L3 = ['## Table S21. Expanded US fee menu (post hoc)\n\n'
+      'The original US menu billed chemistry singly or as the BMP, CMP or lipid panel, and the blood count only as a CBC with differential. The expanded '
+      'menu adds the electrolyte panel (CPT 80051, $7.01), renal function panel (80069, $8.68), hepatic function panel (80076, $8.17), haemoglobin alone '
+      '(85018, $2.37) and a CBC without differential (85027, $6.47: white cells, haemoglobin, MCV, RDW, platelets, MPV), all from the 2026 Q4 Clinical '
+      'Laboratory Fee Schedule. Each feature set is billed at the cheapest billable combination. Selection was repeated in training data with the same score '
+      'and search, reusing the cross-validated scores already computed (the score does not depend on prices). CoAI used the same feature importances and '
+      'was run within the expanded candidate menu, in every compatible disjoint grouping of its orders (chemistry singly or through one panel family; lipids as a panel or singly; full CBC, CBC without '
+      'differential or haemoglobin alone), keeping the grouping with the highest total importance within budget. The lasso candidates were repriced. '
+      'Understanding Society: the routine reference was priced as ordered (CMP, CBC, lipids and HbA1c: $50.77) and as the cheapest billing of the '
+      'analytes measured ($45.37, with haemoglobin alone).\n']
+if (T29 / 'sel_us.json').exists():
+    su = J('sel_us.json'); sk = J('sel_uk.json')
+    rows = [['US', 'Routine bundle', od(su['routine']['order']), f"${su['routine']['price_old']:.2f}", f"${su['routine']['price_full']:.2f}"],
+            ['US', 'Matched panel, expanded menu', od(su['matched']['order']), '', f"${su['matched']['price']:.2f}"],
+            ['US', 'Target-aware panel, expanded menu', od(su['aware']['order']), '', f"${su['aware']['price']:.2f}"]]
+    rows += [['US', f"CoAI, expanded menu, budget ${p['budget']:.2f}", od(p['order']), '', f"${p['billed_cost']:.2f}"] for p in su['coai_full']['panels']]
+    for k, nm in [('matched', 'matched'), ('within', 'within the routine budget')]:
+        v = su['lasso_full']['price-weighted'][k]
+        if v:
+            rows.append(['US', f'Price-weighted lasso, {nm}', 'analytes used (not orders): ' + ', '.join(an(a) for a in v['features']), '', f"${v['price']:.2f}"])
+    rows += [['UK', 'Routine items', 'as ordered / as measured', f"${sk['routine']['price_old']:.2f}",
+              f"${sk['routine']['price_as_ordered']:.2f} / ${sk['routine']['price_as_measured']:.2f}"],
+             ['UK', 'Matched panel, expanded menu', od(sk['matched']['order']), '', f"${sk['matched']['price']:.2f}"],
+             ['UK', 'Target-aware panel, as-ordered budget', od(sk['aware_ordered']['order']), '', f"${sk['aware_ordered']['price']:.2f}"],
+             ['UK', 'Target-aware panel, as-measured budget', od(sk['aware_measured']['order']), '', f"${sk['aware_measured']['price']:.2f}"]]
+    rows += [['UK', f"CoAI, expanded menu, budget ${p['budget']:.2f}", od(p['order']), '', f"${p['billed_cost']:.2f}"] for p in sk['coai_full']['panels']]
+    L3.append('### Panels chosen in training data\n'); L3.append(table(rows, ['Menu', 'Panel', 'Orders', 'Price, original menu', 'Price, expanded menu']))
+    L3.append('### External validation\n')
+    for c, nm in [('NH3', 'NHANES III (C)'), ('GH', 'NHANES 2011–14 (C)'), ('I', 'NHANES 2015–16 (C; supplementary)'), ('UKHLS', 'Understanding Society (AUC)')]:
+        if not (T29 / f'valid_{c}.json').exists():
+            continue
+        v = J(f'valid_{c}.json'); L3.append(f'**{nm}**\n')
+        keep = [k for k in v['panels'] if c != 'UKHLS' or 'Health Check' not in k]
+        L3.append(table([[pn(k), f"${v['panels'][k]['price']:.2f}", f4(v['panels'][k]['disc']), f4(v['panels'][k]['NB'])] for k in keep],
+                        ['Panel', 'Price (expanded menu)', 'C or AUC', 'Net benefit']))
+        L3.append(table([[pn(k), ci4(d)] for k, d in v['contrasts'].items() if 'Health Check' not in k] +
+                        [['Net benefit: ' + pn(k), ci4(d)] for k, d in v['nb_contrasts'].items() if 'Health Check' not in k],
+                        ['Contrast', 'Difference (95% CI)']))
+    if (T29 / 'meta_full.json').exists():
+        mf = J('meta_full.json'); rows = []
+        for h_, nm in [('H1', 'Matched panel − routine bundle'), ('H2', 'Target-aware panel − routine bundle')]:
+            d = mf[h_]['all']['DL']; rows.append([nm, f"{d['est']:.4f} ({d['lo']:.4f} to {d['hi']:.4f})", f"{d['I2']:.0%}"])
+        L3.append('### Pooled over the five primary cohorts with the expanded-menu panels in the US and UK cohorts\n')
+        L3.append(table(rows, ['Contrast', 'Pooled (95% CI)', 'I²']))
+# S22 programmes
+CNM = {'CBC': 'blood count', 'alt': 'ALT', 'bun': 'urea', 'hdl': 'HDL cholesterol', 'tc': 'total cholesterol', 'tg': 'triglycerides', 'protein': 'total protein',
+       'crp': 'CRP', 'uric_acid': 'uric acid', 'hba1c': 'HbA1c'}
+
+
+def cn_tests(o):
+    o = [x for x in o if x not in ('lymph_pct', 'mcv', 'mpv', 'wbc', 'hgb', 'plt')]
+    return ', '.join(CNM.get(x, x) for x in o) or 'none'
+
+
+L3.append('## Table S22. Programme-based laboratory references from two national health checks (post hoc)\n\n'
+          'China, National Basic Public Health Service annual check for people aged 65 and over (NBPHS; 2017 specification): blood count, liver function (ALT, AST, total '
+          'bilirubin), kidney function (creatinine, urea), fasting glucose and lipids (total, HDL and LDL cholesterol, triglycerides); urinalysis, AST, total bilirubin and LDL cholesterol were not in the analysis menus and are not '
+          'included (CHNS measured LDL cholesterol, but it was not on the training menu). Price of the full 2017 blood list at our Shandong prices, including one blood draw, CN¥79.8 (AST CN¥3.5, total bilirubin CN¥4.5 and LDL cholesterol CN¥11, from the Jining list in appendix A1); the reference is the subset of the 2017 programme tests included in each cohort\'s analysis menu, at Chinese '
+          'prices. England, NHS Health Check (2019 guidance): simulated as the lipid panel and HbA1c for everyone, priced under the expanded US menu as a proxy (haemoglobin alone costs $2.37 plus one $9.34 draw). Cohort age ranges (CHNS and Understanding Society 40–79) differ from those of the programmes. '
+          'Panels were chosen in training data against each reference: the cheapest set at least as informative (matched to the programme) and the most '
+          'informative set within its price (programme budget). CLHLS: ages 65–79, 5-year death, inverse-probability-of-censoring-weighted net benefit at '
+          '5%; CHNS: 72-month risk, net benefit at 6%; Understanding Society: 9-year risk, net benefit at 10%.\n')
+for c, nm, cur in [('CHNS', 'CHNS (AUC; Chinese prices)', 'CN¥'), ('CLHLS', 'CLHLS, ages 65–79 (C; Chinese prices)', 'CN¥'),
+                   ('UKHLS', 'Understanding Society (AUC; US prices, expanded menu)', '$')]:
+    if not (T29 / f'valid_{c}.json').exists():
+        continue
+    v = J(f'valid_{c}.json'); L3.append(f'**{nm}**\n')
+    keep = [k for k in v['panels'] if c != 'UKHLS' or k in ('age+sex only', 'routine', 'NHS Health Check', 'matched to Health Check', 'Health Check budget')]
+    L3.append(table([[pn(k), od(v['panels'][k]['order']) if c == 'UKHLS' else cn_tests(v['panels'][k]['order']),
+                      f"{cur}{v['panels'][k]['price']:.2f}", f4(v['panels'][k]['disc']), f4(v['panels'][k]['NB'])] for k in keep],
+                    ['Panel', 'Tests', 'Price', 'C or AUC', 'Net benefit']))
+    pr = [k for k in v['contrasts'] if c != 'UKHLS' or 'Health Check' in k]
+    L3.append(table([[pn(k), ci4(v['contrasts'][k])] for k in pr] + [['Net benefit: ' + pn(k), ci4(d)] for k, d in v['nb_contrasts'].items()
+                                                                     if c != 'UKHLS' or 'Health Check' in k], ['Contrast', 'Difference (95% CI)']))
+# S23 censoring and horizons
+cz = J('censor.json')
+L3.append('## Table S23. Censoring, unknown status and prediction horizons (post hoc)\n\n'
+          'CLHLS: net benefit and calibration slope recomputed with inverse probability of censoring weights (reverse Kaplan–Meier; people censored alive '
+          'before 5 years carry weight 0 and the denominator is everyone); Kaplan–Meier net benefit as a check. Understanding Society: people with unknown '
+          '9-year status were represented by weighting those with known status by the inverse of their probability of known status (logistic model on age, '
+          'sex, wave and the 13 analytes; weights truncated at the 1st and 99th percentiles). CHNS: 72-month risk and a 6% threshold (about 1% a year, as for '
+          'the other horizons). Understanding Society: 102-month risk, the typical interval to the last wave for people known to be alive.\n')
+rows = []
+for tag, nm in [('CLHLS', 'ages 65–79'), ('CLHLS80', 'ages 80 and over')]:
+    for k, p in cz[tag]['panels'].items():
+        rows.append([nm, lab(k), f4(p['NB_known_status']), f4(p['NB_ipcw']), f4(p['NB_km']), f4(p['NB_treat_all_ipcw']), f"{p['slope_known_status']:.2f}",
+                     f"{p['slope_ipcw']:.2f}", f"{p['OE_ipcw']:.2f}"])
+L3.append(f"### CLHLS (censored alive before 5 years: {cz['CLHLS']['censored_alive_before_H']:.0%} at ages 65–79, "
+          f"{cz['CLHLS80']['censored_alive_before_H']:.0%} at 80 and over)\n")
+L3.append(table(rows, ['Ages', 'Model', 'Net benefit, known status', 'Net benefit, IPCW', 'Net benefit, Kaplan–Meier', 'Treat all, IPCW',
+                       'Slope, known status', 'Slope, IPCW', 'O/E, IPCW']))
+L3.append(table([[pn(k.replace('dNB ', '').replace('aware@routine', 'aware@routine').replace(' - routine', ' - routine')), ci4(d)] for k, d in cz['CLHLS']['contrasts_ipcw'].items()],
+                ['Contrast, ages 65–79 (IPCW net benefit)', 'Difference (95% CI)']))
+L3.append('### NHANES cohorts: share censored alive before the horizon\n')
+L3.append(table([[k.replace('2011-14', '2011–14').replace('2015-16', '2015–16'), v['n'], f"{v['share']:.2%}"] for k, v in cz['nhanes_censoring'].items()],
+                ['Cohort', 'n', 'Censored alive before the horizon']))
+u = cz['UKHLS']
+L3.append(f"### Understanding Society (complete laboratory data {u['n_complete']}; known status {u['n_known']}; unknown {u['unknown_share']:.1%})\n")
+L3.append(table([[lab(k), f4(p['AUC_known']), f4(p['AUC_ipw']), f"{p['OE_108_known']:.2f}", f"{p['OE_108_ipw']:.2f}", f"{p['OE_102_known']:.2f}",
+                  f"{p['slope_108']:.2f}", f"{p['slope_102']:.2f}", f4(p['NB_108_known']), f4(p['NB_108_ipw']), f4(p['NB_102_known'])] for k, p in u['panels'].items()],
+                ['Model', 'AUC', 'AUC, IPW', 'O/E 108 m', 'O/E 108 m, IPW', 'O/E 102 m', 'Slope 108 m', 'Slope 102 m', 'NB 108 m', 'NB 108 m, IPW', 'NB 102 m']))
+L3.append(table([[('AUC: ' if k.startswith('dAUC') else 'Net benefit: ') + pn(k.split(' ', 1)[1]), ci4(d)] for k, d in u['contrasts_ipw'].items()],
+                ['Contrast (inverse-probability weighted)', 'Difference (95% CI)']))
+h = cz['CHNS']
+L3.append(f"### CHNS (n {h['n']}, deaths {h['deaths']}; treat-all net benefit at 6%: {h['NB_treat_all_72_tau6']:.4f})\n")
+L3.append(table([[lab(k), f"{p['OE_72']:.2f}", f"{p['slope_72']:.2f}", f4(p['NB_72_tau6']), f4(p['NB_9y_tau10_old']), f"{p['flagged_72_tau6']:.1%}",
+                  f"{p['flagged_9y_tau10']:.1%}", f"{p['threshold_6y_equivalent_to_9y_10pct']:.1%}"] for k, p in h['panels'].items()],
+                ['Model', 'O/E, 72 m', 'Slope, 72 m', 'NB, 72 m at 6%', 'NB, 9-year risk at 10%', 'Flagged, 72 m ≥6%', 'Flagged, 9-year ≥10%',
+                 '6-year risk equivalent to 9-year 10%']))
+L3.append(table([[pn(k.replace('dNB ', '')), ci4(d)] for k, d in h['contrasts_72'].items()], ['Contrast (72-month net benefit at 6%)', 'Difference (95% CI)']))
+# S24 pooling sensitivity
+mp = J('meta_published.json')
+L3.append('## Table S24. Pooling sensitivity and the non-inferiority margin (post hoc)\n\n'
+          'DL: DerSimonian–Laird random effects (main analysis). REML–HK: restricted maximum likelihood with the Hartung–Knapp interval (t distribution, '
+          'k−1 degrees of freedom). C cohorts: NHANES III, NHANES 2011–14, CLHLS; AUC cohorts: CHNS, Understanding Society.\n')
+
+
+def fx(d):
+    return f"{d['est']:.4f} ({d['lo']:.4f} to {d['hi']:.4f})"
+
+
+rows = []
+for h_, nm in [('H1', 'Matched − routine'), ('H2', 'Target-aware − routine')]:
+    a = mp[h_]
+    rows += [[nm, 'All five', fx(a['all']['DL']), fx(a['all']['REML_HK'])], [nm, 'C cohorts', fx(a['C_only']['DL']), fx(a['C_only']['REML_HK'])],
+             [nm, 'AUC cohorts', fx(a['AUC_only']['DL']), '—']]
+    rows += [[nm, f'Without {NM29[c]}', fx(v['DL']), fx(v['REML_HK'])] for c, v in a['leave_one_out'].items()]
+L3.append(table(rows, ['Contrast', 'Cohorts', 'DL (95% CI)', 'REML–HK (95% CI)']))
+ni, gn = mp['noninferiority'], mp['margin_vs_gain']
+rows = [[NM29[c], f"{ni[c]['lower']:.4f}", 'yes' if ni[c]['ni_001'] else 'no', 'yes' if ni[c]['ni_0005'] else 'no',
+         f"{gn[c]['routine_gain']:.4f}", f"{gn[c]['margin_share_001']:.0%}"] for c in ['NH3', 'GH', 'CHNS', 'UKHLS', 'CLHLS']]
+rows.append(['Pooled', f"{ni['pooled']['lower']:.4f}", 'yes' if ni['pooled']['ni_001'] else 'no', 'yes' if ni['pooled']['ni_0005'] else 'no', '', ''])
+L3.append("### Matched panel: lower 95% bound against two margins, and the −0.01 margin relative to the routine bundle's gain over age and sex\n")
+L3.append(table(rows, ['Cohort', 'Lower bound', 'Above −0.01', 'Above −0.005', 'Routine minus age and sex', '0.01 as share of that gain']))
+OUT.write_text(OUT.read_text(encoding='utf-8') + '\n' + '\n'.join(L3), encoding='utf-8'); print('S21-S24 added')
+
+# ---------- S25-S27: further post hoc analyses (task30_extra) ----------
+T30 = W / 'task30_extra'
+L4 = []
+mi = pd.read_csv(T30 / 't30_mi_pooled.csv'); MIQ = {'dC matched': 'C: matched − routine', 'dC aware': 'C: target-aware − routine',
+                                                    'dNB matched': 'Net benefit at 10%: matched − routine', 'dNB aware': 'Net benefit at 10%: target-aware − routine'}
+L4.append('## Table S25. Multiple imputation in NHANES III: paired differences (post hoc)\n\n'
+          '8002 participants with at least half of the analytes measured (1307 deaths by 9 years); five imputed datasets (chained equations, as in table S9); '
+          '200 participant bootstrap resamples within each dataset; Rubin\'s rules with Barnard–Rubin degrees of freedom.\n')
+fm = lambda v: f'{v:.5f}' if abs(v) < 0.0001 and v != 0 else f'{v:.4f}'  # noqa: E731
+L4.append(table([[MIQ[r.quantity], f"{fm(r.estimate)} ({fm(r.low)} to {fm(r.high)})"] for r in mi.itertuples()], ['Contrast', 'Pooled difference (95% CI)']))
+cz = pd.read_csv(T30 / 't30_calc.csv'); CN = {'NH3': 'NHANES III (9-year risk, 10%)', 'GH': 'NHANES 2011–14 (5-year risk, 5%)'}
+L4.append("## Table S26. The calculator's 80% risk range with missing results (post hoc)\n\n"
+          'Fixed panels, values removed by simulation. Coverage: share of people whose complete-data risk (not true risk) lies within the 80% range; coverage and width are on the 9-year risk scale of the calculator (nominal coverage 80%). Width: upper minus lower limit, percentage points. One analyte missing: median over analytes, and the column-wise extreme over analytes (lowest C and coverage, widest range, largest ΔNB loss; not necessarily the same analyte). '
+          'ΔNB: net benefit with imputed risk minus net benefit with complete data, at the cohort threshold. Same cohorts, models and missing-data scenarios as table S20.\n')
+for c in ['NH3', 'GH']:
+    L4.append(f'### {CN[c]}\n')
+    L4.append(table([[r.model, r.scenario.replace('(worst analyte)', '(column-wise extremes)'), f'{r.C_complete:.4f}', f'{r.C:.4f}', f'{r.coverage:.0%}', f'{r.width_median_pp:.1f}', f'{r.width_p90_pp:.1f}', f'{r.dNB:+.4f}']
+                     for r in cz[cz.cohort == c].itertuples()],
+                    ['Model', 'Scenario', 'C, complete', 'C, imputed', 'Coverage', 'Median width', '90th centile width', 'ΔNB']))
+bz = pd.read_csv(T30 / 't30_bench_summary.csv')
+L4.append('## Table S27. Cross-domain benchmark: split-level spread (appendix figure S4; post hoc)\n\n'
+          'Training subsample n=100; ten data blocks (from nine sources) × five outer splits per setting. Lead: explained variance of the better target-aware approach minus the best reusable panel (FSCA), '
+          'per block and outer split. Interval: 2000 bootstrap resamples of blocks. The method on each side was chosen on the same held-out scores, so the table is descriptive.\n')
+L4.append(table([[f'k={int(r.k)}, ' + ('ridge' if r.predictor == 'ridge' else 'boosted trees'), f'{r.lead_positive}/{r.cells}', f'{r.lead_ge_002}/{r.cells}',
+                  f'{r.min_diff:.3f}', f'{r.mean_lead:.3f} ({r.low:.3f} to {r.high:.3f})'] for r in bz.itertuples()],
+                ['Setting', 'Splits with a lead', 'Lead ≥0.02', 'Smallest lead', 'Mean lead (95% interval)']))
+OUT.write_text(OUT.read_text(encoding='utf-8') + '\n' + '\n'.join(L4), encoding='utf-8'); print('S25-S27 added')
+import re as _re  # noqa: E402
+OUT.write_text(_re.sub(r'-0\.0000(?!\d)', '0.0000', OUT.read_text(encoding='utf-8')), encoding='utf-8')   # no negative zero in printed tables

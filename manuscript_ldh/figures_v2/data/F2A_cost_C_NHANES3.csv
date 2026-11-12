@@ -11,3 +11,5 @@ PhenoAge analytes (refitted),established score,40.62,0.7882431675489612
 Matched panel,matched,32.41,0.7924596654257767
 Target-aware panel,target-aware,50.57,0.8075272420972708
 All 34 analytes,standard bundle,103.65,0.8086398907858622
+"Lasso, matched",lasso,38.63,0.8051576732507562
+"Lasso, within routine",lasso,45.83,0.8064828098743546

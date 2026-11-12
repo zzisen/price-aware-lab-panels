@@ -1,0 +1,235 @@
+{
+ "cohort": "CHNS",
+ "deaths": 227,
+ "n": 4542,
+ "horizon": 72,
+ "tau": 0.06,
+ "metric": "AUC",
+ "panels": {
+  "age+sex only": {
+   "features": [],
+   "price": 0.0,
+   "order": [],
+   "disc": 0.7830108064787826,
+   "NB": 0.017524382360381122,
+   "mean_risk": 0.061160758858806716
+  },
+  "routine": {
+   "features": [
+    "alt",
+    "protein",
+    "albumin",
+    "bun",
+    "creatinine",
+    "uric_acid",
+    "tc",
+    "tg",
+    "hdl",
+    "glucose",
+    "wbc",
+    "hgb",
+    "plt"
+   ],
+   "price": 74.8,
+   "order": [
+    "CBC",
+    "albumin",
+    "alt",
+    "bun",
+    "creatinine",
+    "glucose",
+    "hdl",
+    "protein",
+    "tc",
+    "tg",
+    "uric_acid"
+   ],
+   "disc": 0.7927902358844519,
+   "NB": 0.020822207856694492,
+   "mean_risk": 0.04888625490355131
+  },
+  "matched": {
+   "features": [
+    "albumin",
+    "creatinine",
+    "glucose",
+    "hgb",
+    "plt",
+    "protein",
+    "wbc"
+   ],
+   "price": 43.8,
+   "order": [
+    "CBC",
+    "albumin",
+    "creatinine",
+    "glucose",
+    "protein"
+   ],
+   "disc": 0.793772364612738,
+   "NB": 0.02046619260425157,
+   "mean_risk": 0.04748394511860481
+  },
+  "aware@routine": {
+   "features": [
+    "albumin",
+    "bun",
+    "creatinine",
+    "crp",
+    "glucose",
+    "hgb",
+    "plt",
+    "protein",
+    "wbc"
+   ],
+   "price": 74.8,
+   "order": [
+    "CBC",
+    "albumin",
+    "bun",
+    "creatinine",
+    "crp",
+    "glucose",
+    "protein"
+   ],
+   "disc": 0.7983491661604586,
+   "NB": 0.021248489277382723,
+   "mean_risk": 0.048122382470396394
+  },
+  "NBPHS check": {
+   "features": [
+    "alt",
+    "creatinine",
+    "bun",
+    "glucose",
+    "tc",
+    "tg",
+    "hdl",
+    "wbc",
+    "hgb",
+    "plt"
+   ],
+   "price": 60.8,
+   "order": [
+    "CBC",
+    "alt",
+    "bun",
+    "creatinine",
+    "glucose",
+    "hdl",
+    "tc",
+    "tg"
+   ],
+   "disc": 0.7784299212357262,
+   "NB": 0.01989001002464,
+   "mean_risk": 0.06482793244333003
+  },
+  "matched to NBPHS": {
+   "features": [
+    "albumin",
+    "protein"
+   ],
+   "price": 15.3,
+   "order": [
+    "albumin",
+    "protein"
+   ],
+   "disc": 0.7936069749516337,
+   "NB": 0.021295333389546266,
+   "mean_risk": 0.04149300529964137
+  },
+  "NBPHS budget": {
+   "features": [
+    "albumin",
+    "alt",
+    "bun",
+    "creatinine",
+    "glucose",
+    "hgb",
+    "plt",
+    "protein",
+    "wbc"
+   ],
+   "price": 52.3,
+   "order": [
+    "CBC",
+    "albumin",
+    "alt",
+    "bun",
+    "creatinine",
+    "glucose",
+    "protein"
+   ],
+   "disc": 0.7909740123838062,
+   "NB": 0.020513036716415113,
+   "mean_risk": 0.04888909115269671
+  }
+ },
+ "contrasts": {
+  "NBPHS budget - NBPHS check": {
+   "point": 0.012544091148079972,
+   "ci": [
+    0.0028122443372990886,
+    0.022154537821394274
+   ]
+  },
+  "matched to NBPHS - NBPHS check": {
+   "point": 0.015177053715907496,
+   "ci": [
+    -0.0022062443280080747,
+    0.03230202733135682
+   ]
+  },
+  "matched - NBPHS check": {
+   "point": 0.01534244337701185,
+   "ci": [
+    0.005293719868217564,
+    0.02634796463977527
+   ]
+  },
+  "aware@routine - NBPHS check": {
+   "point": 0.019919244924732404,
+   "ci": [
+    0.01030218888594188,
+    0.030340616481949384
+   ]
+  },
+  "NBPHS check - age+sex only": {
+   "point": -0.004580885243056443,
+   "ci": [
+    -0.0188125997828857,
+    0.010128007626300568
+   ]
+  },
+  "routine - NBPHS check": {
+   "point": 0.01436031464872567,
+   "ci": [
+    0.004598067463414155,
+    0.02429163271457006
+   ]
+  }
+ },
+ "nb_contrasts": {
+  "NBPHS budget - NBPHS check": {
+   "point": 0.0006230266917751116,
+   "ci": [
+    -0.0019680382622708124,
+    0.0031386726252377335
+   ]
+  },
+  "matched to NBPHS - NBPHS check": {
+   "point": 0.001405323364906265,
+   "ci": [
+    -0.00134477734993489,
+    0.004239743481641794
+   ]
+  },
+  "NBPHS check - age+sex only": {
+   "point": 0.002365627664258879,
+   "ci": [
+    -0.00014146921873389663,
+    0.004600677365861884
+   ]
+  }
+ }
+}

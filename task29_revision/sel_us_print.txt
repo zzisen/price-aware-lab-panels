@@ -1,0 +1,17 @@
+old menu, merged cache {'features': ['albumin', 'alp', 'alt', 'ast', 'bilirubin', 'bun', 'calcium', 'chloride', 'co2', 'creatinine', 'glucose', 'gran_pct', 'hgb', 'lymph_pct', 'mcv', 'mono_pct', 'mpv', 'phosphorus', 'plt', 'potassium', 'protein', 'rdw', 'sodium', 'wbc'], 'price': 32.41, 'cv': -15296.628052750562} {'features': ['acr', 'albumin', 'alp', 'alt', 'ast', 'bilirubin', 'bun', 'calcium', 'chloride', 'co2', 'creatinine', 'ggt', 'glucose', 'gran_pct', 'hgb', 'lymph_pct', 'mcv', 'mono_pct', 'mpv', 'phosphorus', 'plt', 'potassium', 'protein', 'rdw', 'sodium', 'wbc'], 'price': 50.57, 'cv': -15213.44748357292}
+USFULL 17.11 ['CBC'] 17.11 -15528.67 2 s 1022
+USFULL 17.52 ['CBC'] 17.11 -15528.67 1 s 1023
+USFULL 17.8 ['CBC'] 17.11 -15528.67 0 s 1023
+USFULL 19.48 ['RENAL'] 18.02 -15528.43 3 s 1025
+USFULL 19.9 ['CMP'] 19.9 -15449.31 3 s 1027
+USFULL 22.73 ['CMP', 'HGB'] 22.27 -15445.11 32 s 1049
+USFULL 27.67 ['CBC', 'CMP'] 27.67 -15306.03 96 s 1079
+USFULL 30.35 ['CBC', 'CMP'] 27.67 -15306.03 39 s 1089
+USFULL 41.06 ['CBC', 'ELEC', 'HEPATIC', 'acr', 'bun'] 38.63 -15227.88 368 s 1148
+USFULL 44.94 ['CBC', 'ELEC', 'HEPATIC', 'acr', 'bun', 'phosphorus'] 43.37 -15223.17 426 s 1199
+USFULL 50.77 ['CBC', 'CMP', 'acr', 'ggt', 'phosphorus'] 50.57 -15213.45 78 s 1209
+FULL routine 50.77 matched {'features': ['albumin', 'alp', 'alt', 'ast', 'bilirubin', 'bun', 'calcium', 'chloride', 'co2', 'creatinine', 'glucose', 'gran_pct', 'hgb', 'lymph_pct', 'mcv', 'mono_pct', 'mpv', 'phosphorus', 'plt', 'potassium', 'protein', 'rdw', 'sodium', 'wbc'], 'price': 32.41, 'cv': -15296.628052750562, 'order': ['CMP', 'phosphorus', 'CBC']} aware {'features': ['acr', 'albumin', 'alp', 'alt', 'ast', 'bilirubin', 'bun', 'calcium', 'chloride', 'co2', 'creatinine', 'ggt', 'glucose', 'gran_pct', 'hgb', 'lymph_pct', 'mcv', 'mono_pct', 'mpv', 'phosphorus', 'plt', 'potassium', 'protein', 'rdw', 'sodium', 'wbc'], 'price': 50.57, 'cv': -15213.44748357292, 'order': ['CMP', 'ggt', 'phosphorus', 'CBC', 'acr']}
+CoAI full 32.41 ['CMP', 'phosphorus', 'CBC'] 32.41
+CoAI full 50.77 ['CMP', 'ggt', 'phosphorus', 'CBC', 'acr'] 50.57
+lasso {'price-weighted': {'matched': {'features': ['acr', 'albumin', 'alp', 'chloride', 'glucose', 'hgb', 'lymph_pct', 'mcv', 'mpv', 'plt', 'protein', 'rdw', 'wbc'], 'price': 38.63}, 'within': {'features': ['acr', 'albumin', 'alp', 'chloride', 'ggt', 'glucose', 'gran_pct', 'hgb', 'lymph_pct', 'mcv', 'mpv', 'plt', 'potassium', 'protein', 'rdw', 'wbc'], 'price': 45.83}}, 'unweighted': {'matched': {'features': ['acr', 'albumin', 'alp', 'chloride', 'crp', 'ggt', 'lymph_pct', 'mcv', 'potassium', 'rdw'], 'price': 58.78}, 'within': {'features': ['acr', 'albumin', 'crp', 'rdw'], 'price': 44.67}}}
+done us

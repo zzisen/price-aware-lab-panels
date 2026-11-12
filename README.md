@@ -1,6 +1,6 @@
 # Price-aware laboratory panels for mortality risk: code and models
 
-Code, fitted models, the ordering chart and the offline calculator for the article "Price-aware selection of laboratory panels for mortality risk: development and external validation in five cohorts from three countries" (Zhou Z, Zhang Y, Pang H; submitted). Please cite this repository as https://doi.org/10.5281/zenodo.24149614 (all versions; see `CITATION.cff`).
+Code, fitted models, the ordering chart and the offline calculator for the article "Price-aware laboratory panels for mortality risk: development and external validation in five population cohorts from three countries" (Zhou Z, Zhang Y, Pang H; submitted). Please cite this repository as https://doi.org/10.5281/zenodo.24149614 (all versions; see `CITATION.cff`).
 Research software; not a medical device.
 
 ## Contents
@@ -18,6 +18,8 @@ Research software; not a medical device.
 | `task26_transport/` | Exploratory re-centring analysis. |
 | `task27_ukhls/` | Understanding Society data reading, selection within its menu (US prices), validation and checks. |
 | `task28_missing/` | Post hoc evaluation of the calculator's handling of missing results (appendix table S20). |
+| `task29_revision/` | Post hoc analyses (appendix A4.4, tables S21–S24): selection and validation with the expanded US fee menu (our search and CoAI), programme-based health-check references (CHNS, CLHLS, Understanding Society), censoring and unknown-status weighting, prediction horizons, and pooling sensitivity. Selections and aggregate results are included. |
+| `task30_extra/` | Further post hoc analyses (tables S25–S27): paired differences after multiple imputation in NHANES III, coverage of the calculator's 80% risk range, and the split-level spread of the cross-domain benchmark. Aggregate results are included. |
 | `manuscript_ldh/` | Scripts that produce the tables and appendix; `model_coefficients.json` (all panel models). |
 | `manuscript_ldh/figures_v2/` | `export_figure_data.py` writes the plotted values to `data/` from the analysis outputs; `make_figures_v2.py` draws Figures 1–5 and appendix figures S1–S4 from those files. |
 | `DATA_DICTIONARY.md` | Derived variables: names, units, transformations and outcome definitions in each cohort. |
@@ -39,6 +41,7 @@ Figures 1–5 and appendix figures S1–S4 can be redrawn from the CSV files in 
 
 ## Versions
 
+- 1.1.0: adds the post hoc analyses reported in the submitted article (`task29_revision/`, `task30_extra/`; appendix A4.4 and tables S21–S27), the appendix-table scripts that print them, and the final figure scripts and plotted values (including the flag-everyone curve in appendix figure S3 and the separate development path of the ordering chart in figure 1B).
 - 1.0.1: the stepwise calculator now flags missing values whenever the 80% risk range is not entirely inside or entirely outside an ordering band; citation metadata include the DOI.
 - 1.0.0: first release.
 

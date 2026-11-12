@@ -71,3 +71,20 @@ class SequentialPolicy:
         for s in range(len(self.cols) - 1):
             go = active & (self.stop[s].prob(R[s]) >= eps); step[go] = s + 1; active = go
         return step, R[step, np.arange(n)], np.asarray(step_costs)[step]
+
+
+def apply_chart(rule, risks, value=30000):
+    """Apply the frozen value-of-information chart (the rule used in the manuscript and the calculator; task22_adaptive/rule_t22.json).
+    rule: the loaded JSON; risks: dict step name -> array of predicted risks at that step ('clinical only', 'CMP', 'CMP+CBC', 'CMP+CBC+acr').
+    A person goes on to the next block while the current risk lies inside one of the chart's intervals for that step.
+    Returns (step reached, risk used, cost paid) per person."""
+    names = list(rule['costs']); chart = rule['chart'][str(int(value))]
+    n = len(np.asarray(risks[names[0]])); step = np.zeros(n, int); active = np.ones(n, bool)
+    for s, nm in enumerate(names[:-1]):
+        r = np.asarray(risks[nm], float)
+        go = np.zeros(n, bool)
+        for lo, hi in chart.get(nm, []):
+            go |= (r >= lo) & (r <= hi)
+        go &= active; step[go] = s + 1; active = go
+    R = np.array([np.asarray(risks[nm], float) for nm in names])
+    return step, R[step, np.arange(n)], np.array([rule['costs'][nm] for nm in names])[step]

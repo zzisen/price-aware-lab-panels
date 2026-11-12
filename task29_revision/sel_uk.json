@@ -1,0 +1,219 @@
+{
+ "mode": "uk",
+ "cache_start": 845,
+ "routine": {
+  "features": [
+   "bun",
+   "creatinine",
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "hgb",
+   "tc",
+   "hdl",
+   "tg",
+   "hba1c"
+  ],
+  "price_as_ordered": 50.77,
+  "price_as_measured": 45.37,
+  "price_old": 50.77,
+  "cv": -15547.612385316837
+ },
+ "matched": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "creatinine",
+   "ggt"
+  ],
+  "price": 27.1,
+  "cv": -15525.301684196067,
+  "order": [
+   "CMP",
+   "ggt"
+  ]
+ },
+ "aware_ordered": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bun",
+   "creatinine",
+   "crp",
+   "ggt",
+   "hba1c"
+  ],
+  "price": 49.76,
+  "cv": -15484.85595599706,
+  "order": [
+   "CMP",
+   "ggt",
+   "hba1c",
+   "crp"
+  ]
+ },
+ "aware_measured": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bun",
+   "creatinine",
+   "ggt",
+   "hba1c",
+   "hgb",
+   "tc"
+  ],
+  "price": 43.53,
+  "cv": -15499.074945884418,
+  "order": [
+   "CMP",
+   "ggt",
+   "tc",
+   "Hb",
+   "hba1c"
+  ]
+ },
+ "nhshc": {
+  "features": [
+   "tc",
+   "hdl",
+   "tg",
+   "hba1c"
+  ],
+  "price": 32.44,
+  "cv": -15810.16835941483,
+  "order": [
+   "LIPID",
+   "hba1c"
+  ]
+ },
+ "matched_hc": {
+  "features": [
+   "hgb"
+  ],
+  "price": 11.71,
+  "cv": -15807.943652572882,
+  "order": [
+   "Hb"
+  ]
+ },
+ "aware_hc": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "creatinine",
+   "ggt",
+   "hgb"
+  ],
+  "price": 29.47,
+  "cv": -15521.83503439233,
+  "order": [
+   "CMP",
+   "ggt",
+   "Hb"
+  ]
+ },
+ "coai_full": {
+  "hyper": {
+   "val_auc": 0.7978178105245873,
+   "penalty": "l1",
+   "C": 1.0
+  },
+  "panels": [
+   {
+    "budget": 27.1,
+    "features": [
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "bun",
+     "creatinine",
+     "ggt"
+    ],
+    "items": [
+     "CMP",
+     "ggt"
+    ],
+    "billed_cost": 27.1,
+    "importance": 21150.765956094074,
+    "order": [
+     "CMP",
+     "ggt"
+    ],
+    "cv": -15528.379005867031
+   },
+   {
+    "budget": 45.37,
+    "features": [
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "bun",
+     "creatinine",
+     "ggt",
+     "hba1c",
+     "hgb",
+     "tc"
+    ],
+    "items": [
+     "CMP",
+     "ggt",
+     "tc",
+     "HGB",
+     "hba1c"
+    ],
+    "billed_cost": 43.53,
+    "importance": 23955.6672157464,
+    "order": [
+     "CMP",
+     "ggt",
+     "tc",
+     "Hb",
+     "hba1c"
+    ],
+    "cv": -15499.074945884418
+   },
+   {
+    "budget": 50.77,
+    "features": [
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "bun",
+     "creatinine",
+     "crp",
+     "ggt",
+     "hba1c"
+    ],
+    "items": [
+     "CMP",
+     "ggt",
+     "hba1c",
+     "crp"
+    ],
+    "billed_cost": 49.76,
+    "importance": 24777.885742817994,
+    "order": [
+     "CMP",
+     "ggt",
+     "hba1c",
+     "crp"
+    ],
+    "cv": -15484.85595599706
+   }
+  ]
+ },
+ "cache_end": 934
+}

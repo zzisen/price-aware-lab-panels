@@ -58,7 +58,8 @@ w(pd.DataFrame([dict(output='Matched panel (USA)', items='CMP + CBC + phosphorus
 KEEP = {'age+sex only': ('Age and sex only', 'reference line'), 'BMP': ('BMP', 'standard bundle'), 'CBC': ('CBC', 'standard bundle'), 'CMP': ('CMP', 'standard bundle'),
         'LIPID': ('Lipids', 'standard bundle'), 'CMP+CBC': ('CMP+CBC', 'standard bundle'), 'routine': ('Routine bundle', 'routine'),
         'CBC+BMP (IMRS-type)': ('CBC+BMP (Intermountain-type)', 'established score'), 'PhenoAge analytes': ('PhenoAge analytes (refitted)', 'established score'),
-        'matched': ('Matched panel', 'matched'), 'aware@routine': ('Target-aware panel', 'target-aware'), 'all analytes': ('All 34 analytes', 'standard bundle')}
+        'matched': ('Matched panel', 'matched'), 'aware@routine': ('Target-aware panel', 'target-aware'), 'all analytes': ('All 34 analytes', 'standard bundle'),
+        'lasso-pw matched': ('Lasso, matched', 'lasso'), 'lasso-pw within routine': ('Lasso, within routine', 'lasso')}
 for c, f in [('NH3', 'F2A_cost_C_NHANES3.csv')]:
     p = pd.read_csv(R / f't21_{c}_panels.csv').set_index('panel')
     w(pd.DataFrame([dict(panel=lab, category=cat, usd=p.US[k], C=p.C[k]) for k, (lab, cat) in KEEP.items() if k in p.index]), f)

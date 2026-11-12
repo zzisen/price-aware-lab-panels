@@ -2,7 +2,7 @@
  "title": "Price-aware laboratory panels for mortality risk: code, models and calculator",
  "upload_type": "software",
  "license": "MIT",
- "description": "Code, fitted model coefficients, the value-of-information ordering chart and an offline web calculator accompanying the article \"Price-aware selection of laboratory panels for mortality risk: development and external validation in five cohorts from three countries\". No participant data are included; the survey data are available from their providers.",
+ "description": "Code, fitted model coefficients, the value-of-information ordering chart and an offline web calculator accompanying the article \"Price-aware laboratory panels for mortality risk: development and external validation in five population cohorts from three countries\". No participant data are included; the survey data are available from their providers.",
  "creators": [
   {
    "name": "Zhou, Zisen",

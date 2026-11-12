@@ -390,7 +390,7 @@ def figure1(audit):
     a = plate.panel("A", Region(0, 0, 55, 55), "CMP fee: panel or single tests")
     b = plate.panel("B", Region(55, 0, 125, 55), "Panels chosen in training data")
     c = plate.panel("C", Region(0, 55, 180, 50), "Training and validation cohorts")
-    d = plate.panel("D", Region(0, 105, 180, 20), "Prespecified hypotheses")
+    d = plate.panel("D", Region(0, 105, 180, 20), "Prespecified tests")
     prices = Table("F1A_cmp_price.csv")
     cards = Table("F1C_cohort_cards.csv")
     train = find(cards.rows, order=0)
@@ -403,7 +403,7 @@ def figure1(audit):
         a.base.add_patch(Rectangle((2.9, y + 1.2), length, 3.6, facecolor=color, edgecolor="none"))
         a.text(2.9 + length + 1.6, y + 3.0, prices.label(row, "usd", usd))
     a.text(2.5, 43.0, (prices.derived([bottom.name, top.name], "usd: first listed row ÷ second, 1 decimal",
-                                      f"{bottom.usd / top.usd:.1f}×"), " the panel fee"), size=8, bold=True)
+                                      f"{bottom.usd / top.usd:.1f}×"), " the panel fee when billed singly"), size=8, bold=True)
     box(b.base, 2.6, 15.4, 32, 23.2, fill=LIGHT)
     box(b.base, 40.3, 15.4, 32, 23.2)
     b.text(4.2, 19.5, cards.label(train, "cohort"), bold=True)
@@ -434,7 +434,11 @@ def figure1(audit):
         box(b.base, 77.2, y, 45, 13, fill, color)
         b.text(78.8, y + 2.85, title, bold=True)
         b.text(78.8, y + 8.4, desc, max_width=41.8)
-        arrow(b.base, (72.8, 27.0), (76.7, y + 6.5))
+        if title == "Ordering chart":                     # separately trained sequential rule, not an output of the panel search
+            arrow(b.base, None, None, path=[(18.6, 39.1), (18.6, y + 6.5), (76.7, y + 6.5)])
+            b.text(21.0, y + 4.9, "Separately trained sequential rule", size=6, color=INK2)
+        else:
+            arrow(b.base, (72.8, 27.0), (76.7, y + 6.5))
 
     price_labels = {"US Medicare 2026": "US", "Shandong public prices 2026": "Chinese",
                     "US Medicare 2026 (scenario)": "US (scenario)"}
@@ -474,15 +478,18 @@ def figure1(audit):
             c.text(cx, top + row_h * (j + 0.5), cell(r), size=6, ha="center", max_width=cw - 0.8)
 
     questions = [
-        "Cheaper panel, non-inferior discrimination (margin −0.01)",
-        "Better discrimination within the routine budget",
-        "Ordering in steps: cost ≤50% of routine",
-        "Versus CoAI at equal budgets",
+        "Cheaper panel: non-inferior discrimination (margin −0.01)",
+        "Within the routine budget: better discrimination",
+        "Ordering chart: ≤50% of routine cost; ΔNB >−0.005",
+        "Equal budgets: better discrimination than CoAI",
     ]
-    qw = (180 - 4.2 - 3 * 2) / 4
+    gap = 4.6
+    qw = (180 - 4.2 - 3 * gap) / 4
     for i, question in enumerate(questions, 1):
-        left = 2.1 + (i - 1) * (qw + 2)
+        left = 2.1 + (i - 1) * (qw + gap)
         box(d.base, left, 7.9, qw, 10.3)
+        if i < len(questions):
+            arrow(d.base, (left + qw + 0.5, 13.05), (left + qw + gap - 0.5, 13.05))
         d.text(left + 1.45, 13.05, f"H{i}", bold=True)
         d.text(left + 6.7, 13.05, question, max_width=qw - 8.1)
     plate.save()
@@ -496,11 +503,13 @@ SCATTER_LABELS = {
     "Lipids": ("Lipids", 4.0, 0.0, "left"),
     "CMP+CBC": ("CMP+CBC", -3.0, 5.5, "right"),
     "CBC+BMP (Intermountain-type)": ("CBC+BMP (Intermountain-type)", 4.0, -1.5, "left"),
-    "PhenoAge analytes (refitted)": ("PhenoAge", 4.0, -1.0, "left"),
+    "PhenoAge analytes (refitted)": ("PhenoAge (refitted)", 4.0, -1.0, "left"),
     "Routine bundle": ("Routine bundle", 5.0, 5.0, "left"),
     "Matched panel": ("Matched panel", 0.0, -9.0, "center"),
     "Target-aware panel": ("Target-aware panel", -6.0, 7.0, "right"),
     "All 34 analytes": ("All 34 analytes", 0.0, -8.0, "center"),
+    "Lasso, matched": ("Lasso (matched)", -4.0, 6.0, "right"),
+    "Lasso, within routine": ("Lasso (budget)", -4.0, -8.0, "center"),
 }
 
 
@@ -527,7 +536,8 @@ def scatter_frontier(pane, data, death_years):
     ax.axvline(routine.usd, color=ROUTINE, linewidth=0.5, linestyle=DASH, zorder=1)
     styles = {"standard bundle": (ROUTINE, "o", 4, WHITE), "reference line": (ROUTINE, "o", 4, WHITE),
               "routine": (ROUTINE, "o", 6, ROUTINE), "established score": (SCORE, "s", 5, SCORE),
-              "matched": (MATCHED, "o", 8, MATCHED), "target-aware": (AWARE, "o", 8, AWARE)}
+              "matched": (MATCHED, "o", 8, MATCHED), "target-aware": (AWARE, "o", 8, AWARE),
+              "lasso": (SCORE, "^", 5, WHITE)}
     for _, row in data.rows.iterrows():
         color, marker, size, fill = styles[row.category]
         ax.plot(row.usd, row.C, marker=marker, markersize=size, color=color,
@@ -549,10 +559,13 @@ def scatter_frontier(pane, data, death_years):
          ("Target-aware panel: ", data.label(aware, "usd", usd), ", C ", data.label(aware, "C", c3))),
         (Line2D([], [], marker="o", markersize=6, color=ROUTINE, linestyle="none"),
          ("Routine bundle: ", data.label(routine, "usd", usd), ", C ", data.label(routine, "C", c3))),
+        (Line2D([], [], marker="o", markersize=4, color=ROUTINE, markerfacecolor=WHITE, markeredgewidth=0.7, linestyle="none"), "Standard bundles"),
+        (Line2D([], [], marker="s", markersize=5, color=SCORE, linestyle="none"), "Published scores, refitted"),
+        (Line2D([], [], marker="^", markersize=5, color=SCORE, markerfacecolor=WHITE, markeredgewidth=0.7, linestyle="none"), "Price-weighted lasso"),
         (Line2D([], [], color=tint(INK2, 0.45), linewidth=1.6), "Panels not beaten by a cheaper panel"),
     ]
     ax.legend([h for h, _ in entries], [pane.note(t, "legend") for _, t in entries], loc="lower right",
-              frameon=False, fontsize=6.8, handlelength=1.8, handletextpad=0.6, labelspacing=0.7,
+              frameon=False, fontsize=6.8, handlelength=1.8, handletextpad=0.6, labelspacing=0.42,
               borderaxespad=0.6)
 
 
@@ -611,11 +624,11 @@ def figure2(audit):
 def cheapest_matrix(pane):
     matrix = Table("F3A_panel_items.csv")
     columns = [
-        ("USA", "USA", 19.8), ("Australia", "Australia", 32.15), ("Japan", "Japan", 42.8),
-        ("China, CHNS menu", "China\n(CHNS menu)", 52.2),
-        ("China, CLHLS menu", "China\n(CLHLS menu)", 61.3),
-        ("UK menu", "UK menu\n(US prices)", 72.35),
-        ("Cardiovascular death (USA)", "CVD death\n(USA)", 86.1),
+        ("USA", "USA", 19.8), ("Australia", "Australia", 30.9), ("Japan", "Japan", 41.2),
+        ("China, CHNS menu", "China\n(CHNS)", 51.5),
+        ("China, CLHLS menu", "China\n(CLHLS)", 61.8),
+        ("UK menu", "UK menu\n(US prices)", 72.6),
+        ("Cardiovascular death (USA)", "CVD death\n(USA)", 85.6),
     ]
     items = [
         ("CMP", "CMP (panel)"), ("CBC", "CBC"), ("phosphorus", "Phosphorus"),
@@ -646,7 +659,7 @@ def cheapest_matrix(pane):
         title, _, qualifier = heading.partition("\n")
         pane.text(x, 77.45, title, size=6, ha="center")
         if qualifier:
-            pane.text(x, 83.0 if column == "China, CLHLS menu" else 80.35,
+            pane.text(x, 80.35,
                       qualifier, size=6, ha="center")
         pane.text(x, 87.75, matrix.label(row, "panel_price"), size=6, ha="center")
         reference = matrix.label(row, "reference_price",
@@ -675,6 +688,8 @@ def coai_forest(pane):
             labels.append(data.label(row, "cohort"))
             forest_estimate(ax, row, location, INK, "pooled" if pd.isna(row.metric) else "cohort")
     pane.ticks(ax, "y", locations, labels)
+    pane.text(-0.52, -0.33, "Offered CMP and lipid panels as groups, CoAI chose ours: difference 0", ax=ax,
+              transform=ax.transAxes, size=6, color=INK2)
 
 
 def cardiovascular(pane):
@@ -709,8 +724,8 @@ def figure3(audit):
     plate = Plate("Figure3", 180, 100, audit)
     a = plate.panel("A", Region(0, 0, 88, 100), "Cheapest panel matching the reference",
                     crop=Region(0, 0, 93.3, 100))
-    b = plate.panel("B", Region(94, 0, 86, 46), "Our panels minus CoAI")
-    c = plate.panel("C", Region(94, 54, 86, 46), "Cardiovascular death")
+    b = plate.panel("B", Region(94, 0, 86, 46), "Our panels minus CoAI given single-test prices")
+    c = plate.panel("C", Region(94, 54, 86, 46), "CVD death: models refitted with guideline inputs")
     cheapest_matrix(a)
     coai_forest(b)
     cardiovascular(c)
@@ -782,7 +797,7 @@ def ordering_outcomes(pane, data, fee):
     else:
         ax.set_ylim(-1, 6)
         pane.ticks(ax, "y", [-1, 0, 2, 4, 6])
-        pane.axis_title(ax, "y", "vs routine bundle (95% CI)", labelpad=1.5)
+        pane.axis_title(ax, "y", "Difference from routine bundle", labelpad=1.5)
         ax.axhline(0, linewidth=0.6, color=INK, zorder=1)
 
 
@@ -793,7 +808,7 @@ def figure4(audit):
                     crop=Region(87.4, 0, 56.7, 70))
     c = plate.panel("C", Region(136, 0, 44, 70), crop=Region(127.6, 0, 52.4, 70))
     c.text(-7.4, 3.35, "C", size=9, bold=True)
-    c.text(-2.6, 3.35, "Extra deaths not flagged per 1000", size=8, bold=True)
+    c.text(-2.6, 3.35, "Excess unflagged deaths per 1000", size=8, bold=True)
     order_chart(a)
     data = Table("F4BC_cost_missed.csv")
     ordering_outcomes(b, data, True)
@@ -805,6 +820,10 @@ def figure4(audit):
 def line_legend(names, colors, *, marker=None):
     return [Line2D([], [], color=colors[name], linewidth=1.0, marker=marker,
                    markersize=2, markeredgewidth=0) for name in names]
+
+
+HORIZON = {"NHANES III": "9-year risk", "NHANES 2011–14": "5-year risk", "CHNS": "6-year risk", "Understanding Society": "9-year risk",
+           "CLHLS (65–79 y)": "5-year risk"}
 
 
 def calibration(pane):
@@ -831,6 +850,7 @@ def calibration(pane):
             pane.axis_title(ax, "y", "Observed", labelpad=1.3)
         pane.text(x0 + size / 2, 8.75, data.label(rows.iloc[0], "cohort"),
                   size=7, ha="center")
+        pane.text(0.04, 0.96, HORIZON[name], ax=ax, transform=ax.transAxes, size=6, color=INK2, ha="left", va="top")
         ax.plot([0, upper], [0, upper], color=INK2, linewidth=0.6, linestyle=DASH)
         for model, color in SERIES.items():
             series = rows[rows.panel.eq(model)].sort_values("bin")
@@ -1083,7 +1103,7 @@ def appendix3(audit):
         (data.rows.cohort.eq(NHANES[0]) & data.rows.threshold.le(0.30)) |
         (data.rows.cohort.eq(NHANES[1]) & data.rows.threshold.le(0.15))
     ]
-    maximum, max_row, max_column = max_cell(visible, ["net_benefit"])
+    maximum, max_row, max_column = max_cell(visible[~visible.strategy.eq("Treat all")], ["net_benefit"])
     upper = math.ceil(maximum * 100) / 100 + 0.01
     yticks = nice_ticks(-0.02, upper, bins=4)
     ylabels = [data.derived([max_row], f"{max_column}: ticks from shared y limit", decimal(t))
@@ -1107,11 +1127,13 @@ def appendix3(audit):
         ax.axvline(threshold, color=INK2, linewidth=0.6, linestyle=DASH, zorder=1)
         pane.text(threshold, 1.023, "Prespecified threshold", ax=ax, transform=ax.get_xaxis_transform(),
                   color=INK2, va="bottom", ha="center")
-        for name, color in {**SERIES, "Treat all": INK2}.items():
-            series = rows[rows.strategy.eq(name)].sort_values("threshold")
+        for name, color in {**SERIES, "Flag everyone": INK2}.items():
+            key = "Treat all" if name == "Flag everyone" else name
+            series = rows[rows.strategy.eq(key)].sort_values("threshold")
+            assert len(series) > 0, name
             ax.plot(series.threshold, series.net_benefit, color=color, linewidth=1.0,
-                    linestyle=DASH if name == "Treat all" else "-")
-    names = [*SERIES, "Treat all"]
+                    linestyle=DASH if name == "Flag everyone" else "-")
+    names = [*SERIES, "Flag everyone"]
     handles = line_legend(list(SERIES), SERIES) + [Line2D([], [], color=INK2, linestyle=DASH, linewidth=1.0)]
     pane.legend(handles, names, 90, 66.4, center=True)
     plate.save()

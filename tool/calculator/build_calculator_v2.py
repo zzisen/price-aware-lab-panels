@@ -62,9 +62,9 @@ small, .note {{ color:var(--muted); }} .note {{ font-size:.88rem; }} [hidden] {{
 
 <div id="tab-seq">
 <section><h2>How it works</h2><p class="note">Start with free clinical information. After each step the page estimates 9-year risk and orders the next test only while
-that risk lies in the printed interval, where finishing the tests is worth their price (value V per correctly flagged death; decision threshold
+that risk lies in the printed interval, where finishing the tests is worth their price (value V per net true positive; decision threshold
 {int(100 * model['tau'])}% 9-year risk). Order: CMP (${C[1]:.2f}), then CBC (${C[2]:.2f} in total), then urine albumin/creatinine ratio (${C[3]:.2f} in total), US Medicare 2026.</p>
-<label style="max-width:300px"><span>Value per correctly flagged death (V)</span><select id="V"><option value="30000" selected>$30 000 (main analysis)</option>
+<label style="max-width:300px"><span>Value per net true positive (V)</span><select id="V"><option value="30000" selected>$30 000 (main analysis)</option>
 <option value="10000">$10 000 (fewer tests)</option><option value="100000">$100 000 (more tests)</option></select></label></section>
 <section id="s0"><h2>Step 0 · Free clinical information</h2><div class="grid">{clin('s_', True)}</div><div class="out" id="o0"></div></section>
 <section id="s1" class="off"><h2>Step 1 · Comprehensive metabolic panel (CMP)</h2><div class="grid">{fields(CMP, 's_')}</div><div class="out" id="o1"></div></section>

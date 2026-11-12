@@ -1,0 +1,361 @@
+{
+ "cohort": "UKHLS",
+ "deaths": 479,
+ "n": 6044,
+ "horizon": 108,
+ "tau": 0.1,
+ "metric": "AUC",
+ "panels": {
+  "age+sex only": {
+   "features": [],
+   "price": 0.0,
+   "order": [],
+   "disc": 0.8006784499753342,
+   "NB": 0.02252003823810574,
+   "mean_risk": 0.12096161260642924
+  },
+  "routine": {
+   "features": [
+    "bun",
+    "creatinine",
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "hgb",
+    "tc",
+    "hdl",
+    "tg",
+    "hba1c"
+   ],
+   "price": 45.37,
+   "order": [
+    "CMP",
+    "LIPID",
+    "Hb",
+    "hba1c"
+   ],
+   "disc": 0.8232079785867157,
+   "NB": 0.03272299433781896,
+   "mean_risk": 0.09452084227259855
+  },
+  "old matched": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bun",
+    "creatinine",
+    "ggt"
+   ],
+   "price": 27.1,
+   "order": [
+    "CMP",
+    "ggt"
+   ],
+   "disc": 0.8203096072793162,
+   "NB": 0.032851680270608134,
+   "mean_risk": 0.09336325275193257
+  },
+  "old aware": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bun",
+    "creatinine",
+    "crp",
+    "ggt",
+    "hba1c"
+   ],
+   "price": 49.76,
+   "order": [
+    "CMP",
+    "ggt",
+    "hba1c",
+    "crp"
+   ],
+   "disc": 0.8282439268692076,
+   "NB": 0.033531877343922344,
+   "mean_risk": 0.09524143124106427
+  },
+  "new matched": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "creatinine",
+    "ggt"
+   ],
+   "price": 27.1,
+   "order": [
+    "CMP",
+    "ggt"
+   ],
+   "disc": 0.8204968047013188,
+   "NB": 0.032906831384660634,
+   "mean_risk": 0.09215902949352814
+  },
+  "new aware": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bun",
+    "creatinine",
+    "ggt",
+    "hba1c",
+    "hgb",
+    "tc"
+   ],
+   "price": 43.53,
+   "order": [
+    "CMP",
+    "ggt",
+    "tc",
+    "Hb",
+    "hba1c"
+   ],
+   "disc": 0.8273364507893991,
+   "NB": 0.03412015589381572,
+   "mean_risk": 0.09603380283592733
+  },
+  "new aware (as-ordered budget)": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bun",
+    "creatinine",
+    "crp",
+    "ggt",
+    "hba1c"
+   ],
+   "price": 49.76,
+   "order": [
+    "CMP",
+    "ggt",
+    "hba1c",
+    "crp"
+   ],
+   "disc": 0.8282439268692076,
+   "NB": 0.033531877343922344,
+   "mean_risk": 0.09524143124106427
+  },
+  "NHS Health Check": {
+   "features": [
+    "tc",
+    "hdl",
+    "tg",
+    "hba1c"
+   ],
+   "price": 32.44,
+   "order": [
+    "LIPID",
+    "hba1c"
+   ],
+   "disc": 0.8124807034721558,
+   "NB": 0.02684020883888521,
+   "mean_risk": 0.11567719493278969
+  },
+  "matched to Health Check": {
+   "features": [
+    "hgb"
+   ],
+   "price": 11.71,
+   "order": [
+    "Hb"
+   ],
+   "disc": 0.8021422662892707,
+   "NB": 0.023494374586366645,
+   "mean_risk": 0.13000441410225727
+  },
+  "Health Check budget": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "creatinine",
+    "ggt",
+    "hgb"
+   ],
+   "price": 29.47,
+   "order": [
+    "CMP",
+    "ggt",
+    "Hb"
+   ],
+   "disc": 0.8215303295462432,
+   "NB": 0.0329252150893448,
+   "mean_risk": 0.09572713494712122
+  },
+  "CoAI full @matched": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bun",
+    "creatinine",
+    "ggt"
+   ],
+   "price": 27.1,
+   "order": [
+    "CMP",
+    "ggt"
+   ],
+   "disc": 0.8203096072793162,
+   "NB": 0.032851680270608134,
+   "mean_risk": 0.09336325275193257
+  },
+  "CoAI full @measured routine": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bun",
+    "creatinine",
+    "ggt",
+    "hba1c",
+    "hgb",
+    "tc"
+   ],
+   "price": 43.53,
+   "order": [
+    "CMP",
+    "ggt",
+    "tc",
+    "Hb",
+    "hba1c"
+   ],
+   "disc": 0.8273364507893991,
+   "NB": 0.03412015589381572,
+   "mean_risk": 0.09603380283592733
+  },
+  "CoAI full @ordered routine": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bun",
+    "creatinine",
+    "crp",
+    "ggt",
+    "hba1c"
+   ],
+   "price": 49.76,
+   "order": [
+    "CMP",
+    "ggt",
+    "hba1c",
+    "crp"
+   ],
+   "disc": 0.8282439268692076,
+   "NB": 0.033531877343922344,
+   "mean_risk": 0.09524143124106427
+  }
+ },
+ "contrasts": {
+  "new matched - routine": {
+   "point": -0.002711173885396878,
+   "ci": [
+    -0.007844165416573259,
+    0.0030235031349294
+   ]
+  },
+  "new aware - routine": {
+   "point": 0.00412847220268342,
+   "ci": [
+    -0.00019302679700766433,
+    0.008827287008741887
+   ]
+  },
+  "new aware (as-ordered budget) - routine": {
+   "point": 0.0050359482824918755,
+   "ci": [
+    0.0001635113705793197,
+    0.010164003543240662
+   ]
+  },
+  "new matched - CoAI full @matched": {
+   "point": 0.00018719742200257183,
+   "ci": [
+    -6.537445034025257e-05,
+    0.0004270829694987265
+   ]
+  },
+  "new aware - CoAI full @measured routine": {
+   "point": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "Health Check budget - NHS Health Check": {
+   "point": 0.009049626074087325,
+   "ci": [
+    -0.0019168171947921587,
+    0.020525624756031192
+   ]
+  },
+  "matched to Health Check - NHS Health Check": {
+   "point": -0.010338437182885185,
+   "ci": [
+    -0.01699274247260067,
+    -0.0038973686424988736
+   ]
+  },
+  "Health Check budget - routine": {
+   "point": -0.0016776490404725175,
+   "ci": [
+    -0.006870253857944902,
+    0.0038093735312929432
+   ]
+  },
+  "NHS Health Check - age+sex only": {
+   "point": 0.011802253496821624,
+   "ci": [
+    0.0068446818937182635,
+    0.016856394510435004
+   ]
+  }
+ },
+ "nb_contrasts": {
+  "new matched - routine": {
+   "point": 0.00018383704684167557,
+   "ci": [
+    -0.0014895396720347087,
+    0.0017464519449959526
+   ]
+  },
+  "new aware - routine": {
+   "point": 0.0013971615559967634,
+   "ci": [
+    -7.399441135377304e-05,
+    0.002978619751452313
+   ]
+  },
+  "Health Check budget - NHS Health Check": {
+   "point": 0.0060850062504595945,
+   "ci": [
+    0.0034552172953893692,
+    0.008769946319582323
+   ]
+  },
+  "NHS Health Check - age+sex only": {
+   "point": 0.0043201706007794695,
+   "ci": [
+    0.0026472534745201927,
+    0.005772942863445837
+   ]
+  }
+ }
+}

@@ -1,0 +1,1210 @@
+features,cv
+bun calcium chloride co2 creatinine glucose potassium sodium,-15665.820923662715
+gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15528.670347612318
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium,-15449.313826904116
+hdl tc tg,-15849.69011272181
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15306.033721399594
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15301.889939854032
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hba1c hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15300.327881621071
+,-15859.659042709
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hba1c hdl hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg uric_acid wbc,-15212.065442236284
+glucose,-15805.4184553339
+bun,-15856.59340511528
+creatinine,-15797.635356917004
+sodium,-15833.412277139172
+potassium,-15835.267962948856
+chloride,-15817.47910120414
+co2,-15844.588544562685
+calcium,-15858.06122153965
+albumin,-15721.346569757232
+protein,-15852.577723031209
+alp,-15789.301549438143
+alt,-15851.696147052018
+ast,-15852.492297999115
+bilirubin,-15847.888073826642
+ggt,-15781.948918143593
+uric_acid,-15845.090388842982
+ldh,-15824.753700988762
+phosphorus,-15847.966338968725
+iron,-15827.999707755833
+tg,-15860.0753796317
+tc,-15850.429178192371
+acr,-15630.02386592551
+hdl,-15857.368509483087
+hba1c,-15814.034011992911
+albumin glucose,-15689.187617765008
+albumin bun,-15719.143742714648
+albumin creatinine,-15679.397381085528
+albumin sodium,-15702.501807170154
+albumin potassium,-15695.09395664305
+albumin chloride,-15659.67921520957
+albumin co2,-15708.454762445475
+albumin calcium,-15711.791767669452
+albumin protein,-15665.099147005883
+albumin alp,-15667.661529086943
+albumin ast,-15710.492159567511
+albumin bilirubin,-15718.08088273009
+albumin uric_acid,-15711.221036555038
+albumin phosphorus,-15708.671316348036
+albumin tc,-15719.446535941468
+albumin bun calcium chloride co2 creatinine glucose potassium sodium,-15531.34188219513
+bun calcium chloride co2 creatinine glucose potassium protein sodium,-15667.741948827375
+alp bun calcium chloride co2 creatinine glucose potassium sodium,-15628.124335609444
+alt bun calcium chloride co2 creatinine glucose potassium sodium,-15658.839853413188
+ast bun calcium chloride co2 creatinine glucose potassium sodium,-15656.849761556025
+bilirubin bun calcium chloride co2 creatinine glucose potassium sodium,-15663.460306158402
+crp,-15754.236580146422
+glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15500.293710419468
+bun gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15531.000001138098
+creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15513.363002568498
+gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw sodium wbc,-15516.36408702143
+gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw wbc,-15516.501057580484
+chloride gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15501.530529281756
+co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15523.5135054718
+calcium gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15529.27002386361
+albumin gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15464.759717854786
+gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15508.150865135116
+alp gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15470.38359166226
+alt gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15527.71938869798
+ast gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15520.44904983708
+bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15518.021614871526
+gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw uric_acid wbc,-15520.900446437376
+gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt rdw wbc,-15522.984388378489
+gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw tc wbc,-15529.306416471683
+bun calcium chloride co2 creatinine glucose potassium sodium uric_acid,-15660.492948380092
+bun calcium chloride co2 creatinine glucose phosphorus potassium sodium,-15659.517541215184
+bun calcium chloride co2 creatinine glucose potassium sodium tc,-15660.62922853094
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose potassium protein sodium,-15424.230276391963
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium uric_acid,-15449.703651000516
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose ldh potassium protein sodium,-15433.817561129676
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose phosphorus potassium protein sodium,-15444.001951015189
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose iron potassium protein sodium,-15447.26920865545
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium tg,-15450.35056235462
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium tc,-15446.782996880038
+ggt gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15461.405338434432
+gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt rdw wbc,-15511.768010293768
+gran_pct hgb iron lymph_pct mcv mono_pct mpv plt rdw wbc,-15527.01562774288
+gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw tg wbc,-15524.656167332709
+gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15524.57509158393
+gran_pct hba1c hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15488.468194753672
+bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15439.494103685143
+acr glucose,-15619.337656730428
+acr bun,-15632.409478119162
+acr creatinine,-15613.784091194644
+acr sodium,-15613.180719000493
+acr potassium,-15610.336756571603
+acr chloride,-15603.227945766004
+acr co2,-15624.018656442751
+acr calcium,-15629.538955498983
+acr albumin,-15552.55896702434
+acr protein,-15631.203915020576
+acr alp,-15592.497295201158
+acr alt,-15624.562073510971
+acr ast,-15622.872294180695
+acr bilirubin,-15625.373607394113
+acr ggt,-15580.500229755293
+acr uric_acid,-15622.323792333296
+acr ldh,-15617.665617161068
+acr phosphorus,-15616.826684744392
+acr iron,-15613.22356302404
+acr tg,-15631.099460300213
+acr tc,-15622.522252379104
+bun calcium chloride co2 creatinine ggt glucose potassium sodium,-15620.938251051744
+bun calcium chloride co2 creatinine glucose ldh potassium sodium,-15642.273143618171
+bun calcium chloride co2 creatinine glucose iron potassium sodium,-15643.84379586502
+bun calcium chloride co2 creatinine glucose potassium sodium tg,-15665.716517429846
+bun calcium chloride co2 creatinine glucose hdl potassium sodium,-15667.118268453029
+bun calcium chloride co2 creatinine glucose hba1c potassium sodium,-15664.700137125956
+albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15372.072075407285
+bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15431.18470902548
+alp bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15407.636801970695
+alt bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15441.339559395969
+ast bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15428.056886346809
+bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15437.426841885625
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl potassium protein sodium,-15449.169630245511
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hba1c potassium protein sodium,-15450.34128169334
+crp gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15496.483504467587
+acr gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15373.728002108328
+acr hdl,-15630.449806018234
+acr hba1c,-15625.494436864416
+acr bun calcium chloride co2 creatinine glucose potassium sodium,-15540.147730274795
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose ldh potassium protein sodium tc,-15429.46855376393
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose potassium protein sodium,-15442.1272625654
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium,-15375.83591148244
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl potassium protein sodium tc tg,-15447.841598468389
+gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt rdw tc tg wbc,-15524.560108278954
+acr crp,-15558.284933069575
+acr hdl tc tg,-15625.946653306297
+bun calcium chloride co2 creatinine crp glucose potassium sodium,-15607.750870180904
+bun calcium chloride co2 creatinine glucose hdl potassium sodium tc tg,-15662.734781276957
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15283.161673433748
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15303.446045916458
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15296.909637671204
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15296.628052750562
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15307.497561610791
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15304.447486578616
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15307.466610377052
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15299.41646400389
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hba1c hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15304.429241202995
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15312.83762574109
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15238.002074217358
+acr glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15369.69116018575
+acr bun gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15368.5647544765
+acr creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15375.600878252164
+acr gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw sodium wbc,-15369.283311515752
+acr gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw wbc,-15365.408567332675
+acr chloride gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15364.549193433384
+acr co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15373.20215809487
+acr calcium gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15374.328320537028
+acr albumin gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15337.783571856233
+acr gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15368.655052643117
+acr alp gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15342.974521889504
+acr alt gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15373.911808911133
+acr ast gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15366.159169621807
+acr bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15367.202135525487
+acr ggt gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15330.443449254964
+acr gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw uric_acid wbc,-15369.293227976235
+acr gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt rdw wbc,-15368.622310169583
+acr gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt rdw wbc,-15370.2580846639
+acr gran_pct hgb iron lymph_pct mcv mono_pct mpv plt rdw wbc,-15373.322963450806
+acr gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw tg wbc,-15374.074516310196
+acr gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw tc wbc,-15375.30640858403
+acr gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15370.964551761172
+acr gran_pct hba1c hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15364.769879930607
+acr crp gran_pct hgb lymph_pct mcv mono_pct mpv plt rdw wbc,-15354.438955901527
+acr bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15332.744132009297
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose potassium protein sodium,-15353.143445334954
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium uric_acid,-15374.765110726214
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose ldh potassium protein sodium,-15370.232859634478
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose phosphorus potassium protein sodium,-15371.10152384937
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose iron potassium protein sodium,-15373.716100126012
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium tg,-15376.815003622318
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium tc,-15371.749904368651
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl potassium protein sodium,-15375.4140600679
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hba1c potassium protein sodium,-15377.748836346644
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose potassium protein sodium uric_acid,-15426.87486302788
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh potassium protein sodium,-15404.460718187089
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose phosphorus potassium protein sodium,-15419.879553551596
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron potassium protein sodium,-15420.253115677697
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose potassium protein sodium tg,-15425.493479660336
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose potassium protein sodium tc,-15421.78747023134
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl potassium protein sodium,-15423.163221813753
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hba1c potassium protein sodium,-15424.939492518151
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose potassium protein sodium,-15419.092098596013
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl potassium protein sodium tc tg,-15422.363403174795
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15283.698022084478
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15270.841807426985
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15275.701325935468
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15283.431228063051
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15285.129662363304
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15293.340614370683
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15285.786973396978
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15297.98479945947
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15296.1671688732
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15298.081864091244
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15290.445042325102
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15294.818591288104
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb iron ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15298.609800889066
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15294.221436409043
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15298.237902374907
+acr gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt rdw tc tg wbc,-15374.478740026943
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose potassium protein sodium,-15366.767278976711
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl potassium protein sodium tc tg,-15373.797616266576
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15234.057903303144
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15234.942825207783
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15230.787154271728
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15238.115270594411
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15240.221549155229
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15285.384620457202
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15275.39853673896
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15280.396849771058
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hba1c hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15295.598884189154
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15289.362971696071
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hba1c hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15295.72732069535
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15218.992084087196
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15239.993171823273
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15230.605852559926
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hba1c hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15239.637937932355
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15288.822009369098
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15278.502500735827
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15302.54838637771
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15293.209737099003
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15303.44974340801
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15291.52875058592
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15218.42075934713
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15213.44748357292
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15222.018954698497
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15225.770217413794
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15226.339101163729
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15232.713566697725
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15231.605345293436
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15233.174328716055
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15231.600724014012
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15236.208967827746
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg uric_acid wbc,-15235.954393002685
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc uric_acid wbc,-15236.432293509057
+albumin alt,-15719.995602774166
+albumin ggt,-15649.379683096267
+albumin ldh,-15680.213113190068
+albumin tg,-15720.660003488112
+albumin crp,-15676.035808134786
+crp glucose,-15718.168152207178
+bun crp,-15751.540466197635
+creatinine crp,-15700.51166226594
+crp sodium,-15734.930648377607
+crp potassium,-15728.430528593572
+chloride crp,-15728.088070873224
+co2 crp,-15744.230831603783
+calcium crp,-15754.912080710326
+crp protein,-15752.841625404497
+alp crp,-15716.89023035728
+alt crp,-15749.65338574062
+ast crp,-15744.100904657918
+bilirubin crp,-15751.158341139047
+crp ggt,-15702.951549049312
+crp uric_acid,-15748.930164582172
+crp ldh,-15722.798650582066
+crp phosphorus,-15738.25852168278
+crp tg,-15755.32483654889
+crp tc,-15745.94145349873
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose ldh potassium protein sodium uric_acid,-15434.326033497147
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose ldh phosphorus potassium protein sodium,-15426.788733261314
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose ldh potassium protein sodium tg,-15434.486507833806
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose ldh potassium protein sodium,-15426.68611107591
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose potassium protein sodium uric_acid,-15443.229912622615
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose phosphorus potassium protein sodium,-15435.79325903171
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose potassium protein sodium tg,-15443.326829670095
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose potassium protein sodium tc,-15439.903463225324
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose phosphorus potassium protein sodium uric_acid,-15443.890491862614
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose phosphorus potassium protein sodium tg,-15445.129664164657
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose phosphorus potassium protein sodium tc,-15441.29954632371
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh potassium protein sodium uric_acid,-15407.410768601432
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh phosphorus potassium protein sodium,-15398.602518687432
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh potassium protein sodium tg,-15405.579773006944
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh potassium protein sodium tc,-15399.884082955552
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh potassium protein sodium,-15399.534952889851
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose potassium protein sodium uric_acid,-15421.829727718216
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose phosphorus potassium protein sodium,-15413.887854424223
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose potassium protein sodium tg,-15420.483015156058
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose potassium protein sodium tc,-15416.88678270336
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose phosphorus potassium protein sodium uric_acid,-15422.11836927986
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose phosphorus potassium protein sodium tg,-15421.064557142505
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose phosphorus potassium protein sodium tc,-15417.365047239377
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose potassium protein sodium tc uric_acid,-15424.26212237571
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose potassium protein sodium tc tg,-15422.563327120466
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh phosphorus potassium protein sodium uric_acid,-15401.135467595612
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh phosphorus potassium protein sodium tg,-15399.755231498004
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh phosphorus potassium protein sodium tc,-15393.801455997624
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh phosphorus potassium protein sodium,-15392.80977310267
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh potassium protein sodium uric_acid,-15402.582907119762
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh potassium protein sodium tg,-15400.784965892815
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh potassium protein sodium tc,-15395.347041296329
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh potassium protein sodium tc uric_acid,-15402.619388450155
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh potassium protein sodium tc tg,-15399.709628439632
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh potassium protein sodium tg uric_acid,-15408.8992851496
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh phosphorus potassium protein sodium uric_acid,-15395.563686269605
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh phosphorus potassium protein sodium tg,-15394.106145157984
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh phosphorus potassium protein sodium tc,-15388.425967760544
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh phosphorus potassium protein sodium tc uric_acid,-15396.02965297388
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh phosphorus potassium protein sodium tc tg,-15393.891182831983
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh potassium protein sodium tc uric_acid,-15398.257234384284
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh potassium protein sodium tc tg,-15395.382800082883
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh potassium protein sodium tc tg uric_acid,-15402.950693880466
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh phosphorus potassium protein sodium tc uric_acid,-15390.95864174317
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh phosphorus potassium protein sodium tc tg,-15388.775824397306
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose ldh phosphorus potassium protein sodium tc tg uric_acid,-15396.666074637204
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh phosphorus potassium protein sodium tg uric_acid,-15397.229291403935
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose ldh potassium protein sodium tc tg uric_acid,-15398.746603892916
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl ldh potassium protein sodium,-15433.343988732857
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hba1c ldh potassium protein sodium,-15434.826361817612
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl ldh potassium protein sodium tc tg,-15429.609638640615
+bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15394.641760163138
+bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium uric_acid wbc,-15431.90052422183
+bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15423.449240628051
+bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15433.741203491752
+bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium tg wbc,-15440.47471921333
+bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium tc wbc,-15440.10359002758
+bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15443.502764799134
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg uric_acid wbc,-15303.610065595603
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc uric_acid wbc,-15305.06278181873
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15309.24239133092
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15271.91487228966
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15261.826470842192
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15270.170292943258
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15272.589410711507
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15276.174219499531
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15275.516941715214
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15276.609208012653
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15277.779673363028
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15280.82204335414
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg uric_acid wbc,-15285.134435364522
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15284.577214258989
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15289.039223180154
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc uric_acid wbc,-15285.73439655833
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15288.692777051723
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15262.201441217583
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15261.941781197416
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15263.644890362788
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15266.672393031296
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg uric_acid wbc,-15272.391977910149
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15270.649025626946
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15275.43088101055
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc uric_acid wbc,-15273.665989805057
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15276.637971932383
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15277.976005205202
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15298.41628221996
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15300.34126797368
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15300.989150820762
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15305.67994184678
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15261.87998927525
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15265.088026614958
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15276.99010826954
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15268.447592197468
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15277.090750341164
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15277.648507722628
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15280.304894339828
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15271.610434488615
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg uric_acid wbc,-15280.608237516595
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15283.450578300184
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15253.406310986931
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15256.78784027378
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15263.91930185699
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15263.318084589117
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15264.352653465852
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15266.37873226914
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg uric_acid wbc,-15267.603868504251
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15269.68944604843
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15269.33287219593
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15270.24226082048
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15270.80913054575
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15272.9495673793
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15254.770075771918
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15255.006937815368
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15255.98180182196
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15257.569865820207
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg uric_acid wbc,-15258.576681772396
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15261.010808923083
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,-15263.480424853497
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15262.538170181071
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15266.799284701698
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc uric_acid wbc,-15263.985167116727
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15266.569301469512
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15268.635275212724
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15273.450897314106
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15260.14376178122
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15260.380477154662
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15260.34910778467
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15261.922496105492
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hba1c hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15265.067336654098
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15245.890837856525
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15213.386112165334
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15220.559931073276
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15225.999316217498
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15237.337927624816
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15241.501585059805
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15234.479138644132
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15236.619706480724
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15242.818752530413
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15213.521485861162
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15206.471889327304
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15214.42389031712
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15215.70705579587
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15220.295316271671
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15211.847841522516
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15215.441479742818
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15216.80921481788
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15219.56397941597
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg uric_acid wbc,-15221.255055492988
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc uric_acid wbc,-15221.432995586789
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15225.127518515366
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15222.569721386511
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15227.588338478805
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15205.609749500489
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15208.013360638664
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15209.115513632749
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15212.540283774117
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,-15215.08822274955
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc uric_acid wbc,-15215.177967538675
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15217.771478720271
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg uric_acid wbc,-15215.846912657926
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc uric_acid wbc,-15215.744006327352
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15220.121556290946
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15215.347183392292
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15221.32513364236
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,-15208.432202701795
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc uric_acid wbc,-15208.112366164389
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15211.477336381393
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15209.312017940216
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15214.16848175298
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp ggt glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15215.261869037313
+albumin iron,-15715.192317293267
+albumin hdl,-15720.986867567171
+albumin hdl tc tg,-15718.602393183177
+albumin ggt glucose,-15628.514030053906
+albumin bun ggt,-15643.797541094773
+albumin creatinine ggt,-15606.892746922604
+albumin ggt sodium,-15636.566489739524
+albumin ggt potassium,-15622.895277040176
+albumin chloride ggt,-15603.41156845987
+albumin co2 ggt,-15642.208755269045
+albumin calcium ggt,-15643.353042866403
+albumin ggt protein,-15618.05742590084
+albumin alp ggt,-15629.420809980598
+albumin alt ggt,-15608.486505022429
+albumin ast ggt,-15649.822520393303
+albumin bilirubin ggt,-15643.825783334662
+albumin ggt uric_acid,-15646.765687197094
+albumin ggt ldh,-15620.518692527414
+albumin ggt phosphorus,-15637.547843262617
+albumin ggt iron,-15635.537913422848
+albumin ggt tg,-15650.75581412754
+albumin ggt tc,-15646.314577647485
+albumin ggt hdl,-15649.1860079395
+albumin ggt hdl tc tg,-15647.622380688275
+albumin chloride glucose,-15643.292658509756
+albumin bun chloride,-15654.88794075359
+albumin chloride creatinine,-15616.901642214943
+albumin chloride sodium,-15658.912521401844
+albumin chloride potassium,-15619.523295335965
+albumin chloride co2,-15634.924435074568
+albumin calcium chloride,-15651.918577033532
+albumin chloride protein,-15622.106731775288
+albumin alp chloride,-15613.364895553006
+albumin alt chloride,-15658.078902680338
+albumin ast chloride,-15650.641134800531
+albumin bilirubin chloride,-15657.236382254623
+albumin chloride uric_acid,-15648.460989931806
+albumin chloride ldh,-15617.61979319464
+albumin chloride phosphorus,-15649.641770640706
+albumin chloride iron,-15654.724088386974
+albumin chloride tg,-15659.994173412386
+albumin chloride tc,-15656.0223270144
+albumin chloride hdl,-15657.811417945462
+albumin chloride hdl tc tg,-15655.669856626577
+albumin glucose protein,-15635.879365642882
+albumin bun protein,-15659.24576729614
+albumin creatinine protein,-15625.084080331242
+albumin protein sodium,-15651.989728231105
+albumin potassium protein,-15635.917703697043
+albumin co2 protein,-15657.42113667727
+albumin calcium protein,-15661.619258260538
+albumin alp protein,-15631.098007809804
+albumin alt protein,-15662.47293997076
+albumin ast protein,-15661.264096370613
+albumin bilirubin protein,-15663.161674714507
+albumin protein uric_acid,-15661.036921907264
+albumin ldh protein,-15631.09957450314
+albumin phosphorus protein,-15650.247011786543
+albumin iron protein,-15660.863809089044
+albumin protein tg,-15663.93549713502
+albumin protein tc,-15663.134781260362
+albumin hdl protein,-15665.618917979627
+albumin hdl protein tc tg,-15660.07346970302
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose iron ldh potassium protein sodium,-15432.006570289775
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose iron phosphorus potassium protein sodium,-15442.343184221018
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl phosphorus potassium protein sodium,-15443.753679502151
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl phosphorus potassium protein sodium tc tg,-15442.457261491414
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium tc uric_acid,-15446.94393810774
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose iron potassium protein sodium tc,-15445.647101367362
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose potassium protein sodium tc tg,-15447.025934785115
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl potassium protein sodium tc,-15447.3843035741
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh potassium protein sodium,-15400.563059550272
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh potassium protein sodium,-15402.63908951608
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh potassium protein sodium tc tg,-15399.85650482178
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron phosphorus potassium protein sodium,-15416.404536380312
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl phosphorus potassium protein sodium,-15418.731047296542
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl phosphorus potassium protein sodium tc tg,-15417.793938046156
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron potassium protein sodium uric_acid,-15423.0612968575
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron potassium protein sodium tg,-15421.633362496696
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron potassium protein sodium tc,-15419.026833901911
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron potassium protein sodium,-15419.82412846963
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron potassium protein sodium tc tg,-15420.00861598062
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl potassium protein sodium tc,-15421.736574424447
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh phosphorus potassium protein sodium,-15395.299126128302
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh phosphorus potassium protein sodium,-15396.5879808225
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh phosphorus potassium protein sodium tc tg,-15393.739803893674
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh potassium protein sodium tc tg uric_acid,-15403.147452096884
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron ldh potassium protein sodium tc tg,-15397.895977636594
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh potassium protein sodium tc,-15397.468358903996
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh potassium protein sodium tc,-15399.439316238537
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh potassium protein sodium uric_acid,-15403.68142799356
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh potassium protein sodium tg,-15401.675851147906
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron ldh potassium protein sodium,-15399.678391407691
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh phosphorus potassium protein sodium tc tg uric_acid,-15396.56190348188
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron ldh phosphorus potassium protein sodium tc tg,-15392.38190637157
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh phosphorus potassium protein sodium tc,-15391.921251711556
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh phosphorus potassium protein sodium tc,-15393.199055730853
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh phosphorus potassium protein sodium uric_acid,-15397.993666214068
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh phosphorus potassium protein sodium tg,-15396.47712557212
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron ldh phosphorus potassium protein sodium,-15394.22318454409
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh phosphorus potassium protein sodium uric_acid,-15399.482362631692
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh phosphorus potassium protein sodium tg,-15396.544397752366
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh phosphorus potassium protein sodium tc uric_acid,-15394.33386000284
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh phosphorus potassium protein sodium tc tg,-15392.046195869005
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron ldh phosphorus potassium protein sodium tc,-15391.854514479335
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron ldh phosphorus potassium protein sodium tc tg uric_acid,-15395.383329853204
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl ldh phosphorus potassium protein sodium tc uric_acid,-15395.87870139212
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hdl iron ldh phosphorus potassium protein sodium tc uric_acid,-15394.666052449276
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose iron ldh phosphorus potassium protein sodium tc tg uric_acid,-15395.033884384622
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb iron lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15300.712108855643
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb iron ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15273.241649218397
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15277.612447794229
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15277.880477543184
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15280.763913038669
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15264.214475001269
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15264.328699116237
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15267.54065820863
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15270.561680308354
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15255.771332720717
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15259.129876374962
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15264.409738811792
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15264.66231991606
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose gran_pct hba1c hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15297.79585434042
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15272.639717221096
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15275.613989775327
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15259.657446570682
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc tg wbc,-15262.847684488006
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15266.125581320568
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15251.642424657764
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15254.938347803549
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15261.643149662064
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb iron ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15261.984662111754
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15261.039005612964
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15262.129334125226
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15262.410660046138
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15252.924207019278
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15253.90182896104
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15253.137573728653
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc wbc,-15254.178379626495
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium uric_acid wbc,-15257.230157874788
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg uric_acid wbc,-15256.6577708707
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc uric_acid wbc,-15257.62315268529
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg uric_acid wbc,-15256.62002287258
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hba1c hdl hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tc tg wbc,-15257.171253611175
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose gran_pct hdl hgb iron ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium tg wbc,-15257.357335311608
+albumin alt bun creatinine glucose hdl hgb plt protein tc tg uric_acid wbc,-15549.43749811638
+albumin alt bun creatinine crp glucose hba1c hdl hgb plt protein tc tg uric_acid wbc,-15540.099940130507
+alt creatinine,-15792.780369733317
+alt glucose,-15793.95332210896
+glucose tc,-15799.6697890141
+alt uric_acid,-15835.066825679784
+creatinine glucose,-15744.853323314896
+bun creatinine,-15796.742970766363
+creatinine uric_acid,-15797.026446349772
+creatinine protein,-15791.43415622571
+creatinine tc,-15792.165335871125
+creatinine tg,-15798.439914306651
+bun glucose,-15803.907856389316
+glucose uric_acid,-15787.75984856611
+glucose protein,-15798.22755695887
+glucose tg,-15806.317753617655
+glucose hdl,-15806.503111305929
+bun uric_acid,-15845.7790680058
+protein uric_acid,-15840.628720381164
+tc uric_acid,-15835.551301219257
+tg uric_acid,-15846.545772904576
+albumin alt creatinine,-15679.196012353752
+albumin creatinine tc,-15678.12158431347
+albumin alt glucose,-15686.087330442331
+albumin glucose tc,-15688.1495933242
+albumin glucose tg,-15690.200231346607
+albumin alt uric_acid,-15709.079365101074
+albumin tc uric_acid,-15709.063803177783
+creatinine hdl,-15796.90704030076
+hdl uric_acid,-15845.00441079675
+albumin creatinine glucose,-15646.96247449358
+albumin bun creatinine,-15680.154034928142
+albumin creatinine uric_acid,-15679.517289903622
+albumin creatinine tg,-15679.512313574836
+albumin creatinine hdl,-15679.81501895794
+albumin bun glucose,-15688.075722762158
+albumin glucose uric_acid,-15676.757759534396
+albumin glucose hdl,-15690.581997433255
+albumin bun uric_acid,-15712.181009640784
+albumin tg uric_acid,-15711.823300105323
+albumin hdl uric_acid,-15712.100822679544
+albumin creatinine glucose protein,-15596.43629490038
+albumin alt creatinine protein,-15623.93414704348
+albumin creatinine protein tc,-15623.908871319907
+albumin creatinine protein tg,-15624.816295419145
+albumin bun glucose protein,-15631.923431026838
+albumin glucose protein uric_acid,-15630.10432793002
+albumin alt glucose protein,-15631.519069113026
+albumin glucose protein tc,-15634.52071380912
+albumin glucose protein tg,-15637.040092796153
+albumin alt creatinine glucose,-15645.398698731611
+albumin creatinine glucose tc,-15646.425544464337
+albumin creatinine glucose tg,-15647.86103356526
+albumin alt bun protein,-15656.679711649344
+albumin bun protein tc,-15657.171477725
+albumin bun protein tg,-15658.86605472378
+hgb plt wbc,-15743.586564774529
+albumin hgb plt wbc,-15651.208018669617
+glucose hgb plt wbc,-15705.773592456611
+hgb plt protein wbc,-15731.226341946098
+alt hgb plt wbc,-15742.23769587039
+hgb plt tc wbc,-15743.23336127215
+hgb plt tg wbc,-15744.795920269133
+albumin bun creatinine protein,-15627.255715214978
+albumin creatinine protein uric_acid,-15627.107947293502
+albumin creatinine hdl protein,-15626.03219934705
+albumin glucose hdl protein,-15637.29129964934
+albumin bun creatinine glucose,-15645.759996102905
+albumin creatinine glucose uric_acid,-15646.346080201312
+albumin creatinine glucose hdl,-15648.475534270316
+albumin bun protein uric_acid,-15658.312803670342
+albumin bun hdl protein,-15660.223825668732
+albumin bun creatinine glucose protein,-15597.303599306426
+albumin creatinine glucose protein uric_acid,-15598.156467513896
+albumin alt creatinine glucose protein,-15593.944861510923
+albumin creatinine glucose protein tc,-15595.827551587936
+albumin creatinine glucose protein tg,-15597.53431783797
+albumin bun creatinine protein tc,-15626.101511789744
+albumin creatinine protein tc uric_acid,-15625.92136822878
+albumin alt creatinine protein tc,-15622.735164060696
+albumin creatinine protein tc tg,-15622.326345622068
+albumin alt bun creatinine protein,-15626.135097069298
+albumin alt creatinine protein uric_acid,-15625.81055377388
+albumin alt creatinine protein tg,-15623.19114730746
+albumin bun creatinine protein tg,-15626.835226988962
+albumin creatinine protein tg uric_acid,-15627.272194404344
+bun hgb plt wbc,-15745.565517532908
+creatinine hgb plt wbc,-15711.885445346454
+hgb plt uric_acid wbc,-15735.673704610232
+hdl hgb plt wbc,-15744.532886264222
+albumin glucose hgb plt wbc,-15627.722012411008
+albumin bun hgb plt wbc,-15653.019428642312
+albumin creatinine hgb plt wbc,-15624.184547223746
+albumin hgb plt uric_acid wbc,-15645.137788629288
+albumin hgb plt protein wbc,-15595.27059122104
+albumin alt hgb plt wbc,-15651.318746951549
+albumin hgb plt tc wbc,-15652.006640292138
+albumin hgb plt tg wbc,-15651.928918338384
+albumin hba1c,-15696.512048803488
+creatinine hba1c,-15753.467392529536
+albumin hdl hgb plt wbc,-15652.380268873956
+albumin glucose hgb plt protein wbc,-15574.42901259724
+albumin bun hgb plt protein wbc,-15594.971930983946
+albumin creatinine hgb plt protein wbc,-15569.075176594104
+albumin hgb plt protein uric_acid wbc,-15594.054151520915
+albumin alt hgb plt protein wbc,-15594.074508693364
+albumin hgb plt protein tc wbc,-15596.406996782647
+albumin hgb plt protein tg wbc,-15595.804618941253
+albumin creatinine glucose hgb plt wbc,-15600.481844814603
+albumin bun creatinine hgb plt wbc,-15620.96408320127
+albumin creatinine hgb plt uric_acid wbc,-15625.063235590624
+albumin alt creatinine hgb plt wbc,-15624.728891116942
+albumin creatinine hgb plt tc wbc,-15624.724132751842
+albumin creatinine hgb plt tg wbc,-15625.460289698784
+albumin bun glucose hgb plt wbc,-15629.646442463816
+albumin glucose hgb plt uric_acid wbc,-15619.848102477765
+albumin alt glucose hgb plt wbc,-15626.706755477038
+albumin glucose hgb plt tc wbc,-15628.596594742476
+albumin glucose hgb plt tg wbc,-15628.978040120845
+crp hdl,-15755.608909345452
+albumin hba1c protein,-15647.110035069029
+albumin crp protein,-15639.854456581346
+albumin crp glucose,-15650.829703491592
+albumin bun crp,-15673.66927915748
+albumin creatinine crp,-15633.604094882336
+albumin crp uric_acid,-15670.15978031314
+albumin alt crp,-15675.187083302848
+albumin crp tc,-15674.123909244989
+albumin crp tg,-15676.063400388675
+albumin crp hdl,-15677.553903836602
+albumin creatinine hba1c,-15654.426543292966
+albumin hdl hgb plt protein wbc,-15596.192344350498
+albumin creatinine hdl hgb plt wbc,-15625.40096991558
+albumin creatinine hba1c protein,-15607.349943759193
+albumin creatinine crp protein,-15599.417712601982
+albumin glucose hdl hgb plt wbc,-15628.971860197324
+albumin creatinine glucose hgb plt protein wbc,-15548.733180296926
+albumin bun creatinine hgb plt protein wbc,-15568.760782631814
+albumin creatinine hgb plt protein uric_acid wbc,-15571.3962547047
+albumin alt creatinine hgb plt protein wbc,-15568.547249290106
+albumin creatinine hgb plt protein tc wbc,-15569.938535820247
+albumin creatinine hgb plt protein tg wbc,-15570.303717060471
+albumin creatinine hdl hgb plt protein wbc,-15569.785212252584
+albumin bun glucose hgb plt protein wbc,-15574.87464570674
+albumin glucose hgb plt protein uric_acid wbc,-15571.981509813417
+albumin alt glucose hgb plt protein wbc,-15571.904031248494
+albumin glucose hgb plt protein tc wbc,-15575.59011897779
+albumin glucose hgb plt protein tg wbc,-15575.984793662728
+albumin glucose hdl hgb plt protein wbc,-15574.869267577413
+albumin bun hgb plt protein uric_acid wbc,-15595.11479428745
+albumin alt hgb plt protein uric_acid wbc,-15592.555334995011
+albumin hgb plt protein tc uric_acid wbc,-15595.161312040147
+albumin hgb plt protein tg uric_acid wbc,-15595.568616011264
+albumin hdl hgb plt protein uric_acid wbc,-15594.980520664394
+albumin alt bun hgb plt protein wbc,-15593.626367980189
+albumin alt hgb plt protein tc wbc,-15595.204233868615
+albumin alt hgb plt protein tg wbc,-15594.330117613608
+albumin alt hdl hgb plt protein wbc,-15595.009952364166
+albumin bun creatinine glucose hgb plt protein wbc,-15546.755269533842
+albumin creatinine glucose hgb plt protein uric_acid wbc,-15550.840239896948
+albumin alt creatinine glucose hgb plt protein wbc,-15547.042035957234
+albumin creatinine glucose hgb plt protein tc wbc,-15549.667716453148
+albumin creatinine glucose hgb plt protein tg wbc,-15549.933821210065
+albumin alt bun creatinine hgb plt protein wbc,-15568.341022455425
+albumin alt creatinine hgb plt protein uric_acid wbc,-15570.78565217048
+albumin alt creatinine hgb plt protein tc wbc,-15569.414306372551
+albumin alt creatinine hgb plt protein tg wbc,-15569.693549381042
+albumin bun creatinine hgb plt protein uric_acid wbc,-15571.07528551116
+albumin bun creatinine hgb plt protein tc wbc,-15569.718602472682
+albumin bun creatinine hgb plt protein tg wbc,-15569.847829871416
+hba1c hgb plt wbc,-15716.608876740764
+crp hgb plt wbc,-15678.440647498312
+crp hba1c,-15726.27190256669
+albumin hba1c hgb plt wbc,-15636.078386821691
+albumin crp hgb plt wbc,-15623.040315817563
+crp glucose hgb plt wbc,-15651.758664743798
+bun crp hgb plt wbc,-15680.17174727979
+creatinine crp hgb plt wbc,-15647.499913742871
+crp hgb plt uric_acid wbc,-15675.248939019508
+crp hgb plt protein wbc,-15672.035312113783
+alt crp hgb plt wbc,-15677.474407285834
+crp hgb plt tc wbc,-15678.227354796672
+crp hgb plt tg wbc,-15679.73073191528
+albumin alt crp hgb plt wbc,-15623.05422696584
+albumin crp hgb plt tc wbc,-15623.946240083416
+albumin creatinine glucose hdl hgb plt protein wbc,-15548.727829419498
+albumin alt creatinine hdl hgb plt protein wbc,-15569.3275303484
+albumin bun creatinine hdl hgb plt protein wbc,-15569.641757117375
+albumin creatinine hdl hgb plt protein uric_acid wbc,-15572.205803314304
+albumin creatinine hdl hgb plt protein tc wbc,-15570.760032768165
+albumin creatinine hdl hgb plt protein tg wbc,-15569.99459322743
+albumin bun creatinine glucose hgb plt protein uric_acid wbc,-15548.671087602906
+albumin alt bun creatinine glucose hgb plt protein wbc,-15545.278474907998
+albumin bun creatinine glucose hgb plt protein tc wbc,-15547.817408435236
+albumin bun creatinine glucose hgb plt protein tg wbc,-15548.057738302205
+albumin bun creatinine glucose hdl hgb plt protein wbc,-15547.057974758603
+albumin alt creatinine glucose hgb plt protein uric_acid wbc,-15548.965499779584
+albumin alt creatinine glucose hgb plt protein tc wbc,-15547.992929557262
+albumin alt creatinine glucose hgb plt protein tg wbc,-15548.447388325982
+albumin alt creatinine glucose hdl hgb plt protein wbc,-15547.216359944288
+albumin creatinine glucose hdl hgb plt protein uric_acid wbc,-15550.850566594016
+albumin creatinine glucose hdl hgb plt protein tc wbc,-15549.7735769478
+albumin creatinine glucose hdl hgb plt protein tg wbc,-15549.54343677584
+albumin creatinine glucose hgb plt protein tc uric_acid wbc,-15551.816500680465
+albumin creatinine glucose hgb plt protein tc tg wbc,-15550.742386061504
+albumin alt bun creatinine glucose hgb plt protein uric_acid wbc,-15547.00583376208
+albumin alt bun creatinine glucose hgb plt protein tc wbc,-15546.358888557435
+albumin alt bun creatinine glucose hgb plt protein tg wbc,-15546.746732037682
+albumin bun creatinine glucose hgb plt protein tc uric_acid wbc,-15549.78006491904
+albumin bun creatinine glucose hgb plt protein tc tg wbc,-15548.954830677809
+albumin crp hba1c,-15657.790432305086
+crp hdl hgb plt wbc,-15680.209961043836
+albumin hba1c hgb plt protein wbc,-15585.306690666048
+albumin crp hgb plt protein wbc,-15581.976188743938
+albumin crp glucose hgb plt wbc,-15603.933770650556
+albumin bun crp hgb plt wbc,-15624.540816966892
+albumin creatinine crp hgb plt wbc,-15594.620288977325
+albumin crp hgb plt uric_acid wbc,-15619.23172922258
+albumin crp hgb plt tg wbc,-15623.787440639122
+albumin crp hdl hgb plt wbc,-15624.446128718422
+albumin creatinine hba1c hgb plt wbc,-15608.76647845858
+albumin creatinine hba1c hgb plt protein wbc,-15559.205448185445
+albumin creatinine crp hgb plt protein wbc,-15555.129047094702
+albumin glucose hba1c hgb plt protein wbc,-15575.358560796689
+albumin crp glucose hgb plt protein wbc,-15563.863805517758
+albumin bun crp hgb plt protein wbc,-15581.758562140632
+albumin crp hgb plt protein uric_acid wbc,-15581.403570156888
+albumin alt crp hgb plt protein wbc,-15580.955835097917
+albumin crp hgb plt protein tc wbc,-15583.176188730233
+albumin crp hgb plt protein tg wbc,-15582.548297181214
+albumin crp hdl hgb plt protein wbc,-15582.887446061546
+albumin bun hba1c hgb plt protein wbc,-15585.653164237588
+albumin hba1c hgb plt protein uric_acid wbc,-15583.253094025624
+albumin alt hba1c hgb plt protein wbc,-15583.308139032344
+albumin hba1c hgb plt protein tc wbc,-15586.563899442364
+albumin hba1c hgb plt protein tg wbc,-15587.086614273025
+albumin hba1c hdl hgb plt protein wbc,-15585.961386775583
+albumin creatinine glucose hba1c hgb plt protein wbc,-15549.814510650323
+albumin creatinine crp glucose hgb plt protein wbc,-15537.663914332898
+albumin bun creatinine crp hgb plt protein wbc,-15554.850464564674
+albumin creatinine crp hgb plt protein uric_acid wbc,-15557.321787041785
+albumin alt creatinine crp hgb plt protein wbc,-15554.84285767986
+albumin creatinine crp hgb plt protein tc wbc,-15556.077216277256
+albumin creatinine crp hgb plt protein tg wbc,-15556.431744022504
+albumin creatinine crp hdl hgb plt protein wbc,-15555.596675055924
+albumin bun creatinine hba1c hgb plt protein wbc,-15557.720203020994
+albumin creatinine hba1c hgb plt protein uric_acid wbc,-15561.5219044787
+albumin alt creatinine hba1c hgb plt protein wbc,-15557.945424108542
+albumin creatinine hba1c hgb plt protein tc wbc,-15560.168781005008
+albumin creatinine hba1c hgb plt protein tg wbc,-15560.987927043896
+albumin bun crp glucose hgb plt protein wbc,-15564.359262483222
+albumin crp glucose hgb plt protein uric_acid wbc,-15562.096456573152
+albumin alt crp glucose hgb plt protein wbc,-15561.742627563342
+albumin crp glucose hgb plt protein tc wbc,-15565.080820334902
+albumin crp glucose hgb plt protein tg wbc,-15565.492208627104
+albumin crp glucose hdl hgb plt protein wbc,-15564.066454058484
+albumin bun creatinine crp glucose hgb plt protein wbc,-15535.730713168236
+albumin creatinine crp glucose hgb plt protein uric_acid wbc,-15539.746515945826
+albumin alt creatinine crp glucose hgb plt protein wbc,-15536.450038458845
+albumin creatinine crp glucose hgb plt protein tc wbc,-15538.669929345884
+albumin creatinine crp glucose hgb plt protein tg wbc,-15539.02172383129
+albumin alt creatinine glucose hba1c hgb plt protein wbc,-15548.07615300398
+albumin alp alt ast bun creatinine hba1c hdl hgb tc tg,-15547.612385316836
+albumin alp alt ast bun creatinine crp ggt hba1c hdl hgb tc tg,-15484.25823679658
+hba1c hdl tc tg,-15810.16835941483
+hgb,-15807.943652572882
+albumin alp alt ast bun creatinine,-15582.827599140755
+albumin alp alt ast,-15617.118557262776
+albumin alp alt ast bun,-15608.247530220306
+albumin alp alt ast creatinine,-15579.943722330683
+albumin alp alt ast hgb,-15606.215832109645
+albumin alp bun creatinine,-15627.967162593575
+albumin alt bun creatinine,-15680.005425500154
+albumin ast bun creatinine,-15669.094844862231
+albumin hgb,-15705.834574629433
+albumin alp alt ast bun creatinine tc,-15581.486915263957
+albumin alp alt ast bun creatinine hgb,-15578.55122214326
+albumin alp alt ast ggt,-15561.736183720384
+albumin alp alt ast tc,-15614.771647002144
+albumin alp alt ast tg,-15613.827374765257
+albumin bun creatinine tc,-15678.895534789832
+albumin bun creatinine tg,-15680.035196396517
+albumin bun creatinine hgb,-15673.099301298456
+albumin alp alt ast bun creatinine ggt,-15528.379005867033
+albumin alp alt ast bun creatinine hdl,-15581.113678757214
+albumin alp alt ast bun creatinine tg,-15580.916902495752
+albumin alp alt ast bun creatinine hba1c,-15550.10400256826
+albumin alp alt ast hdl,-15613.846661260652
+albumin alp alt ast hba1c,-15584.119925469771
+albumin bun creatinine ggt,-15609.488505892066
+albumin bun creatinine hdl,-15680.287355418102
+albumin bun creatinine hba1c,-15653.58604992603
+albumin alp alt ast bun creatinine ggt hgb,-15525.206789633918
+albumin alp alt ast bun ggt,-15548.461715977972
+albumin alp alt ast creatinine ggt,-15525.301684196069
+albumin alp alt ast ggt tc,-15558.470533137204
+albumin alp alt ast ggt hgb,-15552.120572767342
+albumin alp alt ast bun creatinine hgb tc,-15578.101944290347
+albumin alp alt ast bun creatinine hgb tg,-15575.640804653376
+albumin alp alt ast creatinine ggt hgb,-15521.83503439233
+albumin alp alt ast hdl tc tg,-15609.759100066143
+albumin alp alt ast crp,-15586.174372948622
+albumin bun creatinine hdl tc tg,-15679.08701468857
+albumin bun creatinine crp,-15634.653215118766
+albumin alp alt ast bun creatinine ggt tc,-15526.720842202918
+albumin alp alt ast bun creatinine hba1c hgb,-15547.001836791873
+albumin alp alt ast ggt tg,-15561.448716726642
+albumin alp alt ast bun creatinine hdl hgb,-15576.581840464218
+albumin alp alt ast creatinine ggt tc,-15523.708980236548
+albumin alp alt ast bun creatinine hdl tc tg,-15578.867471852867
+albumin alp alt ast bun creatinine crp,-15552.258258820984
+albumin alp alt ast bun creatinine ggt tg,-15528.706780282044
+albumin alp alt ast bun creatinine hba1c tc,-15549.332314321611
+albumin alp alt ast ggt hdl,-15556.568874651955
+albumin alp alt ast ggt hba1c,-15534.835090494678
+albumin alp alt ast bun creatinine ggt hgb tc,-15524.445196558529
+albumin alp alt ast creatinine ggt tg,-15525.577390276438
+albumin alp alt ast creatinine ggt hgb tc,-15521.13522732396
+albumin alp alt ast bun creatinine ggt hdl,-15524.951515101622
+albumin alp alt ast bun creatinine ggt hba1c,-15501.99750325288
+albumin alp alt ast bun creatinine hba1c hdl,-15550.367715445003
+albumin alp alt ast bun creatinine hba1c tg,-15550.886672582488
+albumin alp alt ast bun creatinine crp tc,-15550.811417271989
+albumin alp alt ast bun creatinine crp tg,-15551.130607771853
+albumin alp alt ast bun creatinine crp hgb,-15549.451074753057
+albumin alp alt ast ggt hdl tc tg,-15555.161422281457
+albumin alp alt ast crp ggt,-15540.96152420174
+albumin alp alt ast bun creatinine ggt hba1c hgb,-15499.53805058849
+albumin alp alt ast bun creatinine ggt hdl tc,-15524.62905532947
+albumin alp alt ast bun creatinine ggt hdl hgb,-15521.570615306631
+albumin alp alt ast bun creatinine ggt hgb tg,-15525.018299795594
+albumin alp alt ast bun creatinine ggt hdl tc tg,-15524.937422303825
+albumin alp alt ast bun creatinine crp ggt,-15507.67731526013
+albumin alp alt ast bun creatinine hba1c hdl tc tg,-15550.44049425567
+albumin alp alt ast bun creatinine crp hba1c,-15525.175347158282
+albumin alp alt ast bun creatinine crp hdl,-15552.728872945936
+albumin alp alt ast bun creatinine ggt hba1c tc,-15500.80447088482
+albumin alp alt ast bun creatinine ggt hba1c hdl,-15500.91544283752
+albumin alp alt ast bun creatinine ggt hba1c tg,-15503.487913552784
+albumin alp alt ast bun creatinine crp ggt tc,-15506.002627675816
+albumin alp alt ast bun creatinine crp ggt hgb,-15505.54576684316
+albumin alp alt ast bun creatinine ggt hdl hgb tc tg,-15522.168389554246
+albumin alp alt ast bun creatinine ggt hdl tg,-15525.75718644835
+albumin alp alt ast bun creatinine ggt hba1c hgb tc,-15499.074945884418
+albumin alp alt ast bun creatinine ggt hba1c hgb tg,-15501.029569652315
+albumin alp alt ast bun creatinine crp hdl tc tg,-15549.10266294077
+albumin alp alt ast bun creatinine ggt hba1c hdl tc tg,-15501.355274233229
+albumin alp alt ast bun creatinine crp ggt hba1c,-15484.85595599706
+albumin alp alt ast bun creatinine crp ggt hdl,-15506.565952186977
+albumin alp alt ast bun creatinine crp ggt tg,-15508.329274361096
+albumin alp alt ast bun creatinine ggt hba1c hdl hgb,-15498.269794768205
+alt bun creatinine glucose hdl hgb plt tc tg wbc,-15665.17320413762
+albumin alt creatinine glucose hdl hgb plt protein tc wbc,-15548.28647988073
+albumin alt creatinine glucose hdl hgb plt protein tg wbc,-15548.082120445337
+bun creatinine glucose hdl hgb lymph_pct mcv mpv plt tc tg wbc,-15590.705202085615
+tc tg,-15848.690564943225
+bun tc,-15847.717213597483
+hdl tc,-15850.09858844479
+creatinine glucose tc,-15742.010335738143
+glucose tc uric_acid,-15781.83132046426
+creatinine tc tg,-15791.775933865469
+bun creatinine glucose,-15741.286979803985
+creatinine glucose uric_acid,-15743.328149463428
+creatinine glucose tg,-15745.308163975908
+creatinine glucose hdl,-15746.325117336955
+bun glucose uric_acid,-15789.40929535938
+glucose tg uric_acid,-15787.621454605638
+glucose hdl uric_acid,-15789.666294732724
+bun creatinine tc,-15791.13294094978
+creatinine tc uric_acid,-15791.358725669386
+creatinine hdl tc,-15792.562955697598
+bun creatinine uric_acid,-15795.4670779462
+bun creatinine tg,-15797.38429946326
+bun creatinine glucose tc,-15738.48592736714
+creatinine glucose tc uric_acid,-15740.327799493012
+creatinine glucose tc tg,-15743.094684982778
+hgb lymph_pct mcv mpv plt wbc,-15670.20866778235
+glucose hgb lymph_pct mcv mpv plt wbc,-15629.024450920788
+hgb lymph_pct mcv mpv plt tc wbc,-15670.878203150372
+hgb lymph_pct mcv mpv plt tg wbc,-15669.112301064706
+bun hgb lymph_pct mcv mpv plt wbc,-15671.152521185491
+creatinine hgb lymph_pct mcv mpv plt wbc,-15646.401437345688
+hgb lymph_pct mcv mpv plt uric_acid wbc,-15661.050284719771
+hdl hgb lymph_pct mcv mpv plt wbc,-15667.373220641675
+bun glucose hgb lymph_pct mcv mpv plt wbc,-15628.819021491923
+creatinine glucose hgb lymph_pct mcv mpv plt wbc,-15606.083506220202
+glucose hgb lymph_pct mcv mpv plt uric_acid wbc,-15616.977490176016
+glucose hgb lymph_pct mcv mpv plt tc wbc,-15629.7945027379
+glucose hgb lymph_pct mcv mpv plt tg wbc,-15630.666996851218
+creatinine hgb lymph_pct mcv mpv plt tc wbc,-15646.838592813212
+creatinine hgb lymph_pct mcv mpv plt tg wbc,-15646.818940296494
+hgb lymph_pct mcv mpv plt tc uric_acid wbc,-15661.6742199898
+hgb lymph_pct mcv mpv plt tg uric_acid wbc,-15661.92730041638
+glucose hdl hgb lymph_pct mcv mpv plt wbc,-15628.903409161656
+bun creatinine hgb lymph_pct mcv mpv plt wbc,-15633.793368047003
+creatinine hgb lymph_pct mcv mpv plt uric_acid wbc,-15644.94522242332
+creatinine hdl hgb lymph_pct mcv mpv plt wbc,-15645.097341991388
+bun hgb lymph_pct mcv mpv plt uric_acid wbc,-15660.01318103339
+hdl hgb lymph_pct mcv mpv plt uric_acid wbc,-15660.075007127109
+bun hdl hgb lymph_pct mcv mpv plt wbc,-15668.079654529743
+hdl hgb lymph_pct mcv mpv plt tc wbc,-15668.410119045957
+hdl hgb lymph_pct mcv mpv plt tg wbc,-15667.966040979349
+bun creatinine glucose hgb lymph_pct mcv mpv plt wbc,-15589.5085493493
+creatinine glucose hgb lymph_pct mcv mpv plt uric_acid wbc,-15603.082879957085
+creatinine glucose hgb lymph_pct mcv mpv plt tc wbc,-15606.664113298328
+creatinine glucose hgb lymph_pct mcv mpv plt tg wbc,-15607.887887806248
+bun glucose hgb lymph_pct mcv mpv plt uric_acid wbc,-15613.358067165216
+glucose hgb lymph_pct mcv mpv plt tc uric_acid wbc,-15617.790629320683
+glucose hgb lymph_pct mcv mpv plt tg uric_acid wbc,-15619.272435790768
+bun glucose hgb lymph_pct mcv mpv plt tc wbc,-15629.662347685282
+bun glucose hgb lymph_pct mcv mpv plt tg wbc,-15630.553587889584
+creatinine glucose hdl hgb lymph_pct mcv mpv plt wbc,-15606.752981875248
+glucose hdl hgb lymph_pct mcv mpv plt uric_acid wbc,-15618.137040890146
+bun glucose hdl hgb lymph_pct mcv mpv plt wbc,-15628.540954381157
+glucose hdl hgb lymph_pct mcv mpv plt tc wbc,-15629.889020978808
+glucose hdl hgb lymph_pct mcv mpv plt tg wbc,-15629.905124222729
+bun creatinine glucose hgb lymph_pct mcv mpv plt uric_acid wbc,-15584.15612957694
+bun creatinine glucose hgb lymph_pct mcv mpv plt tc wbc,-15590.167582327384
+bun creatinine glucose hgb lymph_pct mcv mpv plt tg wbc,-15591.378874887863
+bun creatinine glucose hdl hgb lymph_pct mcv mpv plt wbc,-15589.570442015862
+creatinine glucose hgb lymph_pct mcv mpv plt tc uric_acid wbc,-15603.745929107396
+creatinine glucose hgb lymph_pct mcv mpv plt tg uric_acid wbc,-15605.142517985536
+creatinine glucose hdl hgb lymph_pct mcv mpv plt uric_acid wbc,-15604.280768108943
+creatinine glucose hgb lymph_pct mcv mpv plt tc tg wbc,-15608.279688122464
+creatinine glucose hdl hgb lymph_pct mcv mpv plt tc wbc,-15607.56622089053
+creatinine glucose hdl hgb lymph_pct mcv mpv plt tg wbc,-15607.482866899163
+bun creatinine glucose hgb lymph_pct mcv mpv plt tc uric_acid wbc,-15584.941364298618
+bun creatinine glucose hgb lymph_pct mcv mpv plt tg uric_acid wbc,-15586.407482736153
+bun creatinine glucose hgb lymph_pct mcv mpv plt tc tg wbc,-15591.80521253422
+crp hgb lymph_pct mcv mpv plt wbc,-15613.739089467792
+crp glucose hgb lymph_pct mcv mpv plt wbc,-15582.485509545466
+bun crp hgb lymph_pct mcv mpv plt wbc,-15614.893803677343
+creatinine crp hgb lymph_pct mcv mpv plt wbc,-15588.917339992866
+crp hgb lymph_pct mcv mpv plt uric_acid wbc,-15608.351106644108
+crp hgb lymph_pct mcv mpv plt tc wbc,-15614.427999066653
+crp hgb lymph_pct mcv mpv plt tg wbc,-15612.970875886243
+crp glucose hgb lymph_pct mcv mpv plt tc wbc,-15583.32075370252
+chloride co2 potassium sodium,-15757.313019734254
+hgb mcv mpv plt rdw wbc,-15570.619453787485
+albumin alp alt ast bilirubin protein,-15590.990484235292
+albumin bun calcium chloride co2 creatinine glucose phosphorus potassium sodium,-15528.433093996771
+hgb mcv mpv plt protein rdw wbc,-15557.322475790774
+glucose hgb mcv mpv plt rdw wbc,-15535.924771078884
+bun hgb mcv mpv plt rdw wbc,-15573.029030786296
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb potassium protein sodium,-15445.105713624707
+albumin bun calcium chloride co2 creatinine glucose phosphorus potassium protein sodium,-15509.596111670613
+albumin bun calcium chloride co2 creatinine glucose phosphorus potassium sodium uric_acid,-15527.143876652208
+albumin bun calcium chloride co2 creatinine glucose phosphorus potassium sodium tc,-15524.659870372208
+albumin bun calcium chloride co2 creatinine glucose hgb phosphorus potassium sodium,-15518.737931662514
+creatinine hgb mcv mpv plt rdw wbc,-15551.096358587207
+hgb mcv mpv plt rdw sodium wbc,-15554.66984758528
+hgb mcv mpv plt potassium rdw wbc,-15555.56850413073
+chloride hgb mcv mpv plt rdw wbc,-15537.794602292422
+co2 hgb mcv mpv plt rdw wbc,-15564.534688048545
+calcium hgb mcv mpv plt rdw wbc,-15570.88789359178
+albumin hgb mcv mpv plt rdw wbc,-15492.474613165592
+alp hgb mcv mpv plt rdw wbc,-15507.304398744707
+alt hgb mcv mpv plt rdw wbc,-15567.690847351676
+ast hgb mcv mpv plt rdw wbc,-15565.812972073769
+bilirubin hgb mcv mpv plt rdw wbc,-15561.658825487348
+hgb mcv mpv plt rdw uric_acid wbc,-15562.669761356163
+hgb ldh mcv mpv plt rdw wbc,-15548.88438240534
+hgb mcv mpv phosphorus plt rdw wbc,-15568.097364542782
+hgb iron mcv mpv plt rdw wbc,-15564.084382751624
+hgb mcv mpv plt rdw tg wbc,-15569.488806560674
+hgb mcv mpv plt rdw tc wbc,-15571.046102629802
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium protein rdw sodium wbc,-15329.917507775204
+albumin alp bun calcium chloride co2 creatinine glucose phosphorus potassium sodium,-15502.095322161915
+albumin alt bun calcium chloride co2 creatinine glucose phosphorus potassium sodium,-15526.9422264607
+albumin ast bun calcium chloride co2 creatinine glucose phosphorus potassium sodium,-15518.731417162186
+albumin bilirubin bun calcium chloride co2 creatinine glucose phosphorus potassium sodium,-15528.978572166798
+albumin bun calcium chloride co2 creatinine ggt glucose phosphorus potassium sodium,-15494.242814364177
+albumin bun calcium chloride co2 creatinine glucose ldh phosphorus potassium sodium,-15495.537818552302
+albumin bun calcium chloride co2 creatinine glucose iron phosphorus potassium sodium,-15526.098305834128
+albumin bun calcium chloride co2 creatinine glucose phosphorus potassium sodium tg,-15528.283970371142
+albumin bun calcium chloride co2 creatinine glucose hdl phosphorus potassium sodium,-15529.449424094786
+albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15366.940054846276
+albumin bun calcium chloride co2 creatinine glucose hgb mcv mpv phosphorus plt potassium rdw sodium wbc,-15389.90677170664
+chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium rdw sodium wbc,-15464.977044102641
+albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15358.36502570097
+ggt hgb mcv mpv plt rdw wbc,-15507.308959281598
+hdl hgb mcv mpv plt rdw wbc,-15569.62051894069
+hba1c hgb mcv mpv plt rdw wbc,-15532.228979226074
+acr hgb mcv mpv plt rdw wbc,-15399.343635303441
+bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium rdw sodium wbc,-15468.184091271614
+chloride co2 hgb mcv mpv plt potassium rdw sodium wbc,-15496.739358938556
+albumin alp alt ast bilirubin hgb mcv mpv plt protein rdw wbc,-15395.918711715653
+albumin alp alt ast bilirubin glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15341.412000978362
+albumin alp alt ast bilirubin bun gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15357.494994414166
+albumin alp alt ast bilirubin creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15348.324873189953
+albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw sodium wbc,-15354.89428417633
+albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw wbc,-15339.56778339696
+albumin alp alt ast bilirubin chloride gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15345.226019599313
+albumin alp alt ast bilirubin co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15358.232478286262
+albumin alp alt ast bilirubin calcium gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15356.635577595021
+albumin alp alt ast bilirubin chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15306.560242793308
+albumin bun calcium chloride co2 creatinine glucose hba1c phosphorus potassium sodium,-15529.622602859743
+acr albumin bun calcium chloride co2 creatinine glucose phosphorus potassium sodium,-15437.770220374026
+crp hgb mcv mpv plt rdw wbc,-15527.047913855367
+hdl hgb mcv mpv plt rdw tc tg wbc,-15570.373497020744
+albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw uric_acid wbc,-15353.816607007666
+albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt protein rdw wbc,-15344.386130440163
+albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw tc wbc,-15359.877110833
+albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15336.577854790565
+albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium uric_acid wbc,-15359.601081773992
+albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium tc wbc,-15367.724301562923
+albumin bun calcium chloride co2 creatinine crp glucose phosphorus potassium sodium,-15513.833347269643
+albumin bun calcium chloride co2 creatinine glucose hdl phosphorus potassium sodium tc tg,-15526.182870191209
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hgb mcv mpv plt potassium protein rdw sodium wbc,-15308.315297730396
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium protein rdw sodium uric_acid wbc,-15328.478010585719
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb ldh mcv mpv plt potassium protein rdw sodium wbc,-15319.653949239868
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv phosphorus plt potassium protein rdw sodium wbc,-15325.477654470465
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb iron mcv mpv plt potassium protein rdw sodium wbc,-15332.550828646914
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium protein rdw sodium tg wbc,-15330.526988062167
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium protein rdw sodium tc wbc,-15331.308080925244
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl hgb mcv mpv plt potassium protein rdw sodium wbc,-15327.138368680942
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hba1c hgb mcv mpv plt potassium protein rdw sodium wbc,-15329.529237781733
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose hgb mcv mpv plt potassium protein rdw sodium wbc,-15338.843909698258
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium protein rdw sodium wbc,-15255.655215755525
+albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl hgb mcv mpv plt potassium protein rdw sodium tc tg wbc,-15330.125679206802
+albumin alp alt ast bilirubin ggt gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15324.291086496209
+albumin alp alt ast bilirubin gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15350.30893631146
+albumin alp alt ast bilirubin gran_pct hgb iron lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15359.756306963154
+albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw tg wbc,-15352.076075682584
+albumin alp alt ast bilirubin gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15354.373660902736
+albumin alp alt ast bilirubin gran_pct hba1c hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15334.340887506072
+albumin alp alt ast bilirubin crp gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15358.998234042734
+acr albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15264.633734507619
+albumin alp alt ast bilirubin gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt protein rdw tc tg wbc,-15353.308918159255
+albumin alp bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15343.907627487508
+albumin alt bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15369.249053166557
+albumin ast bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15357.733789830107
+albumin bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15365.674192031212
+albumin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15331.64584909108
+albumin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15344.769065000757
+albumin bun calcium chloride co2 creatinine glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15368.986677576413
+albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium tg wbc,-15368.306932183596
+albumin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15361.69910027206
+albumin bun calcium chloride co2 creatinine glucose gran_pct hba1c hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15366.108583081772
+albumin bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15374.81558914197
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15279.446520441454
+albumin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium tc tg wbc,-15362.91061538695
+acr albumin alp alt ast bilirubin glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15261.31700119148
+acr albumin alp alt ast bilirubin bun gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15264.575605594393
+acr albumin alp alt ast bilirubin creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15266.299754047172
+acr albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw sodium wbc,-15263.588923970812
+acr albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw wbc,-15250.027769770079
+acr albumin alp alt ast bilirubin chloride gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15259.773711838454
+acr albumin alp alt ast bilirubin co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15265.974384913814
+acr albumin alp alt ast bilirubin calcium gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15265.490226720643
+acr albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw uric_acid wbc,-15262.015396785182
+acr albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt protein rdw wbc,-15256.190661835568
+acr albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw tc wbc,-15267.18278458654
+acr albumin alp alt ast bilirubin chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15231.863441384381
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15263.08990663741
+acr albumin alp alt ast bilirubin chloride co2 glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15236.399565162938
+acr albumin alp alt ast bilirubin bun chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15227.88415766344
+acr albumin alp alt ast bilirubin chloride co2 creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15234.49329837969
+acr albumin alp alt ast bilirubin calcium chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15234.685889261025
+acr albumin alp alt ast bilirubin bun chloride co2 glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15231.576235730747
+acr albumin alp alt ast bilirubin bun chloride co2 creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15231.693757442496
+acr albumin alp alt ast bilirubin bun calcium chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15230.545747236607
+acr albumin alp alt ast bilirubin chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15239.168134694506
+acr albumin alp alt ast bilirubin calcium chloride co2 creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15237.669533903434
+acr albumin alp alt ast bilirubin calcium chloride co2 glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15239.23892086252
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine ggt glucose hgb mcv mpv plt potassium protein rdw sodium wbc,-15237.718694748726
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium protein rdw sodium uric_acid wbc,-15252.66797737464
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb ldh mcv mpv plt potassium protein rdw sodium wbc,-15252.630733521533
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv phosphorus plt potassium protein rdw sodium wbc,-15252.041364786077
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb iron mcv mpv plt potassium protein rdw sodium wbc,-15258.38634684197
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium protein rdw sodium tg wbc,-15257.291320494034
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hgb mcv mpv plt potassium protein rdw sodium tc wbc,-15257.570468070277
+acr albumin alp alt ast bilirubin ggt gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15238.903090608002
+acr albumin alp alt ast bilirubin gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15263.29448927673
+acr albumin alp alt ast bilirubin gran_pct hgb iron lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15265.861318285992
+acr albumin alp alt ast bilirubin gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw tg wbc,-15262.99470843832
+acr albumin alp alt ast bilirubin gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15260.892867654464
+acr albumin alp bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15265.385211061652
+acr albumin alt bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15281.612852767179
+acr albumin ast bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15272.55045487099
+acr albumin bilirubin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15278.737803402018
+acr albumin bun calcium chloride co2 creatinine ggt glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15253.08705788331
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium uric_acid wbc,-15270.710838718785
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15268.711871237754
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hgb iron lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15281.836413563324
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium tg wbc,-15281.823707591182
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium tc wbc,-15281.216416891795
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15274.286180102583
+acr albumin alp alt ast bilirubin chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15230.097416955501
+acr albumin alp alt ast bilirubin chloride co2 gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15231.218612737262
+acr albumin alp alt ast bilirubin chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15228.42007051349
+acr albumin alp alt ast bilirubin chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15231.21800950894
+acr albumin alp alt ast bilirubin chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15234.000374989271
+acr albumin alp alt ast bilirubin bun chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15223.631668454253
+acr albumin alp alt ast bilirubin bun chloride co2 gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15225.680981148962
+acr albumin alp alt ast bilirubin bun chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15223.16526983924
+acr albumin alp alt ast bilirubin bun chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15226.687078366005
+acr albumin alp alt ast bilirubin bun chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tc wbc,-15230.030631930336
+acr albumin alp alt ast bilirubin chloride co2 glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15229.915964242791
+acr albumin alp alt ast bilirubin chloride co2 creatinine gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15229.877822114093
+acr albumin alp alt ast bilirubin calcium chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15231.893738061684
+acr albumin alp alt ast bilirubin chloride co2 glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15234.685884015731
+acr albumin alp alt ast bilirubin chloride co2 creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15231.75187537436
+acr albumin alp alt ast bilirubin calcium chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15232.914488937367
+acr albumin alp alt ast bilirubin bun chloride co2 glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15223.34479291085
+acr albumin alp alt ast bilirubin bun chloride co2 creatinine gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15227.15310724552
+acr albumin alp alt ast bilirubin bun calcium chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium protein rdw sodium wbc,-15226.498114426198
+acr albumin alp alt ast bilirubin bun chloride co2 glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15227.157830264268
+acr albumin alp alt ast bilirubin bun chloride co2 creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15227.628922272545
+acr albumin alp alt ast bilirubin bun calcium chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium uric_acid wbc,-15226.29824934782
+acr albumin alp alt ast bilirubin bun chloride co2 glucose gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15228.118384035659
+acr albumin alp alt ast bilirubin bun chloride co2 creatinine gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15230.030211241912
+acr albumin alp alt ast bilirubin bun calcium chloride co2 gran_pct hgb ldh lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium wbc,-15227.87344533018
+acr albumin alp alt ast bilirubin bun chloride co2 glucose gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15231.384461301634
+acr albumin alp alt ast bilirubin bun chloride co2 creatinine gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15230.729834965148
+acr albumin alp alt ast bilirubin bun calcium chloride co2 gran_pct hgb lymph_pct mcv mono_pct mpv plt potassium protein rdw sodium tg wbc,-15229.3873063322
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl hgb mcv mpv plt potassium protein rdw sodium wbc,-15251.857034920651
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hba1c hgb mcv mpv plt potassium protein rdw sodium wbc,-15257.148234291153
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine crp glucose hgb mcv mpv plt potassium protein rdw sodium wbc,-15265.087500462596
+acr albumin alp alt ast bilirubin bun calcium chloride co2 creatinine glucose hdl hgb mcv mpv plt potassium protein rdw sodium tc tg wbc,-15255.907372716483
+acr albumin alp alt ast bilirubin gran_pct hba1c hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15257.360723987986
+acr albumin alp alt ast bilirubin crp gran_pct hgb lymph_pct mcv mono_pct mpv plt protein rdw wbc,-15265.752602065333
+acr albumin alp alt ast bilirubin gran_pct hdl hgb lymph_pct mcv mono_pct mpv plt protein rdw tc tg wbc,-15264.739147394812
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hba1c hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15281.0284567286
+acr albumin bun calcium chloride co2 creatinine crp glucose gran_pct hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium wbc,-15286.538217490972
+acr albumin bun calcium chloride co2 creatinine glucose gran_pct hdl hgb lymph_pct mcv mono_pct mpv phosphorus plt potassium rdw sodium tc tg wbc,-15277.081033286504

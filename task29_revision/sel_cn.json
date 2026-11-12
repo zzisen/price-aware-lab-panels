@@ -1,0 +1,97 @@
+{
+ "mode": "cn",
+ "cache_start": 934,
+ "CHNS": {
+  "nbphs": {
+   "features": [
+    "alt",
+    "creatinine",
+    "bun",
+    "glucose",
+    "tc",
+    "tg",
+    "hdl",
+    "wbc",
+    "hgb",
+    "plt"
+   ],
+   "price_as_measured": 60.8,
+   "price_as_ordered": 79.8,
+   "cv": -15665.17320413762
+  },
+  "matched": {
+   "features": [
+    "albumin",
+    "protein"
+   ],
+   "price": 15.3,
+   "cv": -15665.099147005883
+  },
+  "aware": {
+   "features": [
+    "albumin",
+    "alt",
+    "bun",
+    "creatinine",
+    "glucose",
+    "hgb",
+    "plt",
+    "protein",
+    "wbc"
+   ],
+   "price": 52.3,
+   "cv": -15545.278474907998
+  }
+ },
+ "CLHLS": {
+  "nbphs": {
+   "features": [
+    "creatinine",
+    "bun",
+    "glucose",
+    "tc",
+    "tg",
+    "hdl",
+    "wbc",
+    "lymph_pct",
+    "hgb",
+    "mcv",
+    "plt",
+    "mpv"
+   ],
+   "price_as_measured": 57.3,
+   "price_as_ordered": 79.8,
+   "cv": -15590.705202085617
+  },
+  "matched": {
+   "features": [
+    "bun",
+    "creatinine",
+    "glucose",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "plt",
+    "wbc"
+   ],
+   "price": 39.8,
+   "cv": -15589.5085493493
+  },
+  "aware": {
+   "features": [
+    "crp",
+    "glucose",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "plt",
+    "wbc"
+   ],
+   "price": 55.8,
+   "cv": -15582.485509545466
+  }
+ },
+ "cache_end": 1020
+}

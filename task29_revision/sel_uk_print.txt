@@ -1,0 +1,137 @@
+USFULL 15.0 ['albumin'] 14.29 -15721.35 0 s 849
+USFULL 20.0 ['HEPATIC', 'creatinine'] 19.9 -15579.94 5 s 858
+USFULL 25.0 ['HEPATIC', 'ggt'] 24.71 -15561.74 6 s 866
+USFULL 30.0 ['CBC_UK', 'HEPATIC', 'creatinine', 'ggt'] 29.47 -15521.84 16 s 883
+USFULL 32.44 ['CBC_UK', 'HEPATIC', 'creatinine', 'ggt'] 29.47 -15521.84 11 s 892
+USFULL 35.0 ['CBC_UK', 'HEPATIC', 'creatinine', 'ggt', 'tc'] 33.82 -15521.14 12 s 901
+USFULL 40.0 ['CBC_UK', 'CMP_UK', 'ggt', 'hba1c'] 39.18 -15499.54 16 s 914
+USFULL 45.0 ['CBC_UK', 'CMP_UK', 'ggt', 'hba1c', 'tc'] 43.53 -15499.07 24 s 928
+USFULL 45.37 ['CBC_UK', 'CMP_UK', 'ggt', 'hba1c', 'tc'] 43.53 -15499.07 0 s 928
+USFULL 50.77 ['CMP_UK', 'crp', 'ggt', 'hba1c'] 49.76 -15484.86 12 s 934
+{
+ "routine": {
+  "features": [
+   "bun",
+   "creatinine",
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "hgb",
+   "tc",
+   "hdl",
+   "tg",
+   "hba1c"
+  ],
+  "price_as_ordered": 50.77,
+  "price_as_measured": 45.37,
+  "price_old": 50.77,
+  "cv": -15547.612385316837
+ },
+ "matched": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "creatinine",
+   "ggt"
+  ],
+  "price": 27.1,
+  "cv": -15525.301684196067,
+  "order": [
+   "CMP",
+   "ggt"
+  ]
+ },
+ "aware_ordered": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bun",
+   "creatinine",
+   "crp",
+   "ggt",
+   "hba1c"
+  ],
+  "price": 49.76,
+  "cv": -15484.85595599706,
+  "order": [
+   "CMP",
+   "ggt",
+   "hba1c",
+   "crp"
+  ]
+ },
+ "aware_measured": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bun",
+   "creatinine",
+   "ggt",
+   "hba1c",
+   "hgb",
+   "tc"
+  ],
+  "price": 43.53,
+  "cv": -15499.074945884418,
+  "order": [
+   "CMP",
+   "ggt",
+   "tc",
+   "Hb",
+   "hba1c"
+  ]
+ },
+ "nhshc": {
+  "features": [
+   "tc",
+   "hdl",
+   "tg",
+   "hba1c"
+  ],
+  "price": 32.44,
+  "cv": -15810.16835941483,
+  "order": [
+   "LIPID",
+   "hba1c"
+  ]
+ },
+ "matched_hc": {
+  "features": [
+   "hgb"
+  ],
+  "price": 11.71,
+  "cv": -15807.943652572882,
+  "order": [
+   "Hb"
+  ]
+ },
+ "aware_hc": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "creatinine",
+   "ggt",
+   "hgb"
+  ],
+  "price": 29.47,
+  "cv": -15521.83503439233,
+  "order": [
+   "CMP",
+   "ggt",
+   "Hb"
+  ]
+ }
+}
+CoAI full 27.1 ['CMP', 'ggt'] 27.1
+CoAI full 45.37 ['CMP', 'ggt', 'tc', 'Hb', 'hba1c'] 43.53
+CoAI full 50.77 ['CMP', 'ggt', 'hba1c', 'crp'] 49.76
+done uk

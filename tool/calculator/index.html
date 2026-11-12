@@ -23,9 +23,9 @@ small, .note { color:var(--muted); } .note { font-size:.88rem; } [hidden] { disp
 
 <div id="tab-seq">
 <section><h2>How it works</h2><p class="note">Start with free clinical information. After each step the page estimates 9-year risk and orders the next test only while
-that risk lies in the printed interval, where finishing the tests is worth their price (value V per correctly flagged death; decision threshold
+that risk lies in the printed interval, where finishing the tests is worth their price (value V per net true positive; decision threshold
 10% 9-year risk). Order: CMP ($19.90), then CBC ($27.67 in total), then urine albumin/creatinine ratio ($38.63 in total), US Medicare 2026.</p>
-<label style="max-width:300px"><span>Value per correctly flagged death (V)</span><select id="V"><option value="30000" selected>$30 000 (main analysis)</option>
+<label style="max-width:300px"><span>Value per net true positive (V)</span><select id="V"><option value="30000" selected>$30 000 (main analysis)</option>
 <option value="10000">$10 000 (fewer tests)</option><option value="100000">$100 000 (more tests)</option></select></label></section>
 <section id="s0"><h2>Step 0 · Free clinical information</h2><div class="grid"><label><span>Age <em>years, 40–79</em></span><input type="number" min="40" max="79" data-f="s_age"></label><label><span>Sex</span><select data-f="s_female"><option value="">–</option><option value="0">Male</option><option value="1">Female</option></select></label><label><span>BMI <em>kg/m²</em></span><input type="number" step="any" data-f="s_bmi"></label><label><span>Systolic blood pressure <em>mmHg</em></span><input type="number" step="any" data-f="s_sbp"></label><label><span>Current smoker</span><select data-f="s_smoker"><option value="">–</option><option value="0">No</option><option value="1">Yes</option></select></label><label><span>Diabetes (told by a doctor)</span><select data-f="s_diabetes"><option value="">–</option><option value="0">No</option><option value="1">Yes</option></select></label></div><div class="out" id="o0"></div></section>
 <section id="s1" class="off"><h2>Step 1 · Comprehensive metabolic panel (CMP)</h2><div class="grid"><label data-a="glucose"><span>Glucose <em>mg/dL</em></span><input type="number" step="any" inputmode="decimal" data-f="s_glucose"></label>

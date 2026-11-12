@@ -1,0 +1,21 @@
+CN 15.0 ['albumin', 'tc'] 14.8 -15719.45 0 s 935
+CN 20.0 ['albumin', 'glucose', 'protein'] 19.8 -15635.88 0 s 935
+CN 25.0 ['albumin', 'creatinine', 'glucose', 'protein'] 24.8 -15596.44 0 s 935
+CN 30.0 ['albumin', 'alt', 'creatinine', 'glucose', 'protein'] 28.3 -15593.94 0 s 935
+CN 35.0 ['CBC3', 'albumin', 'protein'] 34.3 -15595.27 0 s 935
+CN 40.0 ['CBC3', 'albumin', 'creatinine', 'protein'] 39.3 -15569.08 0 s 935
+CN 50.0 ['CBC3', 'albumin', 'bun', 'creatinine', 'glucose', 'protein'] 48.8 -15546.76 0 s 935
+CN 60.0 ['CBC3', 'albumin', 'alt', 'bun', 'creatinine', 'glucose', 'protein'] 52.3 -15545.28 0 s 935
+CN 60.8 ['CBC3', 'albumin', 'alt', 'bun', 'creatinine', 'glucose', 'protein'] 52.3 -15545.28 3 s 937
+CHNS {"nbphs": {"features": ["alt", "creatinine", "bun", "glucose", "tc", "tg", "hdl", "wbc", "hgb", "plt"], "price_as_measured": 60.8, "price_as_ordered": 79.8, "cv": -15665.17320413762}, "matched": {"features": ["albumin", "protein"], "price": 15.3, "cv": -15665.099147005883}, "aware": {"features": ["albumin", "alt", "bun", "creatinine", "glucose", "hgb", "plt", "protein", "wbc"], "price": 52.3, "cv": -15545.278474907998}}
+CN 15.0 ['creatinine'] 11.3 -15797.64 0 s 939
+CN 20.0 ['creatinine', 'glucose', 'tc'] 19.8 -15742.01 2 s 944
+CN 25.0 ['bun', 'creatinine', 'glucose', 'tc'] 24.8 -15738.49 6 s 959
+CN 30.0 ['CBC_CL', 'glucose'] 29.8 -15629.02 3 s 963
+CN 35.0 ['CBC_CL', 'creatinine', 'glucose'] 34.8 -15606.08 14 s 976
+CN 40.0 ['CBC_CL', 'bun', 'creatinine', 'glucose'] 39.8 -15589.51 23 s 994
+CN 50.0 ['CBC_CL', 'bun', 'creatinine', 'glucose', 'uric_acid'] 44.8 -15584.16 31 s 1012
+CN 57.3 ['CBC_CL', 'crp', 'glucose'] 55.8 -15582.49 8 s 1019
+CN 60.0 ['CBC_CL', 'crp', 'glucose'] 55.8 -15582.49 2 s 1020
+CLHLS {"nbphs": {"features": ["creatinine", "bun", "glucose", "tc", "tg", "hdl", "wbc", "lymph_pct", "hgb", "mcv", "plt", "mpv"], "price_as_measured": 57.3, "price_as_ordered": 79.8, "cv": -15590.705202085617}, "matched": {"features": ["bun", "creatinine", "glucose", "hgb", "lymph_pct", "mcv", "mpv", "plt", "wbc"], "price": 39.8, "cv": -15589.5085493493}, "aware": {"features": ["crp", "glucose", "hgb", "lymph_pct", "mcv", "mpv", "plt", "wbc"], "price": 55.8, "cv": -15582.485509545466}}
+done cn

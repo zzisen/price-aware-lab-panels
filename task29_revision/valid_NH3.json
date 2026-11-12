@@ -1,0 +1,458 @@
+{
+ "cohort": "NH3",
+ "deaths": 893,
+ "n": 5792,
+ "horizon": 108,
+ "tau": 0.1,
+ "metric": "C",
+ "panels": {
+  "age+sex only": {
+   "features": [],
+   "price": 0.0,
+   "order": [],
+   "disc": 0.7442902606377434,
+   "NB": 0.08521332105586249,
+   "mean_risk": 0.12803664169367146
+  },
+  "routine": {
+   "features": [
+    "glucose",
+    "bun",
+    "creatinine",
+    "sodium",
+    "potassium",
+    "chloride",
+    "co2",
+    "calcium",
+    "albumin",
+    "protein",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "wbc",
+    "lymph_pct",
+    "mono_pct",
+    "gran_pct",
+    "hgb",
+    "mcv",
+    "rdw",
+    "plt",
+    "mpv",
+    "tc",
+    "hdl",
+    "tg",
+    "hba1c"
+   ],
+   "price": 50.77,
+   "order": [
+    "CMP",
+    "LIPID",
+    "CBC",
+    "hba1c"
+   ],
+   "disc": 0.7917893645021851,
+   "NB": 0.09449815837937385,
+   "mean_risk": 0.1644173647869001
+  },
+  "CMP+CBC": {
+   "features": [
+    "glucose",
+    "bun",
+    "creatinine",
+    "sodium",
+    "potassium",
+    "chloride",
+    "co2",
+    "calcium",
+    "albumin",
+    "protein",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "wbc",
+    "lymph_pct",
+    "mono_pct",
+    "gran_pct",
+    "hgb",
+    "mcv",
+    "rdw",
+    "plt",
+    "mpv"
+   ],
+   "price": 27.67,
+   "order": [
+    "CMP",
+    "CBC"
+   ],
+   "disc": 0.7918857573341175,
+   "NB": 0.09386510128913444,
+   "mean_risk": 0.1641632057303669
+  },
+  "old matched": {
+   "features": [
+    "wbc",
+    "lymph_pct",
+    "mono_pct",
+    "gran_pct",
+    "hgb",
+    "mcv",
+    "rdw",
+    "plt",
+    "mpv",
+    "glucose",
+    "bun",
+    "creatinine",
+    "sodium",
+    "potassium",
+    "chloride",
+    "co2",
+    "calcium",
+    "albumin",
+    "protein",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "phosphorus"
+   ],
+   "price": 32.41,
+   "order": [
+    "CMP",
+    "phosphorus",
+    "CBC"
+   ],
+   "disc": 0.7924596654257767,
+   "NB": 0.09520794966236955,
+   "mean_risk": 0.15932053835673698
+  },
+  "old aware": {
+   "features": [
+    "wbc",
+    "lymph_pct",
+    "mono_pct",
+    "gran_pct",
+    "hgb",
+    "mcv",
+    "rdw",
+    "plt",
+    "mpv",
+    "glucose",
+    "bun",
+    "creatinine",
+    "sodium",
+    "potassium",
+    "chloride",
+    "co2",
+    "calcium",
+    "albumin",
+    "protein",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "acr",
+    "ggt",
+    "phosphorus"
+   ],
+   "price": 50.57,
+   "order": [
+    "CMP",
+    "ggt",
+    "phosphorus",
+    "CBC",
+    "acr"
+   ],
+   "disc": 0.8075272420972708,
+   "NB": 0.09818139963167587,
+   "mean_risk": 0.1622009821274313
+  },
+  "new matched": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "bun",
+    "calcium",
+    "chloride",
+    "co2",
+    "creatinine",
+    "glucose",
+    "gran_pct",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mono_pct",
+    "mpv",
+    "phosphorus",
+    "plt",
+    "potassium",
+    "protein",
+    "rdw",
+    "sodium",
+    "wbc"
+   ],
+   "price": 32.41,
+   "order": [
+    "CMP",
+    "phosphorus",
+    "CBC"
+   ],
+   "disc": 0.7924596654257767,
+   "NB": 0.09520794966236955,
+   "mean_risk": 0.15932053835673698
+  },
+  "new aware": {
+   "features": [
+    "acr",
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "bun",
+    "calcium",
+    "chloride",
+    "co2",
+    "creatinine",
+    "ggt",
+    "glucose",
+    "gran_pct",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mono_pct",
+    "mpv",
+    "phosphorus",
+    "plt",
+    "potassium",
+    "protein",
+    "rdw",
+    "sodium",
+    "wbc"
+   ],
+   "price": 50.57,
+   "order": [
+    "CMP",
+    "ggt",
+    "phosphorus",
+    "CBC",
+    "acr"
+   ],
+   "disc": 0.8075272420972708,
+   "NB": 0.09818139963167587,
+   "mean_risk": 0.16220098212743142
+  },
+  "CoAI full @matched": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "bun",
+    "calcium",
+    "chloride",
+    "co2",
+    "creatinine",
+    "glucose",
+    "gran_pct",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mono_pct",
+    "mpv",
+    "phosphorus",
+    "plt",
+    "potassium",
+    "protein",
+    "rdw",
+    "sodium",
+    "wbc"
+   ],
+   "price": 32.41,
+   "order": [
+    "CMP",
+    "phosphorus",
+    "CBC"
+   ],
+   "disc": 0.7924596654257767,
+   "NB": 0.09520794966236955,
+   "mean_risk": 0.15932053835673698
+  },
+  "CoAI full @routine": {
+   "features": [
+    "acr",
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "bun",
+    "calcium",
+    "chloride",
+    "co2",
+    "creatinine",
+    "ggt",
+    "glucose",
+    "gran_pct",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mono_pct",
+    "mpv",
+    "phosphorus",
+    "plt",
+    "potassium",
+    "protein",
+    "rdw",
+    "sodium",
+    "wbc"
+   ],
+   "price": 50.57,
+   "order": [
+    "CMP",
+    "ggt",
+    "phosphorus",
+    "CBC",
+    "acr"
+   ],
+   "disc": 0.8075272420972708,
+   "NB": 0.09818139963167587,
+   "mean_risk": 0.16220098212743142
+  },
+  "lasso-pw within routine (full)": {
+   "features": [
+    "acr",
+    "albumin",
+    "alp",
+    "chloride",
+    "ggt",
+    "glucose",
+    "gran_pct",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "plt",
+    "potassium",
+    "protein",
+    "rdw",
+    "wbc"
+   ],
+   "price": 45.83,
+   "order": [
+    "CMP",
+    "ggt",
+    "CBC",
+    "acr"
+   ],
+   "disc": 0.8064828098743546,
+   "NB": 0.09676181706568447,
+   "mean_risk": 0.14303343657647677
+  },
+  "lasso-pw matched (full)": {
+   "features": [
+    "acr",
+    "albumin",
+    "alp",
+    "chloride",
+    "glucose",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "plt",
+    "protein",
+    "rdw",
+    "wbc"
+   ],
+   "price": 38.63,
+   "order": [
+    "CMP",
+    "CBC",
+    "acr"
+   ],
+   "disc": 0.8051576732507562,
+   "NB": 0.09678100061387354,
+   "mean_risk": 0.14763372600112218
+  }
+ },
+ "contrasts": {
+  "new matched - routine": {
+   "point": 0.0006703009235916602,
+   "ci": [
+    -0.0009533928323041202,
+    0.002299900044669725
+   ]
+  },
+  "new aware - routine": {
+   "point": 0.015737877595085714,
+   "ci": [
+    0.011528349186763903,
+    0.020224033984134478
+   ]
+  },
+  "new matched - CMP+CBC": {
+   "point": 0.0005739080916592476,
+   "ci": [
+    -0.0004452366865655477,
+    0.0016442114460048284
+   ]
+  },
+  "new matched - CoAI full @matched": {
+   "point": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "new aware - CoAI full @routine": {
+   "point": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "new aware - lasso-pw within routine (full)": {
+   "point": 0.0010444322229161696,
+   "ci": [
+    -0.002662657713308489,
+    0.004746738810151804
+   ]
+  },
+  "new matched - old matched": {
+   "point": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "new aware - old aware": {
+   "point": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "nb_contrasts": {
+  "new matched - routine": {
+   "point": 0.0007097912829956976,
+   "ci": [
+    -0.0004987722529158914,
+    0.0018612837630448045
+   ]
+  },
+  "new aware - routine": {
+   "point": 0.0036832412523020164,
+   "ci": [
+    0.0017840699815837996,
+    0.005736360497237572
+   ]
+  }
+ }
+}

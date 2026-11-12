@@ -1,0 +1,255 @@
+{
+ "cohort": "CLHLS",
+ "deaths": 92,
+ "n": 740,
+ "horizon": 60,
+ "tau": 0.05,
+ "metric": "C",
+ "panels": {
+  "age+sex only": {
+   "features": [],
+   "price": 0.0,
+   "order": [],
+   "disc": 0.6389924541092102,
+   "NB": 0.0999024039041627,
+   "mean_risk": 0.14383126910108346
+  },
+  "routine": {
+   "features": [
+    "bun",
+    "creatinine",
+    "uric_acid",
+    "tc",
+    "tg",
+    "hdl",
+    "glucose",
+    "wbc",
+    "lymph_pct",
+    "hgb",
+    "mcv",
+    "plt",
+    "mpv"
+   ],
+   "price": 62.3,
+   "order": [
+    "CBC",
+    "bun",
+    "creatinine",
+    "glucose",
+    "hdl",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "tc",
+    "tg",
+    "uric_acid"
+   ],
+   "disc": 0.6415434290097579,
+   "NB": 0.09461849577547016,
+   "mean_risk": 0.11083714324603548
+  },
+  "matched": {
+   "features": [
+    "bun",
+    "creatinine",
+    "glucose",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "plt",
+    "uric_acid",
+    "wbc"
+   ],
+   "price": 44.8,
+   "order": [
+    "CBC",
+    "bun",
+    "creatinine",
+    "glucose",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "uric_acid"
+   ],
+   "disc": 0.6409190645236099,
+   "NB": 0.09483127744447209,
+   "mean_risk": 0.10945349498528717
+  },
+  "aware@routine": {
+   "features": [
+    "creatinine",
+    "crp",
+    "glucose",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "plt",
+    "wbc"
+   ],
+   "price": 60.8,
+   "order": [
+    "CBC",
+    "creatinine",
+    "crp",
+    "glucose",
+    "lymph_pct",
+    "mcv",
+    "mpv"
+   ],
+   "disc": 0.6490001248728973,
+   "NB": 0.09529940960375621,
+   "mean_risk": 0.11871313489421545
+  },
+  "NBPHS check": {
+   "features": [
+    "creatinine",
+    "bun",
+    "glucose",
+    "tc",
+    "tg",
+    "hdl",
+    "wbc",
+    "lymph_pct",
+    "hgb",
+    "mcv",
+    "plt",
+    "mpv"
+   ],
+   "price": 57.3,
+   "order": [
+    "CBC",
+    "bun",
+    "creatinine",
+    "glucose",
+    "hdl",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "tc",
+    "tg"
+   ],
+   "disc": 0.6476443619886901,
+   "NB": 0.0936292487678001,
+   "mean_risk": 0.11539435204580649
+  },
+  "matched to NBPHS": {
+   "features": [
+    "bun",
+    "creatinine",
+    "glucose",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "plt",
+    "wbc"
+   ],
+   "price": 39.8,
+   "order": [
+    "CBC",
+    "bun",
+    "creatinine",
+    "glucose",
+    "lymph_pct",
+    "mcv",
+    "mpv"
+   ],
+   "disc": 0.6456642346183349,
+   "NB": 0.09426759377480594,
+   "mean_risk": 0.1141090783679879
+  },
+  "NBPHS budget": {
+   "features": [
+    "crp",
+    "glucose",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mpv",
+    "plt",
+    "wbc"
+   ],
+   "price": 55.8,
+   "order": [
+    "CBC",
+    "crp",
+    "glucose",
+    "lymph_pct",
+    "mcv",
+    "mpv"
+   ],
+   "disc": 0.652835506716378,
+   "NB": 0.09447899710906185,
+   "mean_risk": 0.13469908547743867
+  }
+ },
+ "contrasts": {
+  "NBPHS budget - NBPHS check": {
+   "point": 0.005191144727687891,
+   "ci": [
+    -0.01859968117833916,
+    0.03177347941111062
+   ]
+  },
+  "matched to NBPHS - NBPHS check": {
+   "point": -0.0019801273703552447,
+   "ci": [
+    -0.00716234954005279,
+    0.002932972082089102
+   ]
+  },
+  "matched - NBPHS check": {
+   "point": -0.0067252974650802155,
+   "ci": [
+    -0.0162500667522725,
+    0.0024669451604125113
+   ]
+  },
+  "aware@routine - NBPHS check": {
+   "point": 0.0013557628842071345,
+   "ci": [
+    -0.018148543220096132,
+    0.02214815816609463
+   ]
+  },
+  "NBPHS check - age+sex only": {
+   "point": 0.008651907879479892,
+   "ci": [
+    -0.054273095817564,
+    0.06466707315865321
+   ]
+  },
+  "routine - NBPHS check": {
+   "point": -0.006100932978932216,
+   "ci": [
+    -0.01448026381091252,
+    0.001484672418374378
+   ]
+  }
+ },
+ "nb_contrasts": {
+  "NBPHS budget - NBPHS check": {
+   "point": 0.0008497483412617524,
+   "ci": [
+    -0.004527832738644754,
+    0.008723587104967402
+   ]
+  },
+  "matched to NBPHS - NBPHS check": {
+   "point": 0.0006383450070058388,
+   "ci": [
+    0.00010707498109411018,
+    0.0012880274758720368
+   ]
+  },
+  "NBPHS check - age+sex only": {
+   "point": -0.006273155136362604,
+   "ci": [
+    -0.018650738263717038,
+    0.00399397617387209
+   ]
+  }
+ }
+}

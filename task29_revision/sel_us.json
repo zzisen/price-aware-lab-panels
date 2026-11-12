@@ -1,0 +1,361 @@
+{
+ "mode": "us",
+ "cache_start": 1020,
+ "old_menu_merged_cache": {
+  "matched": {
+   "features": [
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "bun",
+    "calcium",
+    "chloride",
+    "co2",
+    "creatinine",
+    "glucose",
+    "gran_pct",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mono_pct",
+    "mpv",
+    "phosphorus",
+    "plt",
+    "potassium",
+    "protein",
+    "rdw",
+    "sodium",
+    "wbc"
+   ],
+   "price": 32.41,
+   "cv": -15296.628052750562
+  },
+  "aware": {
+   "features": [
+    "acr",
+    "albumin",
+    "alp",
+    "alt",
+    "ast",
+    "bilirubin",
+    "bun",
+    "calcium",
+    "chloride",
+    "co2",
+    "creatinine",
+    "ggt",
+    "glucose",
+    "gran_pct",
+    "hgb",
+    "lymph_pct",
+    "mcv",
+    "mono_pct",
+    "mpv",
+    "phosphorus",
+    "plt",
+    "potassium",
+    "protein",
+    "rdw",
+    "sodium",
+    "wbc"
+   ],
+   "price": 50.57,
+   "cv": -15213.44748357292
+  }
+ },
+ "routine": {
+  "features": [
+   "glucose",
+   "bun",
+   "creatinine",
+   "sodium",
+   "potassium",
+   "chloride",
+   "co2",
+   "calcium",
+   "albumin",
+   "protein",
+   "alp",
+   "alt",
+   "ast",
+   "bilirubin",
+   "wbc",
+   "lymph_pct",
+   "mono_pct",
+   "gran_pct",
+   "hgb",
+   "mcv",
+   "rdw",
+   "plt",
+   "mpv",
+   "tc",
+   "hdl",
+   "tg",
+   "hba1c"
+  ],
+  "price_old": 50.77,
+  "price_full": 50.77,
+  "cv": -15300.327881621071,
+  "order": [
+   "CMP",
+   "LIPID",
+   "CBC",
+   "hba1c"
+  ]
+ },
+ "standard_full": {
+  "BMP": 17.8,
+  "CBC": 17.11,
+  "CMP": 19.9,
+  "LIPID": 22.73,
+  "CMP+CBC": 27.67,
+  "CMP+CBC+LIPID": 41.06,
+  "CMP+CBC+LIPID+A1C": 50.77
+ },
+ "matched": {
+  "features": [
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bilirubin",
+   "bun",
+   "calcium",
+   "chloride",
+   "co2",
+   "creatinine",
+   "glucose",
+   "gran_pct",
+   "hgb",
+   "lymph_pct",
+   "mcv",
+   "mono_pct",
+   "mpv",
+   "phosphorus",
+   "plt",
+   "potassium",
+   "protein",
+   "rdw",
+   "sodium",
+   "wbc"
+  ],
+  "price": 32.41,
+  "cv": -15296.628052750562,
+  "order": [
+   "CMP",
+   "phosphorus",
+   "CBC"
+  ]
+ },
+ "aware": {
+  "features": [
+   "acr",
+   "albumin",
+   "alp",
+   "alt",
+   "ast",
+   "bilirubin",
+   "bun",
+   "calcium",
+   "chloride",
+   "co2",
+   "creatinine",
+   "ggt",
+   "glucose",
+   "gran_pct",
+   "hgb",
+   "lymph_pct",
+   "mcv",
+   "mono_pct",
+   "mpv",
+   "phosphorus",
+   "plt",
+   "potassium",
+   "protein",
+   "rdw",
+   "sodium",
+   "wbc"
+  ],
+  "price": 50.57,
+  "cv": -15213.44748357292,
+  "order": [
+   "CMP",
+   "ggt",
+   "phosphorus",
+   "CBC",
+   "acr"
+  ]
+ },
+ "coai_full": {
+  "hyper": {
+   "val_auc": 0.825668561694442,
+   "penalty": "l2",
+   "C": 0.1
+  },
+  "panels": [
+   {
+    "budget": 32.41,
+    "features": [
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "bilirubin",
+     "bun",
+     "calcium",
+     "chloride",
+     "co2",
+     "creatinine",
+     "glucose",
+     "gran_pct",
+     "hgb",
+     "lymph_pct",
+     "mcv",
+     "mono_pct",
+     "mpv",
+     "phosphorus",
+     "plt",
+     "potassium",
+     "protein",
+     "rdw",
+     "sodium",
+     "wbc"
+    ],
+    "items": [
+     "CMP",
+     "phosphorus",
+     "CBC"
+    ],
+    "billed_cost": 32.41,
+    "importance": 44127.80749131672,
+    "order": [
+     "CMP",
+     "phosphorus",
+     "CBC"
+    ],
+    "cv": -15296.628052750562
+   },
+   {
+    "budget": 50.77,
+    "features": [
+     "acr",
+     "albumin",
+     "alp",
+     "alt",
+     "ast",
+     "bilirubin",
+     "bun",
+     "calcium",
+     "chloride",
+     "co2",
+     "creatinine",
+     "ggt",
+     "glucose",
+     "gran_pct",
+     "hgb",
+     "lymph_pct",
+     "mcv",
+     "mono_pct",
+     "mpv",
+     "phosphorus",
+     "plt",
+     "potassium",
+     "protein",
+     "rdw",
+     "sodium",
+     "wbc"
+    ],
+    "items": [
+     "CMP",
+     "ggt",
+     "phosphorus",
+     "CBC",
+     "acr"
+    ],
+    "billed_cost": 50.57,
+    "importance": 49348.06023756975,
+    "order": [
+     "CMP",
+     "ggt",
+     "phosphorus",
+     "CBC",
+     "acr"
+    ],
+    "cv": -15213.44748357292
+   }
+  ]
+ },
+ "lasso_full": {
+  "price-weighted": {
+   "matched": {
+    "features": [
+     "acr",
+     "albumin",
+     "alp",
+     "chloride",
+     "glucose",
+     "hgb",
+     "lymph_pct",
+     "mcv",
+     "mpv",
+     "plt",
+     "protein",
+     "rdw",
+     "wbc"
+    ],
+    "price": 38.63
+   },
+   "within": {
+    "features": [
+     "acr",
+     "albumin",
+     "alp",
+     "chloride",
+     "ggt",
+     "glucose",
+     "gran_pct",
+     "hgb",
+     "lymph_pct",
+     "mcv",
+     "mpv",
+     "plt",
+     "potassium",
+     "protein",
+     "rdw",
+     "wbc"
+    ],
+    "price": 45.83
+   }
+  },
+  "unweighted": {
+   "matched": {
+    "features": [
+     "acr",
+     "albumin",
+     "alp",
+     "chloride",
+     "crp",
+     "ggt",
+     "lymph_pct",
+     "mcv",
+     "potassium",
+     "rdw"
+    ],
+    "price": 58.78
+   },
+   "within": {
+    "features": [
+     "acr",
+     "albumin",
+     "crp",
+     "rdw"
+    ],
+    "price": 44.67
+   }
+  }
+ },
+ "cmpcbc_full": 27.67,
+ "cache_end": 1209
+}

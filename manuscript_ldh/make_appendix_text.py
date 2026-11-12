@@ -20,7 +20,8 @@ out = ['# Appendix text\n', '## A1. Fee schedules and sources\n',
        '### United States: Medicare Clinical Laboratory Fee Schedule, 2026 quarter 4 (US$)\n',
        'Source: Centers for Medicare & Medicaid Services, CLFS file CY2026 Q4 version 1 (national limitation amounts). A set of chemistry analytes is priced '
        'at the cheapest combination of single-test codes and the basic metabolic panel (CPT 80048), comprehensive metabolic panel (80053) and lipid panel '
-       '(80061) codes that covers it; the electrolyte (80051), renal function (80069) and hepatic function (80076) panels were not modelled. CBC with '
+       '(80061) codes that covers it; the electrolyte (80051), renal function (80069) and hepatic function (80076) panels, haemoglobin alone (85018) and a CBC without '
+       'differential (85027) were not in the main menu; table S21 repeats the selection with them, which left the US panels unchanged. CBC with '
        'differential 85025; HbA1c 83036; high-sensitivity CRP 86141 (standard CRP 86140 is US$5.18); urine albumin 82043 and urine creatinine 82570; '
        'venipuncture 36415, added once when any blood test is ordered. In Understanding Society, haemoglobin was the only blood-count index measured; '
        'it is priced as an ordered CBC (the single haemoglobin code 85018, US$2.37, was not modelled).\n',
@@ -79,11 +80,21 @@ out += [f'| Blood count (five-part differential) | {T.CN_CBC:.1f} |',
         'table S19.\n',
         '## A3. Risk of bias (PROBAST self-assessment)\n',
         '| Domain | Development (NHANES 1999–2010) | External validation | Comment |', '|---|---|---|---|',
-        '| Participants | Low | Low | Nationally representative surveys (NHANES), population cohorts (CHNS, CLHLS, Understanding Society); all adults in the age range with the required tests; no exclusions on other grounds. |',
-        '| Predictors | Low | Low (US); unclear (China, UK) | Standardised laboratory assays measured without knowledge of outcome; era harmonisation as above. Chinese and UK cohorts used different laboratories and units; a constant unit factor mainly affects calibration. |',
-        '| Outcome | Low | Low (NHANES); unclear (CHNS, CLHLS, Understanding Society) | NCHS public-use linked mortality in NHANES (follow-up months from the examination; for some records follow-up time or underlying cause was replaced with synthetic values, with vital status preserved). CHNS deaths from the recorded death year or the wave of first report (binary outcome); CLHLS deaths validated with dates but 30% of the 65–79 group censored alive before 5 years. Understanding Society: death known only by the survey wave in which it was reported (binary outcome); 26% of eligible people had unknown 9-year status and were not analysed. |',
-        '| Analysis | Low | Low | 2081 training deaths (about 60 per candidate parameter for the largest panel); ridge penalty; all selection on training data; prespecified analysis plan (appendix A7); discrimination, calibration and net benefit reported; bootstrap intervals; independent re-implementation. CLHLS main analysis small (92 deaths); Understanding Society 479 deaths. |',
-        '| Overall | Low | Low for US cohorts; unclear for Chinese and UK cohorts | Applicability: population surveys rather than care records (see Limitations). |\n']
+        '| Participants | Low | Unclear | Population surveys (NHANES, CHNS, CLHLS, Understanding Society) with no exclusions on health grounds. Validation used complete cases on '
+        'each cohort\'s whole candidate menu, not only on the analytes a panel needs, which excluded some people a cheaper panel could have scored (NHANES III: '
+        '5792 of 8491 age-eligible; flow in appendix figure S2). |',
+        '| Predictors | Low | Low (US); unclear (China, UK) | Standardised laboratory assays measured without knowledge of the outcome; era harmonisation as above. '
+        'Chinese and UK cohorts used other laboratories and units; a constant unit factor mainly affects calibration. |',
+        '| Outcome | Low | Low (NHANES); unclear (CHNS, CLHLS, Understanding Society) | NCHS linked mortality in NHANES (for some records follow-up time or '
+        'underlying cause replaced with synthetic values, vital status preserved). CHNS: death year or wave of first report, about 6 years. CLHLS: dated deaths, but '
+        '30% of the 65–79 group censored alive before 5 years. Understanding Society: death known only by the wave in which it was reported, and 26% of '
+        'eligible people with unknown 9-year status. Censoring and unknown status were handled by weighting in the post hoc analyses (A4.4). |',
+        '| Analysis | Low | Unclear | Development: 2081 deaths (about 60 per candidate parameter for the largest panel), ridge penalty, all selection in training data. '
+        'Validation: discrimination, calibration and net benefit with bootstrap intervals; independent re-implementation. Concerns: complete-case analysis; three '
+        'cohorts analysed with the same panels before the final plan (A7); post hoc analyses added after the results were known (A4.4); CLHLS small '
+        '(92 deaths). |',
+        '| Overall | Low | Unclear for every validation cohort | Applicability: population surveys rather than care records; the UK menu was '
+        'priced with US fees (see Limitations). |\n']
 QD = W / 'external_data' / 'pubmed_search'
 out += ['## A5. Literature search (Research in context)\n',
         'PubMed via NCBI E-utilities; records published 1 January 1990 to 1 November 2026; search run on 8 November 2026; no language restriction; 52 unique '
@@ -93,7 +104,7 @@ out += ['## A5. Literature search (Research in context)\n',
 out += [f'{i}. `{(QD / f"q{i}.txt").read_text(encoding="utf-8").strip()}`\n' for i in range(1, 5)]
 out += ['## A6. Ethics\n',
         'This study is a secondary analysis of de-identified data obtained from the data providers under their standard access conditions; no new data were '
-        'collected and no participant was contacted, so this secondary analysis did not require ethics approval. Each '
+        'collected and no participant was contacted. Each '
         'source study had ethical approval and informed consent:\n',
         '- **NHANES**: protocols approved by the NCHS Research Ethics Review Board (continuous NHANES protocols #98-12 for 1999–2004, #2005-06 for 2005–10 '
         'and #2011-17 for 2011–16; NHANES III approved by the NCHS institutional review board); written informed consent from all participants.',
@@ -116,5 +127,11 @@ out += ['## A6. Ethics\n',
         '5. **Additional cohorts (11 November 2026).** CLHLS and Understanding Society were analysed under the same plan. In CLHLS, two data-format '
         'problems and three coding errors were corrected before the final analysis (table S17).',
         '6. **Post hoc: missing results in use (12 November 2026).** The handling of missing results in the web calculator was evaluated in '
-        'NHANES III and NHANES 2011–14 after all other analyses (table S20).\n']
+        'NHANES III and NHANES 2011–14 after all other analyses (table S20).',
+        '7. **Post hoc analyses (12 November 2026).** After all planned results were known: the blood tests of two national '
+        'health-check programmes as reference bundles; selection repeated with the expanded US fee menu, with CoAI run on it; censoring-weighted '
+        'net benefit and calibration slope in CLHLS; inverse-probability weighting for unknown status in Understanding Society; prediction '
+        'horizons aligned with follow-up in CHNS and Understanding Society; pooling and margin sensitivity (appendix A4.4, tables S21–S24).',
+        "8. **Post hoc: further sensitivity analyses (12 November 2026).** Paired differences after multiple imputation in NHANES III, coverage and width of the "
+        "calculator's 80% risk range, and the split-level spread of the cross-domain benchmark (appendix A4.4, tables S25–S27).\n"]
 (HERE / 'appendix_text.md').write_text('\n'.join(out), encoding='utf-8'); print('written', HERE / 'appendix_text.md')
