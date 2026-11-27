@@ -1,8 +1,9 @@
 {
- "title": "Price-aware laboratory panels for mortality risk: code, models and calculator",
+ "title": "When to redesign measurement panels in biology and medicine: code, models and calculator",
+ "version": "1.2.0",
  "upload_type": "software",
  "license": "MIT",
- "description": "Code, fitted model coefficients, the value-of-information ordering chart and an offline web calculator accompanying the article \"Price-aware laboratory panels for mortality risk: development and external validation in five population cohorts from three countries\". No participant data are included; the survey data are available from their providers.",
+ "description": "Code, fitted model coefficients, the decision rules, the value-of-information ordering chart and an offline web calculator accompanying the article \"When to redesign measurement panels in biology and medicine\". Version 1.2.0 adds the cross-domain analyses (drug response, kinase activity, proteins, gene expression, genetic dependencies and single-cell expression), the molecular and clinical decision rules, the locked tests and the figure scripts. No participant data are included; all data are available from their providers.",
  "creators": [
   {
    "name": "Zhou, Zisen",
@@ -18,10 +19,11 @@
   }
  ],
  "keywords": [
+  "measurement design",
+  "feature selection",
+  "decision rule",
   "laboratory testing",
-  "prediction model",
   "mortality",
-  "cost-aware machine learning",
-  "external validation"
+  "cost-aware machine learning"
  ]
 }
